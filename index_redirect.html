@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Nitinder Mohan</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="assets/css/academicons.css" />
+        <link rel="stylesheet" href="assets/css/bibtext.css" />
+        <link rel="stylesheet" href="assets/css/zocial.css" />
+        <link rel="icon" href="favicon.ico" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!--<meta http-equiv="refresh" content="15; url=conf.php?conf=1&mode=conf&evil=">-->
+    </head>
+    
+    <body style="text-align: center; background-color: #5596e6; color: white; vertical-align: middle; margin: auto; position: relative; margin: 80px;">
+        <div style="font-size: 500%">
+            My site has found a new
+        </div>
+        <a href="https://www.nitindermohan.com" style="text-decoration: none; color:inherit">
+        <i class="fa fa-home fa-5x"> </i>
+        </a>
+        <div style="font-size: 500%; margin-bottom: 2.0em; margin-top: 1.0em">
+            Redirecting you in <div id="counter">10</div> seconds.
+        </div>
+        <script>
+            setInterval(function () {
+                var div = document.querySelector("#counter");
+                var count = div.textContent * 1 - 1;
+                div.textContent = count;
+                if (count <= 0) {
+                    window.location.replace("https://www.nitindermohan.com");
+                }
+            }, 1000);
+        </script>
+    </body>
+
+</html>
