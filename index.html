@@ -15,7 +15,7 @@
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     </head>
     <body>
-    <!--<body onload="hiderows(more)">-->
+        <!--<body onload="hiderows(more)">-->
 
         <!-- Header -->
         <section id="header">
@@ -47,8 +47,8 @@
                 <section id="about">
                     <div class="container">
                         <p style="color: #ff6666">
-                        <i class='icon fa-bullhorn fa-2x' style="margin: 0 20px 0 0"></i>
-                            I am currently looking for post-doctoral positions in the research areas of edge computing, networking or distributed systems.
+                            <i class='icon fa-bullhorn fa-2x' style="margin: 0 20px 0 0"></i>
+                            I am currently looking for post-doctoral research positions in the areas of edge computing, datacenter networking or multipath connectivity.
                             If your group is working on related areas and has an opening, please <a href="mailto:nitinder.mohan@cs.helsinki.fi" target="_blank" style="text-decoration: none; border: none">e-mail</a> me. 
                         </p>                                       
 
@@ -229,7 +229,7 @@
                             </tr>
                         </table>
                         <!--<a onclick="show( & quot; more & quot; )" id="morebutton" style="text-decoration: none; border: none">-->
-                            <a id="morebutton" style="text-decoration: none; border: none">
+                        <a id="morebutton" style="text-decoration: none; border: none">
                             <div class="button fontawesome-chevron-down">Show more news</div></a>
                     </div>
                 </section>
@@ -722,6 +722,17 @@
                     </div>
                 </section>
 
+                <div class="hover_bkgr_fricc">
+                    <span class="helper"></span>
+                    <div>
+                        <div class="popupCloseButton">X</div>
+                        <p style="color: #ff6666">
+                            <i class='icon fa-bullhorn fa-2x' style="margin: 0 20px 0 0"></i>
+                            I am currently looking for post-doctoral research positions in the areas of edge computing, datacenter networking or multipath connectivity.
+                            <br> If your group is working on related areas and has an opening, please <a href="mailto:nitinder.mohan@cs.helsinki.fi" target="_blank" style="text-decoration: none; border: none">contact</a> me. 
+                        </p>        
+                    </div>
+                </div>
 
             </div>
 
@@ -734,42 +745,54 @@
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
             <script src="assets/js/main.js"></script>
             <script src="assets/js/parallax.min.js"></script>
-<!--            <script type="text/javascript">
-                function show(champ){
-                var x = document.getElementById("morebutton");
-                $('tbody tr:has(a.' + champ + ')').show();
-                x.style.display = "none";
-                }
-
-                function hiderows(champ){
-                $('tbody tr:has(a.' + champ + ')').hide()
-                }
-            </script>-->
+            <!--            <script type="text/javascript">
+                            function show(champ){
+                            var x = document.getElementById("morebutton");
+                            $('tbody tr:has(a.' + champ + ')').show();
+                            x.style.display = "none";
+                            }
             
-<!--            <script type="text/javascript">
-                function myFunction() {
-                  var x = document.getElementById("more");
-                  if (x.style.display === "none") {
-                    x.style.display = "block";
-                  } else {
-                    x.style.display = "none";
-                  }
-                }
-            </script>-->
+                            function hiderows(champ){
+                            $('tbody tr:has(a.' + champ + ')').hide()
+                            }
+                        </script>-->
 
-        <script>
-            $("#morebutton").click(function() {
-                var elem = $("#morebutton .button").text();
-                if (elem == "Show more news") {
-                    //Stuff to do when btn is in the read more state
-//                    $("#morebutton .button").text("Show less news");
-                    $('#newstable .more').slice(0, 5).removeClass('more');
-                }
-                if ($('#newstable .more').length == 0) {
-                    $(this).addClass('more');
-            }
-          });
-        </script>    
+            <!--            <script type="text/javascript">
+                            function myFunction() {
+                              var x = document.getElementById("more");
+                              if (x.style.display === "none") {
+                                x.style.display = "block";
+                              } else {
+                                x.style.display = "none";
+                              }
+                            }
+                        </script>-->
+
+            <script>
+                $("#morebutton").click(function () {
+                    var elem = $("#morebutton .button").text();
+                    if (elem == "Show more news") {
+                        //Stuff to do when btn is in the read more state
+                        //                    $("#morebutton .button").text("Show less news");
+                        $('#newstable .more').slice(0, 5).removeClass('more');
+                    }
+                    if ($('#newstable .more').length == 0) {
+                        $(this).addClass('more');
+                    }
+                });
+            </script>  
+
+            <script>
+                $(window).load(function () {
+                    $('.hover_bkgr_fricc').show();
+                    $('.hover_bkgr_fricc').click(function () {
+                        $('.hover_bkgr_fricc').hide();
+                    });
+                    $('.popupCloseButton').click(function () {
+                        $('.hover_bkgr_fricc').hide();
+                    });
+                });
+            </script>
 
     </body>
 </html>
