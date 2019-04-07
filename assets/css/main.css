@@ -3245,8 +3245,8 @@ section #services2 li span {
     box-shadow: 10px 10px 60px #555;
     display: inline-block;
     height: auto;
-    max-width: 551px;
-    min-height: 100px;
+    max-width: 2000px;
+    min-height: 10px;
     vertical-align: middle;
     width: 40%;
     position: relative;
