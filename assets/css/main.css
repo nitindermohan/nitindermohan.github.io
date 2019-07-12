@@ -3128,7 +3128,8 @@ section #services li div {
     transition: all 0.5s ease;
 }
 section #services li div:hover {
-    transform: rotate(360deg);
+    /*transform: rotate(360deg);*/
+    transform: scale(1.1);
 }
 section #services li span {
     width: 100px;
@@ -3187,30 +3188,37 @@ section #services2 li span {
 
 .ai.ai-google-scholar:hover{
     color: #4285F4;
+    box-shadow: 0 0 15px #4285F4;
 }
 
 .ai.ai-researchgate:hover{
     color: #00D0B0;
+    box-shadow: 0 0 15px #00D0B0;
 }
 
 .icon.fa-envelope-o:hover{
     color: #D44638;
+    box-shadow: 0 0 15px #D44638;
 }
 
 .icon.fa-id-card:hover{
     color: #F65314;
+    box-shadow: 0 0 15px #F65314;
 }
 
 .icon.fa-linkedin:hover{
     color: #4875B4;
+    box-shadow: 0 0 15px #4875B4;
 }
 
 .icon.fa-github:hover{
     color: #000000;
+    box-shadow: 0 0 15px #000000;
 }
 
 .icon.fa-youtube-play:hover{
     color: #c4302b;
+    box-shadow: 0 0 15px #c4302b;
 }
 
 .zocial.flickr:hover{
@@ -3218,7 +3226,7 @@ section #services2 li span {
 }
 
 .icon.resume:hover {
-    transform: translateY(-20%);
+    transform: translateY(-20%) scale(1.1);
     transition: all 0.5s ease;
     transition-delay: 0s;
 }
@@ -3272,4 +3280,9 @@ section #services2 li span {
 }
 .popupCloseButton:hover {
     background-color: #ccc;
+}
+
+#resumeImg {
+float: left;    
+ margin: 0 5px 0 10px;
 }
