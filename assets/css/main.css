@@ -5,6 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(http://weloveiconfonts.com/api/?family=zocial);
+
 /* entypo */
 [class*="entypo-"]:before {
     font-family: 'entypo', sans-serif;
@@ -2277,9 +2278,10 @@ table.alt tfoot {
 }
 
 .icon.resume {
-    content:url('../src/resume.svg');
-    width: 50px;
-    height: 50px;
+    background:url('../src/resume.svg') no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -3216,6 +3218,11 @@ section #services2 li span {
     box-shadow: 0 0 15px #000000;
 }
 
+.icon.fa-twitter:hover{
+    color: #38A1F3;
+    box-shadow: 0 0 15px #38A1F3;
+}
+
 .icon.fa-youtube-play:hover{
     color: #c4302b;
     box-shadow: 0 0 15px #c4302b;
@@ -3226,8 +3233,10 @@ section #services2 li span {
 }
 
 .icon.resume:hover {
-    transform: translateY(-20%) scale(1.1);
-    transition: all 0.5s ease;
+    /*transform: translateY(-20%) scale(1.1);*/
+    background: url("../src/resume-color.svg") no-repeat;
+    transform: scale(1.2);
+    transition: all 0.8s ease;
     transition-delay: 0s;
 }
 
@@ -3282,7 +3291,5 @@ section #services2 li span {
     background-color: #ccc;
 }
 
-#resumeImg {
-float: left;    
- margin: 0 5px 0 10px;
-}
+/*arrow code*/
+
