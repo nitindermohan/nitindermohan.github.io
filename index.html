@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="assets/css/zocial.css" />
         <link rel="icon" href="favicon.ico" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     </head>
     <body>
@@ -284,7 +285,40 @@
                             <h2>Publications</h2>
                         </header>
                         <div id="pubs_id">
+                            
+                            <!--trial-->
+<!--                            <div class="dropdown">
+                                <button class="dropbtn">View by year 
+                                  <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                  <a href="#">2019</a>
+                                  <a href="#">2018</a>
+                                  <a href="#">2017</a>
+                                </div>
+                              </div> -->
+                            
+                            <div class="custom-select" style="width:150px;">
+                              <select name="subjects" id="select" class="form-control">
+                                <option value="" selected disabled>Select by year</option>
+                                <option value="all">All</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+<!--                                <option value="6">Jaguar</option>
+                                <option value="7">Land Rover</option>
+                                <option value="8">Mercedes</option>
+                                <option value="9">Mini</option>
+                                <option value="10">Nissan</option>
+                                <option value="11">Toyota</option>
+                                <option value="12">Volvo</option>-->
+                              </select>
+                            </div>
+                            
                             <!-- 2019 publications -->
+                            <div class="2019 subject" id="2019">
                             <a name ="2019" style="">
                                 <h3>2019</h3>
                             </a>
@@ -384,7 +418,10 @@
                                 </tr>
                                 <!-- next publication -->
                             </table>
+                            </div>
+                            
                             <!-- 2018 publications -->
+                            <div class="2018 subject" id="2018">
                             <a name ="2018" style="">
                                 <h3>2018</h3>
                             </a>
@@ -582,8 +619,10 @@
                                     </td>
                                 </tr>
                             </table>
+                            </div>
 
                             <!-- 2017 publications -->
+                            <div class="2017 subject" id="2017">
                             <a name ="2017" style="">
                                 <h3>2017</h3>
                             </a>
@@ -649,8 +688,10 @@
                                     </td>
                                 </tr>
                             </table>
+                            </div>
 
                             <!--2016 publications-->
+                            <div class="2016 subject" id="2016">
                             <a name ="2016" style="">
                                 <h3>2016</h3>
                             </a>
@@ -683,7 +724,10 @@
                                     </td>
                                 </tr>
                             </table>
+                            </div>
+                            
                             <!-- 2015 publications -->
+                            <div class="2015 subject" id="2015">
                             <a name ="2015" style="">
                                 <h3>2015</h3>
                             </a>
@@ -735,8 +779,8 @@
                                         </div>
                                     </td>
                                 </tr>
-
                             </table>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -872,5 +916,15 @@
                 });
             </script>
 
+            <script>
+                $('#select').on('change', function(){ 
+                    if (this.value == "all") {
+                       $('.subject').show(500); 
+                    } else {
+                        $('.subject').hide(100);
+                        $('.'+this.value).show(500);
+                    }
+                  });
+            </script>    
     </body>
 </html>
