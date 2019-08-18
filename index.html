@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="assets/css/zocial.css" />
         <link rel="icon" href="favicon.ico" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
+
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     </head>
     <body>
@@ -30,22 +30,23 @@
             </header>
             <nav id="nav">
                 <ul>
-                    <li><a href="#about" class="active">About</a></li>
+                    <!--<li><a href="#about-text" class="active">About</a></li>  use class=active if you want to activate a button at start-->
+                    <li><a href="#about-text">About</a></li>
+                    <li><a href="#recentnews">Recent News</a></li>
                     <li><a href="#research">Research</a></li>
-                    <li><a href="#recentnews" class="active">Recent News</a></li>
                     <li><a href="#publications">Publications</a></li>
                     <!--						<li><a href="#awards">Accomplishments</a></li>-->
-                    <li><a href="#others">Other Interests</a>
+                    <li><a href="#others">Other</a>
                 </ul>
             </nav>
-            
-<!--            <footer>
-                <ul class="icons">
-                <li><a href="./documents/nitinder-cv-main.pdf" target="_blank" style="text-decoration: none; border: none">
-                        <img src="assets/src/resume.svg" width="38" id="resumeImg"><font size="3">Resume</font>
-                    </a></li>
-                </ul>
-            </footer>-->
+
+            <!--            <footer>
+                            <ul class="icons">
+                            <li><a href="./documents/nitinder-cv-main.pdf" target="_blank" style="text-decoration: none; border: none">
+                                    <img src="assets/src/resume.svg" width="38" id="resumeImg"><font size="3">Resume</font>
+                                </a></li>
+                            </ul>
+                        </footer>-->
         </section>
 
         <!-- Wrapper -->
@@ -53,16 +54,16 @@
 
             <!-- Main -->
             <div id="main">
-                <!-- One -->
+                <!-- About section -->
                 <section id="about">
                     <div class="container">
-<!--                        <p style="color: #ff6666">
-                            <i class='icon fa-bullhorn fa-2x' style="margin: 0 20px 0 0"></i>
-                            I am currently looking for post-doctoral research positions in the areas of edge computing, datacenter networking or multipath connectivity.
-                            If your group is working on related areas and has an opening, please <a href="mailto:nitinder.mohan@cs.helsinki.fi" target="_blank" style="text-decoration: none; border: none">e-mail</a> me. 
-                        </p>                                       -->
+                        <!--                        <p style="color: #ff6666">
+                                                    <i class='icon fa-bullhorn fa-2x' style="margin: 0 20px 0 0"></i>
+                                                    I am currently looking for post-doctoral research positions in the areas of edge computing, datacenter networking or multipath connectivity.
+                                                    If your group is working on related areas and has an opening, please <a href="mailto:nitinder.mohan@cs.helsinki.fi" target="_blank" style="text-decoration: none; border: none">e-mail</a> me. 
+                                                </p>                                       -->
 
-                        <section style="margin: auto; width: 100%">
+                        <section style="margin: auto; width: 100%" id="about-text">
                             <ul id='services'>                            
                                 <li>
                                     <a href="mailto:nitinder.mohan@cs.helsinki.fi" target="_blank" style="text-decoration: none; border: none">
@@ -111,49 +112,31 @@
                         <p> <b style="color: #178a7f">NEW:</b> I am now also working on Academy of Finland sponsored <b>Adaptive and Intelligent Data (AIDA)</b> project. This project is a joint collaboration between University of Helsinki and Aalto University in Finland. </p>
 
                         <p><span style='font-size:25px;'>&#10165;</span> <a href="./images/CoNe.jpg" target="_blank">Collaborative Networking group photograph at University of Helsinki</a> (dated Nov, 2016)</p>
-                        
-                        
+
+
                         <p style="text-align: center"><i>You can find my CV below</i></p>
                         <a href="./documents/nitinder-cv-main.pdf" target="_blank" style="text-decoration: none; border: none">
                             <div class='icon resume' style="text-align: center"></div></a>
 
-                        
+
                     </div>
                 </section>
 
-                    <!-- Research section -->    
-                <section id="research">
-                <div class="container">
-                    <header class="major">
-                        <h2>Research</h2>
-                    </header>
-                    
-                    <p style="color: #ff6666">
-                        <i class='icon fa-exclamation-triangle fa-2x' style="margin: 0 20px 0 0"></i>
-                        Under construction. Stay tuned!
-                    </p>
-                    
-                    <p>I consider myself as a "<i>distributed systems</i>" guy as I have always been involved in various domains of this field. <i>"Divided we stand, united we fall"</i> is my personal take in the context of computer science.
-                    </p>
-                    <p>Majority of my Ph.D. research work involves distributing the current cloud architecture to devices closer to the network "edge".
-                        Apart from proposing a radical shift in the current cloud architecture as we know it, I am also looking into several problems regarding edge cloud deployments such as managing data, network, services and ownership [we do end up playing with crypto-currencies as well ;-)].
-                    </p>
-                    <p>For my Masters research at <a href="https://www.iiitd.ac.in/" target="_blank"><b>IIIT-Delhi, India </b></a>, I worked on providing a scalable checkpointing mechanism for distributed applications operating on Information Centric Networks (ICN).
-                        I have also worked as a Project Scientist at <a href="http://www.iitd.ac.in/" target="_blank"><b>IIT-Delhi, India</b></a>, I worked in an Intel Labs, USA funded research project which aimed at sharing resources of computationally-insufficient devices in a Device-to-Device (D2D) network.
-                    </p>
-                    
-                    <br>
-
-                </div>
-                </section>
-                        
-                 <!-- News section -->    
+                <!-- News section -->    
                 <section id ="recentnews">
                     <div class="container">
                         <header class="major">
                             <h2>Recent News</h2>
                         </header>
                         <table id="newstable">
+                            <tr>
+                                <td>August, 2019</td>
+                                <td>Thank you <b>ACM SIGCOMM</b> for a generous travel grant to attend <a href="https://conferences.sigcomm.org/imc/2019/" target="_blank"><b>ACM Internet and Measurmements Conference (IMC) 2019</b></a> to be held in Amsterdam, Netherlands.</td>
+                            </tr>
+                            <tr>
+                                <td>August, 2019</td>
+                                <td>I am now reviewing for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907" target="_blank"><b>IEEE Internet of Things Journal (JIOT)</b></a> and <a href="https://www.journals.elsevier.com/pervasive-and-mobile-computing" target="_blank"><b>Elsevier Pervasive and Mobile Computing Journal (PMC)</b> </a></td>
+                            </tr>
                             <tr>
                                 <td>July, 2019</td>
                                 <td>Thank you <b>ACM SIGCOMM</b> for a generous travel grant to attend the physical meeting of <b>Shadow Technical Program Committee (TPC)</b> for <a href="https://conferences.sigcomm.org/imc/2019/" target="_blank"><b>ACM Internet and Measurmements Conference (IMC) 2019</b></a> to be held in London, UK. </td>
@@ -277,515 +260,540 @@
                     </div>
                 </section>
 
+                <!-- Research section -->    
+                <section id="research">
+                    <div class="container">
+                        <header class="major">
+                            <h2>Research</h2>
+                        </header>
 
-                <!-- Three -->
+                        <p style="color: #ff6666">
+                            <i class='icon fa-exclamation-triangle fa-2x' style="margin: 0 20px 0 0"></i>
+                            Under construction. Stay tuned!
+                        </p>
+
+                        <p>I consider myself as a "<i>distributed systems</i>" guy as I have always been involved in various domains of this field. <i>"Divided we stand, united we fall"</i> is my personal take in the context of computer science.
+                        </p>
+                        <p>Majority of my Ph.D. research work involves distributing the current cloud architecture to devices closer to the network "edge".
+                            Apart from proposing a radical shift in the current cloud architecture as we know it, I am also looking into several problems regarding edge cloud deployments such as managing data, network, services and ownership [we do end up playing with crypto-currencies as well ;-)].
+                        </p>
+                        <p>For my Masters research at <a href="https://www.iiitd.ac.in/" target="_blank"><b>IIIT-Delhi, India </b></a>, I worked on providing a scalable checkpointing mechanism for distributed applications operating on Information Centric Networks (ICN).
+                            I have also worked as a Project Scientist at <a href="http://www.iitd.ac.in/" target="_blank"><b>IIT-Delhi, India</b></a>, I worked in an Intel Labs, USA funded research project which aimed at sharing resources of computationally-insufficient devices in a Device-to-Device (D2D) network.
+                        </p>
+
+                        <br>
+
+                    </div>
+                </section>
+
+                <!-- Publication section -->
                 <section id="publications">
                     <div class="container">
                         <header class="major">
                             <h2>Publications</h2>
                         </header>
                         <div id="pubs_id">
-                            
+
                             <!--trial-->
-<!--                            <div class="dropdown">
-                                <button class="dropbtn">View by year 
-                                  <i class="fa fa-caret-down"></i>
-                                </button>
-                                <div class="dropdown-content">
-                                  <a href="#">2019</a>
-                                  <a href="#">2018</a>
-                                  <a href="#">2017</a>
-                                </div>
-                              </div> -->
-                            
+                            <!--                            <div class="dropdown">
+                                                            <button class="dropbtn">View by year 
+                                                              <i class="fa fa-caret-down"></i>
+                                                            </button>
+                                                            <div class="dropdown-content">
+                                                              <a href="#">2019</a>
+                                                              <a href="#">2018</a>
+                                                              <a href="#">2017</a>
+                                                            </div>
+                                                          </div> -->
+
                             <div class="custom-select" style="width:150px;">
-                              <select name="subjects" id="select" class="form-control">
-                                <option value="" selected disabled>Select by year</option>
-                                <option value="all">Show all</option>
-                                <option value="2019">2019</option>
-                                <option value="2018">2018</option>
-                                <option value="2017">2017</option>
-                                <option value="2016">2016</option>
-                                <option value="2015">2015</option>
-<!--                                <option value="6">Jaguar</option>
-                                <option value="7">Land Rover</option>
-                                <option value="8">Mercedes</option>
-                                <option value="9">Mini</option>
-                                <option value="10">Nissan</option>
-                                <option value="11">Toyota</option>
-                                <option value="12">Volvo</option>-->
-                              </select>
+                                <select name="subjects" id="select" class="form-control">
+                                    <option value="" selected disabled>Select by year</option>
+                                    <option value="all">Show all</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <!--                                <option value="6">Jaguar</option>
+                                                                    <option value="7">Land Rover</option>
+                                                                    <option value="8">Mercedes</option>
+                                                                    <option value="9">Mini</option>
+                                                                    <option value="10">Nissan</option>
+                                                                    <option value="11">Toyota</option>
+                                                                    <option value="12">Volvo</option>-->
+                                </select>
                             </div>
-                            
+
                             <!-- 2019 publications -->
                             <div class="2019 subject" id="2019">
-                            <a name ="2019" style="">
-                                <h3>2019</h3>
-                            </a>
-                            <table>
-                                
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2019/pubs/ZavodovskiOIE.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2019/OIE2019.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2019/pubs/ZavodovskiOIE.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                   Open Infrastructure for Edge: A Distributed Ledger Outlook
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                Aleksandr Zavodovski, <b>Nitinder Mohan</b>, Walter Wong, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                2<sup>nd</sup> USENIX Workshop on Hot Topics in Edge Computing (HotEdge), July 2019
-                                            </span>
-                                            <p>
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/open-infrastructure-for-edge-a-distributed-ledger-outlook" target="_blank">Slides</a></b>
-                                                &nbsp;
-                                                <b><a href="https://www.usenix.org/conference/hotedge19/presentation/zavodovski" target="_blank">DOI</a></b>
-                                               <!-- &nbsp;
-                                                <b><a href="https://youtu.be/ofr5vpHaYDI?t=10179" target="_blank">Video</a></b> -->
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
+                                <a name ="2019" style="">
+                                    <h3>2019</h3>
+                                </a>
+                                <table>
 
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2019/pubs/ZavodovskiDeCloud.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2019/decloud2019.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2019/pubs/ZavodovskiDeCloud.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    DeCloud: Truthful Decentralized Double Auction for Edge Clouds
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                Aleksandr Zavodovski, Suzan Bayhan, <b>Nitinder Mohan</b>, Pengyuan Zhou, Walter Wong, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                39<sup>th</sup> International Conference on Distributed Computing Systems (ICDCS), June 2019
-                                            </span>
-                                            <p>
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/decloud-truthful-decentralized-double-auction-for-edge-clouds" target="_blank">Slides</a></b>
-<!--                                                &nbsp;
-                                                <b><a href="documents/2018/anveshak-bib.bib" target="_blank">Bibtex</a></b>-->
-                                                <!--&nbsp;
-                                                <b><a href="https://youtu.be/ofr5vpHaYDI?t=10179" target="_blank">Video</a></b> -->
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2019/pubs/ZavodovskiExec.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2019/exec2019.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2019/pubs/ZavodovskiExec.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    ExEC: Elastic Extensible Edge Cloud
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                Aleksandr Zavodovski, <b>Nitinder Mohan</b>, Suzan Bayhan, Walter Wong, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                ACM Workshop on Edge Systems, Analytics and Networking (EdgeSys), March 2019
-                                            </span>
-                                            <p style="font-size: large">
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/exec-elastic-extensible-edge-cloud" target="_blank">Slides</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3301418.3313941" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                            </table>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td style="padding-right: 2px; border: none"><a href ="documents/2019/pubs/ZavodovskiOIE.pdf" class="no-decoration" target="_blank">
+                                                <img class ="pubs_img" src="documents/2019/OIE2019.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 2px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2019/pubs/ZavodovskiOIE.pdf" class="no-decoration" target="_blank">
+                                                        Open Infrastructure for Edge: A Distributed Ledger Outlook
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    Aleksandr Zavodovski, <b>Nitinder Mohan</b>, Walter Wong, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    2<sup>nd</sup> USENIX Workshop on Hot Topics in Edge Computing (HotEdge), July 2019
+                                                </span>
+                                                <p>
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/open-infrastructure-for-edge-a-distributed-ledger-outlook" target="_blank">Slides</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://www.usenix.org/conference/hotedge19/presentation/zavodovski" target="_blank">DOI</a></b>
+                                                    <!-- &nbsp;
+                                                     <b><a href="https://youtu.be/ofr5vpHaYDI?t=10179" target="_blank">Video</a></b> -->
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2019/pubs/ZavodovskiDeCloud.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2019/decloud2019.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2019/pubs/ZavodovskiDeCloud.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        DeCloud: Truthful Decentralized Double Auction for Edge Clouds
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    Aleksandr Zavodovski, Suzan Bayhan, <b>Nitinder Mohan</b>, Pengyuan Zhou, Walter Wong, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    39<sup>th</sup> International Conference on Distributed Computing Systems (ICDCS), June 2019
+                                                </span>
+                                                <p>
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/decloud-truthful-decentralized-double-auction-for-edge-clouds" target="_blank">Slides</a></b>
+                                                    <!--                                                &nbsp;
+                                                                                                    <b><a href="documents/2018/anveshak-bib.bib" target="_blank">Bibtex</a></b>-->
+                                                    <!--&nbsp;
+                                                    <b><a href="https://youtu.be/ofr5vpHaYDI?t=10179" target="_blank">Video</a></b> -->
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2019/pubs/ZavodovskiExec.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2019/exec2019.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2019/pubs/ZavodovskiExec.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        ExEC: Elastic Extensible Edge Cloud
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    Aleksandr Zavodovski, <b>Nitinder Mohan</b>, Suzan Bayhan, Walter Wong, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    ACM Workshop on Edge Systems, Analytics and Networking (EdgeSys), March 2019
+                                                </span>
+                                                <p style="font-size: large">
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/exec-elastic-extensible-edge-cloud" target="_blank">Slides</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3301418.3313941" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                </table>
                             </div>
-                            
+
                             <!-- 2018 publications -->
                             <div class="2018 subject" id="2018">
-                            <a name ="2018" style="">
-                                <h3>2018</h3>
-                            </a>
-                            <table>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2018/pubs/Zavadovski18icon.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2018/icon_hotnets.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2018/pubs/Zavadovski18icon.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    ICON: Intelligent Container Overlays
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                Aleksandr Zavodovski, <b>Nitinder Mohan</b>, Suzan Bayhan, Walter Wong, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                17<sup>th</sup> ACM Workshop on Hot Topics in Networks (HotNets), November 2018
-                                            </span>
-                                            <p style="font-size: large">
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/icon-intelligent-container-overlays" target="_blank">Slides</a></b>
-                                                &nbsp;
-                                                <b><a href="https://youtu.be/BNmFOgTV1R4" target="_blank">Video</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3286062.3286065" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2018/pubs/posterRAMPTCP-mohan.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2018/ramptcp_mobicom.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2018/pubs/posterRAMPTCP-mohan.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    Redesigning MPTCP for Edge Clouds
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Tanya Shreedhar, Aleksandr Zavodovski, Otto Waltari, Jussi Kangasharju, Sanjit K. Kaul
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                24<sup>th</sup> International Conference on Mobile Computing and Networking (MobiCom), November 2018
-                                            </span>
-                                            <p style="font-size: large">
-                                                <b><a href="./documents/2018/mptcp_edge_poster.pdf" target="_blank">Poster</a></b>
-                                                &nbsp;
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/redesigning-mptcp-in-edge-clouds" target="_blank">SRC Presentation</a></b>
-                                                <!--                                                                                            &nbsp;
-                                                <b><a href="https://youtu.be/ofr5vpHaYDI?t=10179" target="_blank">Video</a></b>-->
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3241539.3267738" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2018/pubs/anveshak_mecomm18.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2018/anveshak.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2018/pubs/anveshak_mecomm18.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    Anveshak: Placing Edge Servers In The Wild
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Aleksandr Zavodovski, Pengyuan Zhou, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                ACM SIGCOMM Workshop on Mobile Edge Communications (MECOMM), SIGCOMM, August 2018
-                                            </span>
-                                            <p style="font-size: large">
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/anveshak-placing-edge-servers-in-the-wild" target="_blank">Slides</a></b>
-                                                &nbsp;
-                                                <!--<b><a href="documents/2018/anveshak-bib.bib" target="_blank">Bibtex</a></b>-->
-                                                &nbsp;
-                                                <b><a href="https://youtu.be/8wYjQr80iwI" target="_blank">Video</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3229556.3229560" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2018/pubs/mohan2018_AoT.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2018/placing-it-right.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2018/pubs/mohan2018_AoT.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    Placing it right!: Optimizing energy, processing, and transport in Edge-Fog clouds
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                Annals of Telecommunication, Springer
-                                            </span>
-                                            <p style="font-size: large"><!--<b><a href="" target="_blank">Slides</a></b>-->
-                                                <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>
-                                                &nbsp; -->
-                                                <!--<b><a href="documents/2018/placing_it_right-bib.bib" target="_blank">Bibtex</a></b>-->
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1007/s12243-018-0649-0" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2018/pubs/qaware_ifip.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2018/qaware_ifip.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2018/pubs/qaware_ifip.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    QAware: A Cross-Layer Approach to MPTCP Scheduling
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                Tanya Shreedhar, <b>Nitinder Mohan</b>, Sanjit K. Kaul, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                17<sup>th</sup> IFIP Networking Conference, May 2018
-                                            </span>
-                                            <p style="font-size: large"><!--<b><a href="" target="_blank">Slides</a></b>-->
-                                                <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>
-                                                &nbsp; -->
-                                                <!--<b><a href="documents/2017/nmohan_managing_edge_mecomm.bib" target="_blank">Bibtex</a></b>
-                                                &nbsp; -->
-                                                <b><a href="https://github.com/nitinder-mohan/mptcp-QueueAware" target="_blank">GitHub</a></b>
-                                                &nbsp;
-                                                <b><a href="https://files.ifi.uzh.ch/stiller/IFIP%20Networking%202018-Proceedings.pdf" target="_blank">Proceedings</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.23919/IFIPNetworking.2018.8696843" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- next publication -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2018/pubs/mute_crosscloud.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2018/mute_crosscloud.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2018/pubs/mute_crosscloud.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    MUTE:  Multi-Tier  Edge  Networks
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                Alessio Silvestro<sup>*</sup>, <b>Nitinder Mohan</b><sup>*</sup>, Jussi Kangasharju, Fabian Schneider, Xiaoming Fu &nbsp; [ <sup>*</sup>joint first authors]
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                5<sup>th</sup> Workshop on CrossCloud Infrastructures & Platforms, EuroSys, April 2018
-                                            </span>
-                                            <p style="font-size: large"><!--<b><a href="" target="_blank">Slides</a></b>-->
-                                                <b><a href="https://www.slideshare.net/NitinderMohan/mute-multitier-edge-networks-99909299" target="_blank">Slides</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3195870.3195871" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                                <a name ="2018" style="">
+                                    <h3>2018</h3>
+                                </a>
+                                <table>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2018/pubs/Zavadovski18icon.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2018/icon_hotnets.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2018/pubs/Zavadovski18icon.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        ICON: Intelligent Container Overlays
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    Aleksandr Zavodovski, <b>Nitinder Mohan</b>, Suzan Bayhan, Walter Wong, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    17<sup>th</sup> ACM Workshop on Hot Topics in Networks (HotNets), November 2018
+                                                </span>
+                                                <p style="font-size: large">
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/icon-intelligent-container-overlays" target="_blank">Slides</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://youtu.be/BNmFOgTV1R4" target="_blank">Video</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3286062.3286065" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2018/pubs/posterRAMPTCP-mohan.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2018/ramptcp_mobicom.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2018/pubs/posterRAMPTCP-mohan.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        Redesigning MPTCP for Edge Clouds
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Tanya Shreedhar, Aleksandr Zavodovski, Otto Waltari, Jussi Kangasharju, Sanjit K. Kaul
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    24<sup>th</sup> International Conference on Mobile Computing and Networking (MobiCom), November 2018
+                                                </span>
+                                                <p style="font-size: large">
+                                                    <b><a href="./documents/2018/mptcp_edge_poster.pdf" target="_blank">Poster</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/redesigning-mptcp-in-edge-clouds" target="_blank">SRC Presentation</a></b>
+                                                    <!--                                                                                            &nbsp;
+                                                    <b><a href="https://youtu.be/ofr5vpHaYDI?t=10179" target="_blank">Video</a></b>-->
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3241539.3267738" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2018/pubs/anveshak_mecomm18.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2018/anveshak.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2018/pubs/anveshak_mecomm18.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        Anveshak: Placing Edge Servers In The Wild
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Aleksandr Zavodovski, Pengyuan Zhou, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    ACM SIGCOMM Workshop on Mobile Edge Communications (MECOMM), SIGCOMM, August 2018
+                                                </span>
+                                                <p style="font-size: large">
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/anveshak-placing-edge-servers-in-the-wild" target="_blank">Slides</a></b>
+                                                    &nbsp;
+                                                    <!--<b><a href="documents/2018/anveshak-bib.bib" target="_blank">Bibtex</a></b>-->
+                                                    &nbsp;
+                                                    <b><a href="https://youtu.be/8wYjQr80iwI" target="_blank">Video</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3229556.3229560" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2018/pubs/mohan2018_AoT.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2018/placing-it-right.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2018/pubs/mohan2018_AoT.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        Placing it right!: Optimizing energy, processing, and transport in Edge-Fog clouds
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    Annals of Telecommunication, Springer
+                                                </span>
+                                                <p style="font-size: large"><!--<b><a href="" target="_blank">Slides</a></b>-->
+                                                    <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>
+                                                    &nbsp; -->
+                                                    <!--<b><a href="documents/2018/placing_it_right-bib.bib" target="_blank">Bibtex</a></b>-->
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1007/s12243-018-0649-0" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2018/pubs/qaware_ifip.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2018/qaware_ifip.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2018/pubs/qaware_ifip.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        QAware: A Cross-Layer Approach to MPTCP Scheduling
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    Tanya Shreedhar, <b>Nitinder Mohan</b>, Sanjit K. Kaul, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    17<sup>th</sup> IFIP Networking Conference, May 2018
+                                                </span>
+                                                <p style="font-size: large"><!--<b><a href="" target="_blank">Slides</a></b>-->
+                                                    <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>
+                                                    &nbsp; -->
+                                                    <!--<b><a href="documents/2017/nmohan_managing_edge_mecomm.bib" target="_blank">Bibtex</a></b>
+                                                    &nbsp; -->
+                                                    <b><a href="https://github.com/nitinder-mohan/mptcp-QueueAware" target="_blank">GitHub</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://files.ifi.uzh.ch/stiller/IFIP%20Networking%202018-Proceedings.pdf" target="_blank">Proceedings</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.23919/IFIPNetworking.2018.8696843" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- next publication -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2018/pubs/mute_crosscloud.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2018/mute_crosscloud.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2018/pubs/mute_crosscloud.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        MUTE:  Multi-Tier  Edge  Networks
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    Alessio Silvestro<sup>*</sup>, <b>Nitinder Mohan</b><sup>*</sup>, Jussi Kangasharju, Fabian Schneider, Xiaoming Fu &nbsp; [ <sup>*</sup>joint first authors]
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    5<sup>th</sup> Workshop on CrossCloud Infrastructures & Platforms, EuroSys, April 2018
+                                                </span>
+                                                <p style="font-size: large"><!--<b><a href="" target="_blank">Slides</a></b>-->
+                                                    <b><a href="https://www.slideshare.net/NitinderMohan/mute-multitier-edge-networks-99909299" target="_blank">Slides</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3195870.3195871" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
 
                             <!-- 2017 publications -->
                             <div class="2017 subject" id="2017">
-                            <a name ="2017" style="">
-                                <h3>2017</h3>
-                            </a>
-                            <table>
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2017/pubs/manageData_mecomm17.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2017/mecomm2017.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href =documents/2017/pubs/manageData_mecomm17.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    Managing Data in Computational Edge Clouds
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Pengyuan Zhou, Keerthana Govindaraj, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                ACM SIGCOMM Workshop on Mobile Edge Communications (MECOMM), SIGCOMM, August 2017
-                                            </span>
-                                            <p style="font-size: large"><b><a href="https://www.slideshare.net/NitinderMohan/managing-data-in-computational-edge-clouds" target="_blank">Slides</a></b>
-                                                <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>-->  
-                                                <!--<b><a href="documents/2017/nmohan_managing_edge_mecomm.bib" target="_blank">Bibtex</a></b>-->
-                                                &nbsp;
-                                                <b><a href="https://youtu.be/akJtWokhrj4" target="_blank">Video</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3098208.3098212" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <!-- Next paper starts here -->
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2017/pubs/groupData_poster.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2017/EFCache_crosscloud.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/2017/pubs/groupData_poster.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    Grouping Computational Data in Resource Caches of Edge-Fog Cloud
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Pengyuan Zhou, Keerthana Govindaraj, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                4<sup>th</sup> Workshop on CrossCloud Infrastructures & Platforms, EuroSys Conference, April 2017
-                                            </span>
-                                            <p style="font-size: large"><b><a href="documents/2017/EFCache_crosscloud_poster.pdf" target="_blank">Poster</a></b>
-                                                <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>-->
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1145/3069383.3069391" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                                <a name ="2017" style="">
+                                    <h3>2017</h3>
+                                </a>
+                                <table>
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2017/pubs/manageData_mecomm17.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2017/mecomm2017.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2017/pubs/manageData_mecomm17.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        Managing Data in Computational Edge Clouds
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Pengyuan Zhou, Keerthana Govindaraj, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    ACM SIGCOMM Workshop on Mobile Edge Communications (MECOMM), SIGCOMM, August 2017
+                                                </span>
+                                                <p style="font-size: large"><b><a href="https://www.slideshare.net/NitinderMohan/managing-data-in-computational-edge-clouds" target="_blank">Slides</a></b>
+                                                    <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>-->  
+                                                    <!--<b><a href="documents/2017/nmohan_managing_edge_mecomm.bib" target="_blank">Bibtex</a></b>-->
+                                                    &nbsp;
+                                                    <b><a href="https://youtu.be/akJtWokhrj4" target="_blank">Video</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3098208.3098212" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- Next paper starts here -->
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2017/pubs/groupData_poster.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2017/EFCache_crosscloud.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/2017/pubs/groupData_poster.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        Grouping Computational Data in Resource Caches of Edge-Fog Cloud
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Pengyuan Zhou, Keerthana Govindaraj, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    4<sup>th</sup> Workshop on CrossCloud Infrastructures & Platforms, EuroSys Conference, April 2017
+                                                </span>
+                                                <p style="font-size: large"><b><a href="documents/2017/EFCache_crosscloud_poster.pdf" target="_blank">Poster</a></b>
+                                                    <!--<b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>-->
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1145/3069383.3069391" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
 
                             <!--2016 publications-->
                             <div class="2016 subject" id="2016">
-                            <a name ="2016" style="">
-                                <h3>2016</h3>
-                            </a>
-                            <table>
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/2016/pubs/edgeFog_Ciot.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/2016/EF_first_page.jpg">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="http://ieeexplore.ieee.org/abstract/document/7872914/" style="text-decoration: none; border: none" target="_blank">
-                                                    Edge-Fog Cloud: A Distributed Cloud for Internet of Things Computations
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Jussi Kangasharju
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                IEEE International Conference on Cloudification of the Internet of Things (CIoT), November 2016
-                                            </span>
-                                            <p style="font-size: large"><b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>
-                                                &nbsp;
-                                                <b><a href="https://doi.org/10.1109/CIOT.2016.7872914" target="_blank">DOI</a></b>
-                                            </p>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                                <a name ="2016" style="">
+                                    <h3>2016</h3>
+                                </a>
+                                <table>
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/2016/pubs/edgeFog_Ciot.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/2016/EF_first_page.jpg">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="http://ieeexplore.ieee.org/abstract/document/7872914/" style="text-decoration: none; border: none" target="_blank">
+                                                        Edge-Fog Cloud: A Distributed Cloud for Internet of Things Computations
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Jussi Kangasharju
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    IEEE International Conference on Cloudification of the Internet of Things (CIoT), November 2016
+                                                </span>
+                                                <p style="font-size: large"><b><a href="http://www.slideshare.net/NitinderMohan/edgefog-cloud" target="_blank">Slides</a></b>
+                                                    &nbsp;
+                                                    <b><a href="https://doi.org/10.1109/CIOT.2016.7872914" target="_blank">DOI</a></b>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
-                            
+
                             <!-- 2015 publications -->
                             <div class="2015 subject" id="2015">
-                            <a name ="2015" style="">
-                                <h3>2015</h3>
-                            </a>
-                            <table>
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/Nitinder_MTech_Thesis.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/Nitinder_MTech_Thesis.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/Nitinder_MTech_Thesis.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    Enabling Sender-initiated Distributed Applications and Checkpointing in Content Centric Networks
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                M.Tech. (CS) with specialization in Mobile Computing thesis. Submitted at IIIT-Delhi.<br>
-                                                <i><b>Nominated for Best Thesis Award</b></i>
-                                            </span>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr style="background-color: #ffffff; border: none">
-                                    <td><a href ="documents/Nitinder_CCNxCon2015.pdf" style="text-decoration: none; border: none" target="_blank">
-                                            <img class ="pubs_img" src="documents/Nitinder_CCNxCon2015.png">
-                                        </a>
-                                    </td>
-                                    <td style="vertical-align: top; padding-left: 3px">
-                                        <div style="position: relative; min-height: 180px">
-                                            <span class="pubs_title">
-                                                <a href ="documents/Nitinder_CCNxCon2015.pdf" style="text-decoration: none; border: none" target="_blank">
-                                                    CCNCheck: Enabling Checkpointed Distributed Applications in Content Centric Networks
-                                                </a>
-                                            </span>
-                                            <br>
-                                            <span class="pubs_authors">
-                                                <b>Nitinder Mohan</b>, Pushpendra Singh
-                                            </span>
-                                            <br>
-                                            <span class="pubs_type">
-                                                4<sup>th</sup> CCNx Community Meeting and Conference (CCNxCon), 2015 held at PARC, California, USA
-                                            </span>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                                <a name ="2015" style="">
+                                    <h3>2015</h3>
+                                </a>
+                                <table>
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/Nitinder_MTech_Thesis.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/Nitinder_MTech_Thesis.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/Nitinder_MTech_Thesis.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        Enabling Sender-initiated Distributed Applications and Checkpointing in Content Centric Networks
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    M.Tech. (CS) with specialization in Mobile Computing thesis. Submitted at IIIT-Delhi.<br>
+                                                    <i><b>Nominated for Best Thesis Award</b></i>
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr style="background-color: #ffffff; border: none">
+                                        <td><a href ="documents/Nitinder_CCNxCon2015.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                <img class ="pubs_img" src="documents/Nitinder_CCNxCon2015.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href ="documents/Nitinder_CCNxCon2015.pdf" style="text-decoration: none; border: none" target="_blank">
+                                                        CCNCheck: Enabling Checkpointed Distributed Applications in Content Centric Networks
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span class="pubs_authors">
+                                                    <b>Nitinder Mohan</b>, Pushpendra Singh
+                                                </span>
+                                                <br>
+                                                <span class="pubs_type">
+                                                    4<sup>th</sup> CCNx Community Meeting and Conference (CCNxCon), 2015 held at PARC, California, USA
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <!-- Four -->
+                <!-- Award section -->
                 <!--							<section id="awards">
                         <div class="container">
                                 <header class="major">
@@ -817,30 +825,235 @@
 
                 <section id="others">
                     <div class="container">
-                        <header class="major">
-                            <h2>Other Interests/Links</h2>
-                        </header>
-                        <section style="margin: auto; width: 60%">
-                            <ul id='services2'>
-                                <li>
-                                    <a href="https://500px.com/nitindermohan" target="_blank" style="text-decoration: none; border: none">
-                                        <div class="zocial icon fivehundredpx"></div></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.flickr.com/photos/140167256@N06/" target="_blank" style="text-decoration: none; border: none">
-                                        <div class='zocial icon flickr'></div></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.quora.com/profile/Nitinder-Mohan-1" target="_blank" style="text-decoration: none; border: none">
-                                        <div class="zocial icon quora"></div></a>
-                                </li>
-                            </ul>
-                        </section>
-                        <p>I am a huge fan of basketball and almost follow the sport religiously. Quite interestingly, I have also participated and represented at several college, state and national level tournaments in India.</p>
-                        <p>Recently, I became interested in photography and have started learning about its niches. Armed with my mirrorless camera, I end up taking shots wherever I travel. You can check out my 500px and Flickr profile from the link above to view some of the shots I have captured.</p>
-                        <p>In social networks, I am most active on Quora learning about the topics I have no idea about. Sometimes I also end up answering some questions in topics I am familiar with. To read the questions that I have answered, check out my Quora profile from the link above. </p>
+                        <!--                        <header class="major">
+                                                    <h2>Other Interests/Links</h2>
+                                                </header>-->
+
+                        <!-- Tab links -->
+                        <div class="tab">
+                            <button type="button" style="pointer-events:none" disabled></button> <!-- this is to create the leading block space-->
+                            <button class="tablinks" onclick="openTab(event, 'service')" id="defaultOpen">Service</button>  
+                            <button class="tablinks" onclick="openTab(event, 'interests')">Interests</button>
+                            <button class="tablinks" onclick="openTab(event, 'teaching')">Teaching</button>
+                        </div>
+
+                        <!-- Tab - Service -->
+                        <div id="service" class="tabcontent">
+                            <h2>Service</h2>
+
+                            <div class="hr-text-container">
+                                <span class="hr-text-content">
+                                    Reviewer
+                                </span>
+                            </div>
+
+                            <table class="tab-table">
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2019</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907" target="_blank">IEEE Internet of Things Journal</a> (JIOT) <br>
+                                            <a href="https://www.journals.elsevier.com/pervasive-and-mobile-computing" target="_blank">Elsevier Pervasive and Mobile Computing</a> (PMC) <br>
+                                            <a href="https://icc2019.ieee-icc.org/" target="_blank">IEEE ICC NGNI Symposium</a> <i>[External]</i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2017</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://conferences.sigcomm.org/acm-icn/2017/" target="_blank">ACM ICN</a> <i>[External]</i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <div class="hr-text-container">
+                                <span class="hr-text-content">
+                                    Shadow PC member
+                                </span>
+                            </div>
+                            
+                            <table class="tab-table">
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2019</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://conferences.sigcomm.org/imc/2019/" target="_blank">ACM IMC</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <div class="hr-text-container">
+                                <span class="hr-text-content">
+                                    Jury
+                                </span>
+                            </div>
+                     
+                            <table class="tab-table">
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2017</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="http://ceacs.eu/Hackathon.html" target="_blank">HackEdge hackathon</a> organized by CEACS
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <div class="hr-text-container">
+                                <span class="hr-text-content">
+                                    Organizer
+                                </span>
+                            </div>
+                     
+                            <table class="tab-table">
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2017</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            3rd CleanSky International Conference
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2016</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="http://cleanskysummer.cs.helsinki.fi/" target="_blank">2nd CleanSky Summer School</a> [+Web-Admin]
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+
+                        <!-- Tab - Interests -->
+                        <div id="interests" class="tabcontent">
+                            <h3>Personal Interests</h3>    
+                            <p>I am a huge fan of basketball and almost follow the sport religiously. Quite interestingly, I have also participated and represented at several college, state and national level tournaments in India.</p>
+                            <p>Recently, I became interested in photography and have started learning about its niches. Armed with my mirrorless camera, I end up taking shots wherever I travel. You can check out my 500px and Flickr profile from the link above to view some of the shots I have captured.</p>
+                            <p>In social networks, I am most active on Quora learning about the topics I have no idea about. Sometimes I also end up answering some questions in topics I am familiar with. To read the questions that I have answered, check out my Quora profile from the link above. </p>
+
+                            <section style="margin: auto; width: 60%">
+                                <ul id='services2'>
+                                    <li>
+                                        <a href="https://500px.com/nitindermohan" target="_blank" style="text-decoration: none; border: none">
+                                            <div class="zocial icon fivehundredpx"></div></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.flickr.com/photos/140167256@N06/" target="_blank" style="text-decoration: none; border: none">
+                                            <div class='zocial icon flickr'></div></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.quora.com/profile/Nitinder-Mohan-1" target="_blank" style="text-decoration: none; border: none">
+                                            <div class="zocial icon quora"></div></a>
+                                    </li>
+                                </ul>
+                            </section>
+
+                        </div>
+
+                        <!-- Tab - Teaching -->
+                        <div id="teaching" class="tabcontent">
+                            <h3>Teaching</h3>
+                            
+                             <div class="hr-text-container">
+                                <span class="hr-text-content">
+                                    Teaching Assistant
+                                </span>
+                            </div>
+                            
+                            <table class="tab-table">
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2019</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://courses.helsinki.fi/en/csm13103/119559524" target="_blank">Cloud & Edge Computing</a> <span class="uni-name"><b>University of Helsinki</b></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2018</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://courses.helsinki.fi/en/data11003/124843988" target="_blank">Distributed Data Infrastructures</a> <span class="uni-name"><b>University of Helsinki</b></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2017</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://courses.helsinki.fi/en/data11003/119122539" target="_blank">Distributed Data Infrastructures</a> <span class="uni-name"><b>University of Helsinki</b></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2016</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://www.cs.helsinki.fi/en/courses/582417/2016/s/k/1" target="_blank">Distributed Systems</a> <span class="uni-name"><b>University of Helsinki</b></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2015</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            Cellular Data Networks <span class="uni-name"><b>IIIT Delhi</b></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                             <div class="hr-text-container">
+                                <span class="hr-text-content">
+                                    Guest Lecturer
+                                </span>
+                            </div>
+                            
+                            <table class="tab-table">
+                                <tr class="service-table">
+                                    <td>
+                                        <span class="service-conf-year">2018</span>
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="https://courses.helsinki.fi/en/data11001/124843910" target="_blank">Introduction to Data Science</a> <span class="uni-name"><b>University of Helsinki</b></span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+
+
                         <!--<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=fcfcfc&w=300&t=tt&d=OSv1jB6q7mzpE54U3OEe4ZGtqcztLiqiBiP-mAwa95Y&co=387096'></script>-->
-                        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=6d7993&w=400&t=tt&d=NfP2E-NIryvEOnMXKEeBuDeRuFInUukW5iRLJO3NgSg&co=ffffff&cmo=d73b5e&cmn=47a747&ct=6d7993"></script>
+                        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=6d7993&w=200&t=tt&d=NfP2E-NIryvEOnMXKEeBuDeRuFInUukW5iRLJO3NgSg&co=ffffff&cmo=d73b5e&cmn=47a747&ct=6d7993"></script>
                     </div>
                 </section>
 
@@ -891,17 +1104,17 @@
                         </script>-->
 
             <script>
-                $("#morebutton").click(function () {
-                    var elem = $("#morebutton .button").text();
-                    if (elem == "Show more news") {
-                        //Stuff to do when btn is in the read more state
-                        //                    $("#morebutton .button").text("Show less news");
-                        $('#newstable .more').slice(0, 5).removeClass('more');
-                    }
-                    if ($('#newstable .more').length == 0) {
-                        $(this).addClass('more');
-                    }
-                });
+                              $("#morebutton").click(function () {
+                                  var elem = $("#morebutton .button").text();
+                                  if (elem == "Show more news") {
+                                      //Stuff to do when btn is in the read more state
+                                      //                    $("#morebutton .button").text("Show less news");
+                                      $('#newstable .more').slice(0, 5).removeClass('more');
+                                  }
+                                  if ($('#newstable .more').length == 0) {
+                                      $(this).addClass('more');
+                                  }
+                              });
             </script>  
 
             <script>
@@ -917,14 +1130,42 @@
             </script>
 
             <script>
-                $('#select').on('change', function(){ 
+                $('#select').on('change', function () {
                     if (this.value == "all") {
-                       $('.subject').show(500); 
+                        $('.subject').show(500);
                     } else {
                         $('.subject').hide(100);
-                        $('.'+this.value).show(500);
+                        $('.' + this.value).show(500);
                     }
-                  });
+                });
             </script>    
+
+            <script>
+                function openTab(evt, tabName) {
+                    // Declare all variables
+                    var i, tabcontent, tablinks;
+
+                    // Get all elements with class="tabcontent" and hide them
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+
+                    // Get all elements with class="tablinks" and remove the class "active"
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+
+                    // Show the current tab, and add an "active" class to the button that opened the tab
+                    document.getElementById(tabName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+            </script>
+
+            <script>
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
     </body>
 </html>
