@@ -3442,8 +3442,9 @@ section #services2 li span {
 .service-conf-year{
     background-color: #6d7993;
     color: white;
-    padding: 2px 4px;
+    padding: 2px 5px;
     width: 100px !important;
+    border-radius: .25em; 
 }
 
 .service-conf-content{
