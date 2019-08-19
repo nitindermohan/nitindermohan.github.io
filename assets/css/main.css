@@ -1,5 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("zocial.css");
+@import url("../fontawesome/css/all.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
@@ -16,6 +17,10 @@
     font-family: 'zocial', sans-serif;
 }
 
+@font-face {
+    font-family: "fontawesome";
+    src: url("../fontawesome/css/all.css");
+}
 
 /* Reset */
 
@@ -3406,6 +3411,7 @@ section #services2 li span {
   to {opacity: 1;}
 }
 
+/*for other section table design*/
 .hr-text-container{
     width: 100%; 
     height: 1.05em; 
@@ -3455,3 +3461,54 @@ section #services2 li span {
 .uni-name{
     float: right;
 }
+
+/*for publication section links*/
+
+.links{
+    background-color: #6d7993;
+    color: white;
+    padding: 2px 5px;
+    width: 100px !important;
+    border-radius: .25em; 
+    font-size: 0.9em;
+}
+
+.links:hover{
+  background-color: white;
+}
+
+.links:before {
+   font-family: 'Font Awesome 5 Pro'; 
+   display: inline-block;
+   padding-right: 7px;
+   padding-bottom: 3px;
+   vertical-align: middle;
+   font-weight:900;
+}
+
+.links.slides:before {
+    content: "\f685";
+}
+
+.links.github:before {
+    font-family: FontAwesome; 
+    content: "\f09b";
+    font-weight:1200;
+}
+
+.links.doi:before {
+    content: "\f0ac";
+}
+
+.links.proceedings:before {
+    content: "\f02d";
+}
+
+.links.video:before {
+    content: "\f03d";
+}
+
+.links.poster:before {
+    content: "\f1c5";
+}
+
