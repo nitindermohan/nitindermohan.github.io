@@ -3198,7 +3198,7 @@ section #services2 li span {
     box-shadow: 0 0 15px #00D0B0;
 }
 
-.icon.fa-envelope-o:hover{
+.fas.fa-envelope:hover{
     color: #D44638;
     box-shadow: 0 0 15px #D44638;
 }
