@@ -3428,6 +3428,23 @@ section #services2 li span {
     color: #6d7993;
 }
 
+.hr-text-container-h3{
+    width: 100%; 
+    height: 1.15em; 
+    border-bottom: 1.5px solid #ddd; 
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.hr-text-content-h3{
+    font-size: 1.5em; 
+    font-weight: bold;
+    background-color: white; 
+    padding-right: 5px;
+    color: #6d7993;
+}
+
 .tab-table{
     border-collapse: collapse !important;
     min-width: 100%;
@@ -3471,6 +3488,7 @@ section #services2 li span {
     width: 100px !important;
     border-radius: .25em; 
     font-size: 0.9em;
+    text-decoration: none;
 }
 
 .links:hover{
@@ -3512,3 +3530,49 @@ section #services2 li span {
     content: "\f1c5";
 }
 
+/*research interests section*/
+
+.research-table{
+    border-collapse: collapse !important;
+    margin: 0;
+    min-width: 100%;
+}
+
+.research-table td:nth-child(1) {
+  width: 150px;
+  padding: 0em 0em !important;
+  font-weight: bold;
+}
+.research-table td:nth-child(2) {
+  width: auto;
+  padding: 0em 0em !important;
+}
+
+.research-table td:nth-child(2) a{
+    background-color: #6d7993;
+    color: white;
+    padding: 4px 6px;
+    width: 100px !important;
+    border-radius: .25em; 
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.research-table td:nth-child(2) a:hover{
+    background-color: white;
+}
+
+.research-topic{
+    padding-top: 40px;
+}
+
+.pubs_img{
+    border-style: solid !important;
+    border-width: 1px !important;
+    display: block;
+    width: 100%;
+}
+
+.pubs_title{
+    font-size: 1.2em;
+}
