@@ -2607,7 +2607,7 @@ input[type="button"]:disabled,
     background-image: url("../../images/back.jpg");
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     content: '';
     display: block;
