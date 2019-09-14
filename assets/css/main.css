@@ -3500,6 +3500,7 @@ section #services2 li span {
    display: inline-block;
    padding-right: 7px;
    padding-bottom: 3px;
+   padding-top: 1px;
    vertical-align: middle;
    font-weight:900;
 }
