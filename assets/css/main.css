@@ -3531,6 +3531,10 @@ section #services2 li span {
     content: "\f1c5";
 }
 
+.links.news:before {
+    content: "\f70f";
+}
+
 /*research interests section*/
 
 .research-table{
