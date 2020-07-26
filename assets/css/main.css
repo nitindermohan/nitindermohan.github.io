@@ -1571,8 +1571,9 @@ body {
 
 body, input, select, textarea {
     color: #888;
-    font-family: "Lato", sans-serif;
-    font-size: 16pt;
+/*    font-family: "Lato", sans-serif;*/
+    font-family: 'CMUSansSerifMedium';
+    font-size: 17pt;
     font-weight: 400;
     line-height: 1.75em;
 }
@@ -3114,7 +3115,8 @@ section #services h2 {
     margin: 80px 0px 40px;
     color: #fff;
     font-size: 2.4em;
-    font-family: 'Raleway Dots', sans-serif;
+/*    font-family: 'Raleway Dots', sans-serif;*/
+    font-family: 'CMUSansSerifBold';
     text-transform: uppercase;
     text-align: center;
 }
@@ -3144,7 +3146,8 @@ section #services li span {
     display: block;
     padding: 15px 0px;
     color: #fff;
-    font-family: 'Advent Pro', sans-serif;
+/*    font-family: 'Advent Pro', sans-serif;*/
+    font-family: 'CMUSansSerifMedium';
     text-transform: uppercase;
     font-size: 1.2em;
     text-align: center;
@@ -3158,7 +3161,8 @@ section #services2 h2 {
     margin: 80px 0px 40px;
     color: #fff;
     font-size: 2.4em;
-    font-family: 'Raleway Dots', sans-serif;
+/*    font-family: 'Raleway Dots', sans-serif;*/
+    font-family: 'CMUSansSerifMedium'
     text-transform: uppercase;
     text-align: center;
 }
@@ -3187,7 +3191,8 @@ section #services2 li span {
     display: block;
     padding: 15px 0px;
     color: #fff;
-    font-family: 'Advent Pro', sans-serif;
+/*    font-family: 'Advent Pro', sans-serif;*/
+    font-family: 'CMUSansSerifBold';
     text-transform: uppercase;
     font-size: 1.2em;
     text-align: center;
@@ -3579,5 +3584,6 @@ section #services2 li span {
 }
 
 .pubs_title{
+    font-family: 'CMUSansSerifBold';
     font-size: 1.2em;
 }
