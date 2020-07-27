@@ -3587,3 +3587,10 @@ section #services2 li span {
     font-family: 'CMUSansSerifBold';
     font-size: 1.2em;
 }
+
+.pubs_title_a{
+    text-decoration: none; 
+    border: none; 
+    font-family: CMUSansSerifBold;
+    font-size: 16pt;
+}
