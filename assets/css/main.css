@@ -3591,6 +3591,11 @@ section #services2 li span {
 .pubs_title_a{
     text-decoration: none; 
     border: none; 
-    font-family: CMUSansSerifBold;
+    font-family: 'CMUSansSerifBold';
+    font-size: 16pt;
+}
+
+#.pubs_content{
+    font-family: 'CMUSansSerifBold';
     font-size: 16pt;
 }
