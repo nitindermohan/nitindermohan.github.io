@@ -3462,6 +3462,21 @@ section #services2 li span {
   width: auto;
 }
 
+tab-table-project{
+    border-collapse: collapse !important;
+    min-width: 100%;
+}
+
+.tab-table-project td:nth-child(1) {
+  width: 230px;
+}
+.tab-table-project td:nth-child(2) {
+  width: 45%;
+}
+.tab-table-project td:nth-child(3) {
+  width: auto;
+}
+
 .service-table{
     background: transparent !important; 
     border: none;
@@ -3478,6 +3493,14 @@ section #services2 li span {
 .service-conf-content{
     line-height: 200%;
     width: auto !important;
+}
+
+.service-project-year{
+    background-color: #6d7993;
+    color: white;
+    padding: 2px 5px;
+    width: 190px !important;
+    border-radius: .25em; 
 }
 
 .uni-name{
@@ -3598,4 +3621,10 @@ section #services2 li span {
 #.pubs_content{
     font-family: 'CMUSansSerifBold';
     font-size: 16pt;
+}
+
+.image-holder {
+    float: left;
+    width: 100%;
+    vertical-align: middle;
 }
