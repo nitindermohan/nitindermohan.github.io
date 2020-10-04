@@ -3563,6 +3563,11 @@ tab-table-project{
     content: "\f70f";
 }
 
+.links.data:before {
+    content: "\f1c0";
+}
+
+
 /*research interests section*/
 
 .research-table{
