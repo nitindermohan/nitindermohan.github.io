@@ -3519,10 +3519,6 @@ tab-table-project{
     text-decoration: none;
 }
 
-.links:hover{
-  background-color: white;
-}
-
 .links:before {
    font-family: 'Font Awesome 5 Pro'; 
    display: inline-block;
@@ -3565,6 +3561,20 @@ tab-table-project{
 
 .links.data:before {
     content: "\f1c0";
+}
+
+.links.award {
+    background-color: indianred;
+}
+
+.links.award:before {
+    content: "\f091";
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.links:hover{
+  background-color: white;
 }
 
 
