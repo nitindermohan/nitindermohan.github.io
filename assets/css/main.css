@@ -3563,6 +3563,10 @@ tab-table-project{
     content: "\f1c0";
 }
 
+.links.publish:before {
+    content: "\f570";
+}
+
 .links.award {
     background-color: indianred;
 }
