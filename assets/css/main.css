@@ -1848,7 +1848,7 @@ hr {
 }
 
 hr.major {
-    margin: 3.375em 0;
+    margin: 3em 0;
 }
 
 blockquote {
@@ -3615,6 +3615,8 @@ section #services2 li span {
 .tab {
     overflow: hidden;
     background-color: #6d7993;
+    top: 0px;
+    position: sticky;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -3647,7 +3649,7 @@ section #services2 li span {
     display: none;
     padding: 20px 10px;
     border-top: none;
-    animation: fadeEffect 1s;
+    animation: fadeEffect 0.5s;
     /* Fading effect takes 1 second */
 }
 
