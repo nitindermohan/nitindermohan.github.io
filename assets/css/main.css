@@ -3347,19 +3347,19 @@ section #services h2 {
 }
 
 section #services li {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     list-style: none;
 }
 
 section #services li div {
-    width: 120px;
-    height: 120px;
-    font-size: 2.5em;
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
     text-align: center;
-    line-height: 120px;
+    line-height: 100px;
     /*            background-color: #fff;*/
     transition: all 0.5s ease;
 }
