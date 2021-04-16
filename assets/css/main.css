@@ -3815,6 +3815,10 @@ tab-table-project {
     content: "\f1c0";
 }
 
+.links.website:before {
+    content: "\f37e";
+}
+
 .links.publish:before {
     content: "\f570";
 }
