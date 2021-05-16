@@ -16,6 +16,7 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cmu-sans-serif" type="text/css" />
     <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">-->
     <!--Use this cheatsheet while using fonts: https://fontawesome.com/cheatsheet/pro-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 </head>
 
@@ -430,192 +431,215 @@
             <!-- Research section -->
             <section id="research">
                 <div class="container">
-                    <header class="major">
-                        <h2>Research</h2>
-                    </header>
 
-                    <!--                        <p style="color: #ff6666">
-                                                    <i class='icon fa-exclamation-triangle fa-2x' style="margin: 0 20px 0 0"></i>
-                                                    Under construction. Stay tuned!
-                                                </p>-->
+                    <!-- Tab links -->
+                    <div class="tab2">
+                        <button type="button" style="pointer-events:none" disabled></button> <!-- this is to create the leading block space-->
+                        <button class="tablinks2" onclick="openTab2(event, 'overview')" id="defaultOpen2">Overview</button>
+                        <button class="tablinks2" onclick="openTab2(event, 'web-services')">Web Services</button>
+                    </div>
 
-                    <p>I consider myself as a "<i>distributed systems</i>" guy as I have always been involved in various domains (read "avatars") of this field.
-                        <i>"Divided we stand, united we fall"</i> is my motto in the context of computer networking research.
-                    </p>
-                    <!--                        <p>Majority of my Ph.D. research work involves distributing the current cloud architecture to devices closer to the network "edge".
+
+                    <div id="overview" class="tabcontent2">
+                        <header class="major">
+                            <h2>Research Overview</h2>
+                        </header>
+
+                        <p>I consider myself as a "<i>distributed systems</i>" guy as I have always been involved in various domains (read "avatars") of this field.
+                            <i>"Divided we stand, united we fall"</i> is my motto in the context of computer networking research.
+                        </p>
+                        <!--                        <p>Majority of my Ph.D. research work involves distributing the current cloud architecture to devices closer to the network "edge".
                                     Apart from proposing a radical shift in the current cloud architecture as we know it, I am also looking into several problems regarding edge cloud deployments such as managing data, network, services and ownership [we do end up playing with crypto-currencies as well ;-)].
                                 </p>
                                 <p>For my Masters research at <a href="https://www.iiitd.ac.in/" target="_blank"><b>IIIT-Delhi, India </b></a>, I worked on providing a scalable checkpointing mechanism for distributed applications operating on Information Centric Networks (ICN).
                                     I have also worked as a Project Scientist at <a href="http://www.iitd.ac.in/" target="_blank"><b>IIT-Delhi, India</b></a>, I worked in an Intel Labs, USA funded research project which aimed at sharing resources of computationally-insufficient devices in a Device-to-Device (D2D) network.
                                 </p>-->
-                    <div>
-                        <div class="hr-text-container-h3">
-                            <span class="hr-text-content-h3">
-                                Edge Computing
+                        <div>
+                            <div class="hr-text-container-h3">
+                                <span class="hr-text-content-h3">
+                                    Edge Computing
+                                </span>
+                            </div>
+                            <span class="research-description">
+                                A broad theme of my research explores the physical deployment, specifications and effective utilization of compute resources at the network "edge".
+                                The problem is complex primarily due to different requirements imposed by emerging applications. For example,
+                                <i>Internet-of-Things</i> need data aggregation, <i>autonomous vehicles</i> require graphical processing,
+                                <i>automated industry</i> necessitates task interoperability and <i>AR/VR</i> demands ultra-low network latency.
+                                Incorporating such varying application demands to model an always available, semi-managed network of edge servers
+                                is something I quite enjoy.
                             </span>
-                        </div>
-                        <span class="research-description">
-                            A broad theme of my research explores the physical deployment, specifications and effective utilization of compute resources at the network "edge".
-                            The problem is complex primarily due to different requirements imposed by emerging applications. For example,
-                            <i>Internet-of-Things</i> need data aggregation, <i>autonomous vehicles</i> require graphical processing,
-                            <i>automated industry</i> necessitates task interoperability and <i>AR/VR</i> demands ultra-low network latency.
-                            Incorporating such varying application demands to model an always available, semi-managed network of edge servers
-                            is something I quite enjoy.
-                        </span>
 
-                        <table class="research-table">
-                            <tr class="service-table">
-                                <td style="width: 25%">
-                                    <i class="fas fa-file"></i> Selected Publications
-                                </td>
-                                <td>
-                                    <span class="service-conf-content">
-                                        <a href="documents/2020/pubs/pruningHotnets2020.pdf" target="_blank">HotNets '20</a>
+                            <table class="research-table">
+                                <tr class="service-table">
+                                    <td style="width: 25%">
+                                        <i class="fas fa-file"></i> Selected Publications
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="documents/2020/pubs/pruningHotnets2020.pdf" target="_blank">HotNets '20</a>
 
-                                        <a href="documents/2019/pubs/ZavodovskiExec.pdf" target="_blank">EdgeSys '19</a>
+                                            <a href="documents/2019/pubs/ZavodovskiExec.pdf" target="_blank">EdgeSys '19</a>
 
-                                        <a href="documents/2018/pubs/anveshak_mecomm18.pdf" target="_blank">MECOMM '18</a>
+                                            <a href="documents/2018/pubs/anveshak_mecomm18.pdf" target="_blank">MECOMM '18</a>
 
-                                        <a href="documents/2018/pubs/mohan2018_AoT.pdf" target="_blank">AoT '17</a>
-                                        <!--
+                                            <a href="documents/2018/pubs/mohan2018_AoT.pdf" target="_blank">AoT '17</a>
+                                            <!--
                                         
                                         <a href="https://www.nitindermohan.com/documents/2017/pubs/manageData_mecomm17.pdf" target="_blank">MECOMM '17</a>
                                         
                                         <a href="http://ieeexplore.ieee.org/abstract/document/7872914/" target="_blank">CIoT '16</a>
 -->
-                                    </span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="research-topic">
-                        <div class="hr-text-container-h3">
-                            <span class="hr-text-content-h3">
-                                Next Generation Network Protocols
-                            </span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
-                        <span>
-                            Emerging applications have significantly changed the way we interact with the underlying network.
-                            Our old-yet-faithful protocol, <i>TCP</i> has started to show cracks in performance, especially in cellular and wireless environments.
-                            I enjoy exploring and designing next-generation internet protocols which can plug-in several existing performance holes.
-                            For this measure, I am interested in working on protocols such as Multipath TCP (MPTCP), 5G and Information Centric Network (ICN).
-                        </span>
 
-                        <table class="research-table">
-                            <tr class="service-table">
-                                <td style="width: 25%">
-                                    <i class="fas fa-file"></i> Selected Publications
-                                </td>
-                                <td>
-                                    <span class="service-conf-content">
-                                        <a href="documents/2018/pubs/qaware_ifip.pdf" target="_blank">IFIP Networking '18</a>
-                                        <a href="documents/2018/pubs/posterRAMPTCP-mohan.pdf" target="_blank">Mobicom '18</a>
-                                        <!--
+                        <div class="research-topic">
+                            <div class="hr-text-container-h3">
+                                <span class="hr-text-content-h3">
+                                    Next Generation Network Protocols
+                                </span>
+                            </div>
+                            <span>
+                                Emerging applications have significantly changed the way we interact with the underlying network.
+                                Our old-yet-faithful protocol, <i>TCP</i> has started to show cracks in performance, especially in cellular and wireless environments.
+                                I enjoy exploring and designing next-generation internet protocols which can plug-in several existing performance holes.
+                                For this measure, I am interested in working on protocols such as Multipath TCP (MPTCP), 5G and Information Centric Network (ICN).
+                            </span>
+
+                            <table class="research-table">
+                                <tr class="service-table">
+                                    <td style="width: 25%">
+                                        <i class="fas fa-file"></i> Selected Publications
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="documents/2018/pubs/qaware_ifip.pdf" target="_blank">IFIP Networking '18</a>
+                                            <a href="documents/2018/pubs/posterRAMPTCP-mohan.pdf" target="_blank">Mobicom '18</a>
+                                            <!--
                                         
                                         <a href="https://www.nitindermohan.com/documents/Nitinder_CCNxCon2015.pdf" target="_blank">CCNxCon '15</a>
 -->
-                                    </span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="research-topic">
-                        <div class="hr-text-container-h3">
-                            <span class="hr-text-content-h3">
-                                Blockchains and Distributed Ledgers
-                            </span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
-                        <span>
-                            While edge computing has gathered quite a traction in research community, the management and operation of such large
-                            semi to fully decentralized compute facilities in real world remains an open question. Blockchains and Distributed Ledgers
-                            emerge as a probable technology which can allow edge providers to gain revenue, auction resources and sign service level agreements
-                            with application providers. I am currently exploring how this technology can alleviate other open operability issues plaguing real-world
-                            deployment of edge clouds.
-                        </span>
 
-                        <table class="research-table">
-                            <tr class="service-table">
-                                <td style="width: 25%">
-                                    <i class="fas fa-file"></i> Selected Publications
-                                </td>
-                                <td>
-                                    <span class="service-conf-content">
-                                        <a href="documents/2019/pubs/ZavodovskiDeCloud.pdf" target="_blank">ICDCS '19</a>
-
-                                        <a href="documents/2019/pubs/ZavodovskiOIE.pdf" target="_blank">HotEdge '19</a>
-                                    </span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="research-topic">
-                        <div class="hr-text-container-h3">
-                            <span class="hr-text-content-h3">
-                                Application & Service Deployment
+                        <div class="research-topic">
+                            <div class="hr-text-container-h3">
+                                <span class="hr-text-content-h3">
+                                    Blockchains and Distributed Ledgers
+                                </span>
+                            </div>
+                            <span>
+                                While edge computing has gathered quite a traction in research community, the management and operation of such large
+                                semi to fully decentralized compute facilities in real world remains an open question. Blockchains and Distributed Ledgers
+                                emerge as a probable technology which can allow edge providers to gain revenue, auction resources and sign service level agreements
+                                with application providers. I am currently exploring how this technology can alleviate other open operability issues plaguing real-world
+                                deployment of edge clouds.
                             </span>
+
+                            <table class="research-table">
+                                <tr class="service-table">
+                                    <td style="width: 25%">
+                                        <i class="fas fa-file"></i> Selected Publications
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="documents/2019/pubs/ZavodovskiDeCloud.pdf" target="_blank">ICDCS '19</a>
+
+                                            <a href="documents/2019/pubs/ZavodovskiOIE.pdf" target="_blank">HotEdge '19</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
-                        <span>
-                            There is a rapid shift in the make-up of cloud computing as cloud providers try to incorporate edge resources and edge accelerators
-                            widely distributed in the region. The brunt of the complexity will be borne by existing cloud-based application as they need to depart
-                            from traditional monolithic client-server model. Another aim of my research is to devise intelligent softwarized applications and services
-                            which can adapt, adjust and adopt to changes in underlying compute infrastructure without sacrificing performance or quality-of-service.
-                        </span>
 
-                        <table class="research-table">
-                            <tr class="service-table">
-                                <td style="width: 25%">
-                                    <i class="fas fa-file"></i> Selected Publications
-                                </td>
-                                <td>
-                                    <span class="service-conf-content">
-                                        <a href="documents/2020/pubs/bricklayer2020.pdf" target="_blank">ICC '20</a>
+                        <div class="research-topic">
+                            <div class="hr-text-container-h3">
+                                <span class="hr-text-content-h3">
+                                    Application & Service Deployment
+                                </span>
+                            </div>
+                            <span>
+                                There is a rapid shift in the make-up of cloud computing as cloud providers try to incorporate edge resources and edge accelerators
+                                widely distributed in the region. The brunt of the complexity will be borne by existing cloud-based application as they need to depart
+                                from traditional monolithic client-server model. Another aim of my research is to devise intelligent softwarized applications and services
+                                which can adapt, adjust and adopt to changes in underlying compute infrastructure without sacrificing performance or quality-of-service.
+                            </span>
 
-                                        <a href="documents/2018/pubs/Zavadovski18icon.pdf" target="_blank">HotNets '18</a>
-                                        <!--
+                            <table class="research-table">
+                                <tr class="service-table">
+                                    <td style="width: 25%">
+                                        <i class="fas fa-file"></i> Selected Publications
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="documents/2020/pubs/bricklayer2020.pdf" target="_blank">ICC '20</a>
+
+                                            <a href="documents/2018/pubs/Zavadovski18icon.pdf" target="_blank">HotNets '18</a>
+                                            <!--
                                         
                                         <a href="https://www.nitindermohan.com/documents/2018/pubs/mute_crosscloud.pdf" target="_blank">CrossCloud '18</a>
 -->
-                                    </span>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="research-topic">
-                        <div class="hr-text-container-h3">
-                            <span class="hr-text-content-h3">
-                                Internet-wide Measurements
-                            </span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
                         </div>
-                        <span>
-                            I am interested in analyzing and challenging several widespread preconceptions within networking research community via real-world measurements. The problems I particularly tackle in this domain range from performance analysis of transport protocols (TCP, QUIC, etc.) in varying environments and workloads, Internet-wide scans to analyze support for emerging protocols and widescale measurments to analyze cloud/CDN reachability.
-                        </span>
 
-                        <table class="research-table">
-                            <tr class="service-table">
-                                <td style="width: 25%">
-                                    <i class="fas fa-file"></i> Selected Publications
-                                </td>
-                                <td>
-                                    <span class="service-conf-content">
-                                        <a href="documents/2021/pubs/surrounded_WWW.pdf" target="_blank">WebConf '21</a>
+                        <div class="research-topic">
+                            <div class="hr-text-container-h3">
+                                <span class="hr-text-content-h3">
+                                    Internet-wide Measurements
+                                </span>
+                            </div>
+                            <span>
+                                I am interested in analyzing and challenging several widespread preconceptions within networking research community via real-world measurements. The problems I particularly tackle in this domain range from performance analysis of transport protocols (TCP, QUIC, etc.) in varying environments and workloads, Internet-wide scans to analyze support for emerging protocols and widescale measurments to analyze cloud/CDN reachability.
+                            </span>
 
-                                        <a href="documents/2020/pubs/pruningHotnets2020.pdf" target="_blank">HotNets '20</a>
-                                        <!--
+                            <table class="research-table">
+                                <tr class="service-table">
+                                    <td style="width: 25%">
+                                        <i class="fas fa-file"></i> Selected Publications
+                                    </td>
+                                    <td>
+                                        <span class="service-conf-content">
+                                            <a href="documents/2021/pubs/surrounded_WWW.pdf" target="_blank">WebConf '21</a>
+
+                                            <a href="documents/2020/pubs/pruningHotnets2020.pdf" target="_blank">HotNets '20</a>
+                                            <!--
                                         
                                         <a href="https://www.nitindermohan.com/documents/2018/pubs/Zavadovski18icon.pdf" target="_blank">HotNets '18</a>
 -->
-                                        <!--
+                                            <!--
                                         
                                         <a href="https://www.nitindermohan.com/documents/2018/pubs/mute_crosscloud.pdf" target="_blank">CrossCloud '18</a>
 -->
-                                    </span>
-                                </td>
-                            </tr>
-                        </table>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+
+                    <!--                    Tab link 2 -->
+                    <div id="web-services" class="tabcontent2">
+                        <header class="major">
+                            <h2>Web Services</h2>
+                        </header>
+                        <div class="row">
+                            <a class="col-md-6 col-lg-4 p-3 p-md-4 p-lg-5 service-item" href="https://cloudreachability.github.io/" style="text-decoration: none">
+                                <div class="service-image-container">
+                                    <img src="images/services/reachability.png" width="650em" height="300em" class="img-fluid m-auto d-block service-image" alt="">
+                                </div>
+                                <h3 class="pt-3 service-heading">cloudreachability.github.io</h3>
+                                <p class="service-text">Global user to cloud connectivity analysis and datasets.</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -1730,7 +1754,7 @@
                                 </td>
                                 <td>
                                     <span class="service-conf-content">
-                                        <a href="https://ieee-msn.org/2021/" target="_blank"><b>17<sup>th</sup> International Conference on Mobility, Sensing and Networking</b></a> (MSN) <br>
+                                        <a href="https://ieee-msn.org/2021/" target="_blank">17<sup>th</sup> International Conference on Mobility, Sensing and Networking</a> (MSN) <br>
                                         <a href="https://icdcs2021.us/" target="_blank">International Conference on Distributed Computing Systems</a> (ICDCS) <br>
                                         <a href="https://globecom2021.ieee-globecom.org/" target="_blank">IEEE Global Communications Conference</a> (Globecom) <br>
                                         <!--
@@ -2479,8 +2503,38 @@
             </script>
 
             <script>
+                function openTab2(evt, tabName) {
+                    // Declare all variables
+                    var i, tabcontent, tablinks;
+
+                    // Get all elements with class="tabcontent" and hide them
+                    tabcontent = document.getElementsByClassName("tabcontent2");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+
+                    // Get all elements with class="tablinks" and remove the class "active"
+                    tablinks = document.getElementsByClassName("tablinks2");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+
+                    // Show the current tab, and add an "active" class to the button that opened the tab
+                    document.getElementById(tabName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+
+            </script>
+
+            <script>
                 // Get the element with id="defaultOpen" and click on it
                 document.getElementById("defaultOpen").click();
+
+            </script>
+
+            <script>
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen2").click();
 
             </script>
         </div>

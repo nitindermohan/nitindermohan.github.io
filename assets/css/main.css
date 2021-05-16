@@ -3653,6 +3653,47 @@ section #services2 li span {
     /* Fading effect takes 1 second */
 }
 
+.tab2 {
+    overflow: hidden;
+    background-color: #6d7993;
+    top: 0px;
+    position: sticky;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab2 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 1em;
+    font-family: inherit;
+    color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+    background-color: #42547a;
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+    background-color: #fff;
+    color: #6d7993;
+}
+
+/* Style the tab content */
+.tabcontent2 {
+    display: none;
+    padding: 20px 10px;
+    border-top: none;
+    animation: fadeEffect 0.5s;
+    /* Fading effect takes 1 second */
+}
+
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
     from {
@@ -3912,4 +3953,31 @@ tab-table-project {
     float: left;
     width: 100%;
     vertical-align: middle;
+}
+
+.service-item {
+    color: black;
+    border-radius: 0.5rem;
+    text-decoration: none !important;
+    padding: 25px 25px 25px 25px;
+    text-align: center !important;
+
+}
+
+.service-item:hover {
+    background-color: rgba(109, 121, 147, 0.3);
+}
+
+.service-image-container {
+    width: 100%;
+    min-width: 0;
+    position: relative;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.service-text {
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
 }
