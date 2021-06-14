@@ -3955,16 +3955,23 @@ tab-table-project {
     vertical-align: middle;
 }
 
+.service-container {
+    display: flex;
+}
+
+.service-row {
+    padding: 10px 20px 20px 10px;
+}
+
 .service-item {
     color: black;
     border-radius: 0.5rem;
     text-decoration: none !important;
-    padding: 25px 25px 25px 25px;
     text-align: center !important;
 
 }
 
-.service-item:hover {
+.service-row:hover {
     background-color: rgba(109, 121, 147, 0.3);
 }
 
@@ -3977,7 +3984,7 @@ tab-table-project {
 }
 
 .service-text {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0;
     text-align: center;
 }

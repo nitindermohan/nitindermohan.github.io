@@ -169,6 +169,11 @@
                     <table id="newstable">
                         <tr>
                             <td>June, 2021</td>
+                            <td><i class="fas fa-globe-americas"></i> We have launched <b>MPTCP Measurement Service</b> at <a href="https://mptcp.io" target="_blank">mptcp.io</a> where we regularly publish the scan results for MPTCPv0 and MPTCPv1 in IPv4 and IPv6.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>June, 2021</td>
                             <td><i class="fas fa-handshake"></i> I am attending the <a href="" target="_blank">Lorentz workshop</a> on <b>Beyond the Mobile-Cloud Computing Paradigm</b> <strike>in Leiden, the Netherlands</strike> virtually.
                             </td>
                         </tr>
@@ -643,14 +648,26 @@
                         <header class="major">
                             <h2>Web Services</h2>
                         </header>
-                        <div class="row">
-                            <a class="col-md-6 col-lg-4 p-3 p-md-4 p-lg-5 service-item" href="https://cloudreachability.github.io/" target="_blank" style="text-decoration: none">
-                                <div class="service-image-container">
-                                    <img src="images/services/reachability.png" width="650em" height="300em" class="img-fluid m-auto d-block service-image" alt="">
-                                </div>
-                                <h3 class="pt-3 service-heading">cloudreachability.github.io</h3>
-                                <p class="service-text">Global user to cloud connectivity analysis and datasets.</p>
-                            </a>
+                        <div class="service-container">
+                            <div class="service-row" style="width: 50%">
+                                <a class="col-md-6 col-lg-4 p-3 p-md-4 p-lg-5 service-item" href="https://cloudreachability.github.io/" target="_blank" style="text-decoration: none">
+                                    <div class="service-image-container">
+                                        <img src="images/services/reachability.png" width="450em" height="200em" class="img-fluid m-auto d-block service-image" alt="">
+                                    </div>
+                                    <h3 class="pt-4 service-heading">cloudreachability.github.io</h3>
+                                    <p class="service-text">Global Cloud Reachability Service</p>
+                                </a>
+                            </div>
+
+                            <div class="service-row" style="flex-grow: 1">
+                                <a class="col-md-6 col-lg-4 p-3 p-md-4 p-lg-5 service-item" href="https://mptcp.io/" target="_blank" style="text-decoration: none">
+                                    <div class="service-image-container">
+                                        <img src="images/services/mptcp-measurement-service.jpeg" width="350em" height="200em" class="img-fluid m-auto d-block service-image" alt="">
+                                    </div>
+                                    <h3 class="pt-3 service-heading">mptcp.io</h3>
+                                    <p class="service-text">MPTCP Measurement Service</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2477,6 +2494,28 @@
                         $('.hover_bkgr_fricc').hide();
                     });
                 });
+
+            </script>
+
+            <script>
+                <!--//
+                -->
+            <![CDATA[//><!--
+                var images = new Array()
+
+                function preload() {
+                    for (i = 0; i < preload.arguments.length; i++) {
+                        images[i] = new Image()
+                        images[i].src = preload.arguments[i]
+                    }
+                }
+                preload(
+                    "documents/2021/edgeLatency-ifip.png",
+                    "documents/2021/mptcpScan-ifip.png",
+                    "documents/2021/spa-infocomwksp.png",
+                    "documents/2021/surrounded_WWW.png",
+                )
+                //--><!]]>
 
             </script>
 
