@@ -3437,6 +3437,11 @@ section #services2 li span {
     box-shadow: 0 0 15px #4285F4;
 }
 
+.ai.ai-dblp:hover {
+    color: #FBD700;
+    box-shadow: 0 0 15px #FBD700;
+}
+
 .ai.ai-researchgate:hover {
     color: #00D0B0;
     box-shadow: 0 0 15px #00D0B0;
