@@ -3392,8 +3392,8 @@ section #services2 h2 {
     color: #fff;
     font-size: 2.4em;
     /*    font-family: 'Raleway Dots', sans-serif;*/
-    font-family: 'CMUSansSerifMedium'
-        text-transform: uppercase;
+    font-family: 'CMUSansSerifMedium';
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -3845,9 +3845,20 @@ tab-table-project {
     content: "\f02d";
 }
 
+.links.video {
+    background-color: #83c4b9;
+}
+
 .links.video:before {
     content: "\f03d";
 }
+
+.links.video:hover {
+    border: 1.5px solid #83c4b9;
+    background-color: white;
+    color: #83c4b9 !important;
+}
+
 
 .links.poster:before {
     content: "\f1c5";
@@ -3865,8 +3876,22 @@ tab-table-project {
     content: "\f37e";
 }
 
+.links.publish {
+    background-color: indianred;
+}
+
+.links.publish:hover {
+    border: 1.5px solid indianred;
+    background-color: white;
+    color: indianred !important;
+}
+
 .links.publish:before {
     content: "\f570";
+}
+
+.links.studentthesis:before {
+    content: "\f02d";
 }
 
 .links.award {
@@ -3889,9 +3914,6 @@ tab-table-project {
     background-color: white;
     color: indianred !important;
 }
-
-
-
 
 /*research interests section*/
 
