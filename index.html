@@ -194,6 +194,14 @@
                     <table id="newstable">
                         <tr>
                             <td>February, 2022</td>
+                            <td><i class="fas fa-graduation-cap"></i> Oliver Haluszczynski successfully defended his master
+                                thesis "<b>Service Scheduling for EdgeIO platform</b>". You can check out his final presentation <a
+                                    href="https://balancer.bbb.rbg.tum.de/playback/presentation/2.3/7b059d2730236bd8ec85443c4fd8bd0faa6f029d-1644842631654?meetingId=7b059d2730236bd8ec85443c4fd8bd0faa6f029d-1644842631654"
+                                    target="_blank">here</a>. Congratulations Oliver!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>February, 2022</td>
                             <td><i class="fas fa-glasses"></i> I am serving as a PC member for <a href="https://tma.ifip.org/2022/" target="_blank"><b>
                                         Network Traffic Measurements and Analysis</b></a> (TMA) 2022.
                             </td>
@@ -224,7 +232,7 @@
                             <td>January, 2021</td>
                             <td><i class="fas fa-graduation-cap"></i> Simon Bäurle successfully defended his master
                                 thesis "<b>A Flexible, Application-focused Benchmarking Suite for Edge
-                                    Infrastructures</b>". You can check out his final Presentation <a
+                                    Infrastructures</b>". You can check out his final presentation <a
                                     href="https://balancer.bbb.rbg.tum.de/playback/presentation/2.3/7b059d2730236bd8ec85443c4fd8bd0faa6f029d-1642599836013?meetingId=7b059d2730236bd8ec85443c4fd8bd0faa6f029d-1642599836013"
                                     target="_blank">here</a>. Congratulations Simon!
                             </td>
@@ -847,8 +855,7 @@
                     </table>
                     <!--<a onclick="show( & quot; more & quot; )" id="morebutton" style="text-decoration: none; border: none">-->
                     <a id="morebutton" style="text-decoration: none; border: none">
-                        <div class="button fontawesome-chevron-down">Show older <i class="fas fa-arrow-circle-down"></i>
-                        </div>
+                        <div class="button fontawesome-chevron-down">Show older <i class="fas fa-arrow-circle-down"></i></div>
                     </a>
                 </div>
             </section>
@@ -2666,11 +2673,13 @@
                             </td>
                             <td>
                                 <span class="service-conf-content">
-                                    Oliver Haluszczynski. <i>Service Scheduling for EdgeIO platform.</i>
+                                    <i class="fas fa-graduation-cap"></i> Oliver Haluszczynski. <i>Service Scheduling for EdgeIO platform.</i>
                                 </span>
                                 <br>
                                 <a class="links studentthesis" href="documents/student-thesis/OliverHaluMT.pdf"
                                     target="_blank"> Thesis</a>
+                                    <a href="https://balancer.bbb.rbg.tum.de/playback/presentation/2.3/7b059d2730236bd8ec85443c4fd8bd0faa6f029d-1644842631654?meetingId=7b059d2730236bd8ec85443c4fd8bd0faa6f029d-1644842631654"
+                                        target="_blank" class="links video"> Presentation</a>
                             </td>
                         </tr>
                         <tr class="service-table">
@@ -3816,8 +3825,8 @@
                     var elem = $("#morebutton .button").text();
                     if (elem == "Show older ") {
                         //Stuff to do when btn is in the read more state
-                        //                    $("#morebutton .button").text("Show less news");
-                        $('#newstable .more').slice(0, 5).removeClass('more');
+                        // $("#morebutton .button").text("Show less news");
+                       $('#newstable .more').slice(0, 5).removeClass('more');
                     }
                     if ($('#newstable .more').length == 0) {
                         $(this).addClass('more');
