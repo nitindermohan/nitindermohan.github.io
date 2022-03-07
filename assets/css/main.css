@@ -3955,6 +3955,7 @@ tab-table-project {
 .pubs_img {
     border-style: solid !important;
     border-width: 1px !important;
+    box-shadow: 3px 3px 10px gray;
     display: block;
     width: 100%;
 }
