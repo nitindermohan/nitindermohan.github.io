@@ -2493,6 +2493,7 @@ input[type="button"],
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  box-shadow: 3px 3px 10px gray;
 }
 
 input[type="submit"]:hover,
@@ -2501,6 +2502,7 @@ input[type="button"]:hover,
 .button:hover {
   background-color: #6d7993;
   color: #ffffff !important;
+  box-shadow: 4px 4px 20px gray;
 }
 
 input[type="submit"]:active,
