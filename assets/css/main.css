@@ -1866,6 +1866,11 @@ pre code {
   display: none;
 }
 
+.morebutton {
+  text-decoration: none; 
+  border: none
+}
+
 .align-left {
   text-align: left;
 }
@@ -3685,6 +3690,7 @@ section #services2 li span {
   text-align: left;
   float: left;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .hr-text-content {
@@ -3701,6 +3707,7 @@ section #services2 li span {
   text-align: left;
   float: left;
   margin-bottom: 20px;
+  background-color: white;
 }
 
 .hr-text-content-h3 {
@@ -3746,7 +3753,7 @@ tab-table-project {
   border: none;
 }
 
-.service-conf-year {
+.servicf-yeay-headerr {
   background-color: #6d7993;
   color: white;
   padding: 2px 5px;
@@ -3759,7 +3766,7 @@ tab-table-project {
   width: auto !important;
 }
 
-.service-project-year {
+.service-pt-yeay-headerr {
   background-color: #6d7993;
   color: white;
   padding: 2px 5px;
@@ -3980,4 +3987,18 @@ tab-table-project {
   font-size: 1em;
   margin: 0;
   text-align: center;
+}
+
+.sticky-header {
+  position: sticky; 
+  top: 2px;
+  background-color: white;
+  height: 70%;
+}
+
+.sticky-header-nav {
+  position: sticky; 
+  top: 59px;
+  background-color: white;
+  height: 70%;
 }
