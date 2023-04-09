@@ -3786,6 +3786,63 @@ tab-table-project {
   float: right;
 }
 
+/* service table css */
+
+.serv-table {
+  border-collapse: collapse !important;
+  min-width: 100%;
+}
+.serv-table td {
+  padding: 10px;
+  border: none;
+}
+.serv-table td:first-child {
+  text-align: left;
+}
+.serv-table td:last-child {
+  text-align: right;
+}
+.serv-table td:nth-child(2) {
+  max-width: 40%;
+}
+.serv-table tr {
+  background: transparent !important;
+  border: none;
+}
+.serv-conf-content {
+  line-height: 200%;
+  width: auto !important;
+}
+.serv-conf-content p {
+  font-family: Consolas, monospace;
+  color: #777;
+  display: block;
+  font-size: medium;
+  padding: 2px 10px;
+  border-left: 5px solid #ccc;
+  margin-bottom: -1rem;
+}
+.serv-conf-year {
+  background-color: #6d7993;
+  color: white;
+  padding: 2px 5px;
+  width: 100px !important;
+  border-radius: 0.25em;
+  text-decoration: none;
+}
+.serv-conf-year span:not(:first-child)::before {
+  content: "&nbsp;&bull;&nbsp;";
+}
+.serv-conf-year:has(a):hover {
+  border: 1.5px solid #6d7993;
+  background-color: white;
+  color: #6d7993 !important;
+}
+.serv-conf-year a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
 /*for publication section links*/
 
 .links {
