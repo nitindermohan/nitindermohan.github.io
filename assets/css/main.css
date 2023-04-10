@@ -3761,6 +3761,14 @@ tab-table-project {
   border: none;
 }
 
+.service-conf-venue {
+  background-color: #83c4b9;
+  color: white;
+  padding: 2px 5px;
+  width: 100px !important;
+  border-radius: 0.25em;
+}
+
 .service-conf-year {
   background-color: #6d7993;
   color: white;
@@ -3813,14 +3821,17 @@ tab-table-project {
   line-height: 200%;
   width: auto !important;
 }
-.serv-conf-content p {
+.comment {
   font-family: Consolas, monospace;
-  color: #777;
+  color: #635d5d9b;
   display: block;
   font-size: medium;
-  padding: 2px 10px;
-  border-left: 5px solid #ccc;
-  margin-bottom: -1rem;
+  font-weight: bolder;
+  padding: 0px 10px;
+  border-left: 5px solid #635d5d9b;
+  border-radius: 5px;
+  margin-top: -0.2rem;
+  margin-bottom: -0.2rem;
 }
 .serv-conf-year {
   background-color: #6d7993;
