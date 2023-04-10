@@ -3801,17 +3801,20 @@ tab-table-project {
   min-width: 100%;
 }
 .serv-table td {
-  padding: 10px;
+  padding: 5px;
   border: none;
 }
 .serv-table td:first-child {
-  text-align: left;
+  text-align: center;
+  width: 15%;
 }
 .serv-table td:last-child {
   text-align: right;
+  max-width: 20%;
 }
 .serv-table td:nth-child(2) {
-  max-width: 40%;
+  text-align: left;
+  max-width: 60%;
 }
 .serv-table tr {
   background: transparent !important;
