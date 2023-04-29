@@ -3761,6 +3761,16 @@ tab-table-project {
   border: none;
 }
 
+.conf-venue {
+  background-color: #83c4b9;
+  color: white;
+  vertical-align: top !important;
+  padding: 2px 5px;
+  border-radius: 0.25em;
+  font-family: CMUSansSerif; 
+  font-size: 1em;
+}
+
 .service-conf-venue {
   background-color: #83c4b9;
   color: white;
