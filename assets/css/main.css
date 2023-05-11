@@ -3922,6 +3922,20 @@ tab-table-project {
   color: #83c4b9 !important;
 }
 
+.links.conf {
+  background-color: #9b83c4;
+}
+
+.links.conf:before {
+  content: "\f63d";
+}
+
+.links.conf:hover {
+  border: 1.5px solid #9b83c4;
+  background-color: white;
+  color: #9b83c4 !important;
+}
+
 .links.poster:before {
   content: "\f1c5";
 }
