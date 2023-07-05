@@ -3873,7 +3873,7 @@ tab-table-project {
   background-color: #6d7993;
   color: white;
   padding: 3px 6px;
-  width: 120px !important;
+  width: 120px;
   border-radius: 0.2em;
   font-size: 0.9em;
   text-decoration: none;
@@ -3882,12 +3882,17 @@ tab-table-project {
 
 .links:before {
   font-family: "Font Awesome 5 Pro";
-  display: inline-block;
+  /* display: inline-block; */
   padding-right: 3px;
   padding-bottom: 2px;
   padding-top: 0.5px;
   vertical-align: middle;
   font-weight: 900;
+}
+
+.links:hover {
+  border: 1.5px solid #6d7993;
+  background-color: white;
 }
 
 .links.slides:before {
@@ -3922,15 +3927,15 @@ tab-table-project {
   color: #83c4b9 !important;
 }
 
-.links.conf {
+.links.event {
   background-color: #9b83c4;
 }
 
-.links.conf:before {
+.links.event:before {
   content: "\f63d";
 }
 
-.links.conf:hover {
+.links.event:hover {
   border: 1.5px solid #9b83c4;
   background-color: white;
   color: #9b83c4 !important;
@@ -3978,11 +3983,6 @@ tab-table-project {
   content: "\f091";
   padding-bottom: 0px;
   padding-top: 0px;
-}
-
-.links:hover {
-  border: 1.5px solid #6d7993;
-  background-color: white;
 }
 
 .links.award:hover {
