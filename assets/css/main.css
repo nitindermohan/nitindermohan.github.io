@@ -3913,6 +3913,10 @@ tab-table-project {
   content: "\f02d";
 }
 
+.links.arxiv:before {
+  content: "\f1e0";
+}
+
 .links.video {
   background-color: #83c4b9;
 }
