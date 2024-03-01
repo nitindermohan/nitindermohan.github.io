@@ -2162,6 +2162,9 @@ input[type="radio"] + label:before {
   text-decoration: none;
   border-bottom: none;
   position: relative;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 .icon:before {
