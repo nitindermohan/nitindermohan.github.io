@@ -4157,3 +4157,11 @@ tab-table-project {
   background-color: white;
   height: 70%;
 }
+
+.alert {
+  /* color: #17116e; */
+  background-color: #f4f5f6;
+  border: 1px #050e33 solid;
+  border-radius: 5px;
+  padding: 10px;
+}
