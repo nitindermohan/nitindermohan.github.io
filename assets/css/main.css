@@ -1729,7 +1729,7 @@ select,
 textarea {
   color: #888;
   /*    font-family: "Lato", sans-serif;*/
-  font-family: "CMUSansSerifMedium";
+  font-family: "Computer Modern Sans", sans-serif !important;
   font-size: 17pt;
   font-weight: 400;
   line-height: 1.75em;
@@ -3815,7 +3815,6 @@ tab-table-project {
   vertical-align: top !important;
   padding: 2px 5px;
   border-radius: 0.25em;
-  font-family: CMUSansSerif; 
   font-size: 1em;
 }
 
@@ -4165,3 +4164,9 @@ tab-table-project {
   border-radius: 5px;
   padding: 10px;
 }
+
+mark{
+  background-color:#a4cbebc0;
+  padding:0.1em 0.3em;
+  border-radius: 0.2em;
+ }
