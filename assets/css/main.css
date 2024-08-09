@@ -3885,11 +3885,11 @@ tab-table-project {
   font-family: Consolas, monospace;
   color: #635d5d9b;
   display: block;
-  font-size: medium;
-  font-weight: bolder;
-  padding: 0px 10px;
-  border-left: 5px solid #635d5d9b;
-  border-radius: 5px;
+  font-size: small;
+  /* font-weight: bolder; */
+  padding: 0px 2px;
+  border-left: 4px solid #635d5d9b;
+  border-radius: 2px;
   margin-top: -0.2rem;
   margin-bottom: -0.2rem;
 }
