@@ -1,53 +1,55 @@
 // variables
 // --------------------------
 
-@fa-css-prefix          : fa;
-@fa-style               : 900;
-@fa-style-family        : "Font Awesome 6 Pro";
-@fa-style-family-sharp  : "Font Awesome 6 Sharp";
+@fa-css-prefix            : fa;
+@fa-style                 : 900;
+@fa-style-family          : "Font Awesome 6 Pro";
 
-@fa-display             : inline-block;
+@fa-icon-property         : --fa;
+@fa-duotone-icon-property : --fa--fa;
 
-@fa-fw-width            : (20em / 16);
-@fa-inverse             : #fff;
+@fa-display               : inline-block;
 
-@fa-border-color        : #eee;
-@fa-border-padding      : .2em .25em .15em;
-@fa-border-radius       : .1em;
-@fa-border-style        : solid;
-@fa-border-width        : .08em;
+@fa-fw-width              : (20em / 16);
+@fa-inverse               : #fff;
 
-@fa-size-scale-2xs      : 10;
-@fa-size-scale-xs       : 12;
-@fa-size-scale-sm       : 14;
-@fa-size-scale-base     : 16;
-@fa-size-scale-lg       : 20;
-@fa-size-scale-xl       : 24;
-@fa-size-scale-2xl      : 32;
+@fa-border-color          : #eee;
+@fa-border-padding        : .2em .25em .15em;
+@fa-border-radius         : .1em;
+@fa-border-style          : solid;
+@fa-border-width          : .08em;
+
+@fa-size-scale-2xs        : 10;
+@fa-size-scale-xs         : 12;
+@fa-size-scale-sm         : 14;
+@fa-size-scale-base       : 16;
+@fa-size-scale-lg         : 20;
+@fa-size-scale-xl         : 24;
+@fa-size-scale-2xl        : 32;
 
 .fa-sizes() {
-  2xs                   : @fa-size-scale-2xs;
-  xs                    : @fa-size-scale-xs;
-  sm                    : @fa-size-scale-sm;
-  lg                    : @fa-size-scale-lg;
-  xl                    : @fa-size-scale-xl;
-  2xl                   : @fa-size-scale-2xl;
+  2xs                     : @fa-size-scale-2xs;
+  xs                      : @fa-size-scale-xs;
+  sm                      : @fa-size-scale-sm;
+  lg                      : @fa-size-scale-lg;
+  xl                      : @fa-size-scale-xl;
+  2xl                     : @fa-size-scale-2xl;
 }
 
-@fa-li-width            : 2em;
-@fa-li-margin           : (@fa-li-width * 5/4);
+@fa-li-width              : 2em;
+@fa-li-margin             : (@fa-li-width * 5/4);
 
-@fa-pull-margin         : .3em;
+@fa-pull-margin           : .3em;
 
-@fa-primary-opacity     : 1;
-@fa-secondary-opacity   : .4;
+@fa-primary-opacity       : 1;
+@fa-secondary-opacity     : .4;
 
-@fa-stack-vertical-align: middle;
-@fa-stack-width         : (@fa-fw-width * 2);
-@fa-stack-z-index       : auto;
+@fa-stack-vertical-align  : middle;
+@fa-stack-width           : (@fa-fw-width * 2);
+@fa-stack-z-index         : auto;
 
-@fa-font-display        : block;
-@fa-font-path           : "../webfonts";
+@fa-font-display          : block;
+@fa-font-path             : "../webfonts";
 
 @fa-var-0: "\30";
 @fa-var-1: "\31";
@@ -196,6 +198,8 @@
 @fa-var-people-line: "\e534";
 @fa-var-beer-mug-empty: "\f0fc";
 @fa-var-beer: "\f0fc";
+@fa-var-carpool: "\e69c";
+@fa-var-car-people: "\e69c";
 @fa-var-crate-empty: "\e151";
 @fa-var-diagram-predecessor: "\e477";
 @fa-var-transporter: "\e042";
@@ -282,6 +286,7 @@
 @fa-var-pumpkin: "\f707";
 @fa-var-clipboard-list: "\f46d";
 @fa-var-pen-field: "\e211";
+@fa-var-chart-sine: "\e69d";
 @fa-var-blueberries: "\e2e8";
 @fa-var-truck-ramp-box: "\f4de";
 @fa-var-truck-loading: "\f4de";
@@ -364,11 +369,13 @@
 @fa-var-tent-arrow-left-right: "\e57f";
 @fa-var-cart-circle-arrow-up: "\e3f0";
 @fa-var-trash-clock: "\e2b0";
+@fa-var-reflect-both: "\e66f";
 @fa-var-gavel: "\f0e3";
 @fa-var-legal: "\f0e3";
 @fa-var-sprinkler-ceiling: "\e44c";
 @fa-var-browsers: "\e0cb";
 @fa-var-trillium: "\e588";
+@fa-var-table-cells-unlock: "\e692";
 @fa-var-music-slash: "\f8d1";
 @fa-var-truck-ramp: "\f4e0";
 @fa-var-binoculars: "\f1e5";
@@ -562,6 +569,7 @@
 @fa-var-tree-palm: "\f82b";
 @fa-var-square-phone-flip: "\f87b";
 @fa-var-phone-square-alt: "\f87b";
+@fa-var-user-beard-bolt: "\e689";
 @fa-var-cart-plus: "\f217";
 @fa-var-gamepad: "\f11b";
 @fa-var-border-center-v: "\f89d";
@@ -888,6 +896,7 @@
 @fa-var-arrow-up-from-bracket: "\e09a";
 @fa-var-head-side-gear: "\e611";
 @fa-var-trash-plus: "\e2b2";
+@fa-var-file-cad: "\e672";
 @fa-var-objects-align-top: "\e3c0";
 @fa-var-folder: "\f07b";
 @fa-var-folder-blank: "\f07b";
@@ -944,6 +953,7 @@
 @fa-var-wave-pulse: "\f5f8";
 @fa-var-heart-rate: "\f5f8";
 @fa-var-key: "\f084";
+@fa-var-arrow-left-to-bracket: "\e669";
 @fa-var-hat-santa: "\f7a7";
 @fa-var-tamale: "\e451";
 @fa-var-box-check: "\f467";
@@ -1055,9 +1065,11 @@
 @fa-var-ear: "\f5f0";
 @fa-var-file-lock: "\e3a6";
 @fa-var-diagram-venn: "\e15a";
+@fa-var-arrow-down-from-bracket: "\e667";
 @fa-var-x-ray: "\f497";
 @fa-var-goal-net: "\e3ab";
 @fa-var-coffin-cross: "\e051";
+@fa-var-octopus: "\e688";
 @fa-var-spell-check: "\f891";
 @fa-var-location-xmark: "\f60e";
 @fa-var-map-marker-times: "\f60e";
@@ -1121,6 +1133,8 @@
 @fa-var-comment-smile: "\f4b4";
 @fa-var-venus: "\f221";
 @fa-var-passport: "\f5ab";
+@fa-var-thumbtack-slash: "\e68f";
+@fa-var-thumb-tack-slash: "\e68f";
 @fa-var-inbox-in: "\f310";
 @fa-var-inbox-arrow-down: "\f310";
 @fa-var-heart-pulse: "\f21e";
@@ -1139,6 +1153,7 @@
 @fa-var-weight-hanging: "\f5cd";
 @fa-var-xmarks-lines: "\e59a";
 @fa-var-file-prescription: "\f572";
+@fa-var-table-cells-lock: "\e679";
 @fa-var-calendar-range: "\e0d6";
 @fa-var-flower-daffodil: "\f800";
 @fa-var-hand-back-point-up: "\e1a2";
@@ -1262,6 +1277,7 @@
 @fa-var-user-edit: "\f4ff";
 @fa-var-binary-slash: "\e33e";
 @fa-var-square-o: "\e278";
+@fa-var-caduceus: "\e681";
 @fa-var-signature: "\f5b7";
 @fa-var-stroopwafel: "\f551";
 @fa-var-bold: "\f032";
@@ -1396,6 +1412,7 @@
 @fa-var-bracket-square-right: "\5d";
 @fa-var-martini-glass: "\f57b";
 @fa-var-glass-martini-alt: "\f57b";
+@fa-var-square-binary: "\e69b";
 @fa-var-rotate-left: "\f2ea";
 @fa-var-rotate-back: "\f2ea";
 @fa-var-rotate-backward: "\f2ea";
@@ -1446,6 +1463,7 @@
 @fa-var-stop-circle: "\f28d";
 @fa-var-head-side-headphones: "\f8c2";
 @fa-var-phone-rotary: "\f8d3";
+@fa-var-arrow-up-to-bracket: "\e66a";
 @fa-var-compass-drafting: "\f568";
 @fa-var-drafting-compass: "\f568";
 @fa-var-plate-wheat: "\e55a";
@@ -1490,6 +1508,7 @@
 @fa-var-viruses: "\e076";
 @fa-var-square-person-confined: "\e577";
 @fa-var-user-tie: "\f508";
+@fa-var-up-to-bracket: "\e66e";
 @fa-var-arrow-down-long: "\f175";
 @fa-var-long-arrow-down: "\f175";
 @fa-var-tent-arrow-down-to-line: "\e57e";
@@ -1541,6 +1560,7 @@
 @fa-var-address-card: "\f2bb";
 @fa-var-contact-card: "\f2bb";
 @fa-var-vcard: "\f2bb";
+@fa-var-chart-fft: "\e69e";
 @fa-var-scale-unbalanced-flip: "\f516";
 @fa-var-balance-scale-right: "\f516";
 @fa-var-globe-snow: "\f7a3";
@@ -1557,6 +1577,7 @@
 @fa-var-blinds-raised: "\f8fd";
 @fa-var-smog: "\f75f";
 @fa-var-ufo-beam: "\e048";
+@fa-var-hydra: "\e686";
 @fa-var-circle-caret-up: "\f331";
 @fa-var-caret-circle-up: "\f331";
 @fa-var-user-vneck-hair-long: "\e463";
@@ -1719,6 +1740,7 @@
 @fa-var-italic: "\f033";
 @fa-var-glass-citrus: "\f869";
 @fa-var-calendar-lines-pen: "\e472";
+@fa-var-table-cells-column-lock: "\e678";
 @fa-var-church: "\f51d";
 @fa-var-person-snowmobiling: "\f7d1";
 @fa-var-snowmobile: "\f7d1";
@@ -1787,6 +1809,7 @@
 @fa-var-kiss-wink-heart: "\f598";
 @fa-var-dagger: "\f6cb";
 @fa-var-podium: "\f680";
+@fa-var-diamonds-4: "\e68b";
 @fa-var-memo-circle-check: "\e1d9";
 @fa-var-route-highway: "\f61a";
 @fa-var-down-to-line: "\f34a";
@@ -2004,6 +2027,7 @@
 @fa-var-square-poll-horizontal: "\f682";
 @fa-var-poll-h: "\f682";
 @fa-var-circle: "\f111";
+@fa-var-left-to-bracket: "\e66d";
 @fa-var-cart-circle-exclamation: "\e3f2";
 @fa-var-sword: "\f71c";
 @fa-var-backward-fast: "\f049";
@@ -2218,6 +2242,7 @@
 @fa-var-hand-holding-dollar: "\f4c0";
 @fa-var-hand-holding-usd: "\f4c0";
 @fa-var-grid-dividers: "\e3ad";
+@fa-var-chart-diagram: "\e695";
 @fa-var-bacterium: "\e05a";
 @fa-var-hand-pointer: "\f25a";
 @fa-var-drum-steelpan: "\f56a";
@@ -2240,6 +2265,7 @@
 @fa-var-location-crosshairs: "\f601";
 @fa-var-location: "\f601";
 @fa-var-mars-double: "\f227";
+@fa-var-left-from-bracket: "\e66c";
 @fa-var-house-person-leave: "\e00f";
 @fa-var-house-leave: "\e00f";
 @fa-var-house-person-depart: "\e00f";
@@ -2297,6 +2323,7 @@
 @fa-var-starfighter-alt: "\e038";
 @fa-var-rocket-launch: "\e027";
 @fa-var-mosquito-net: "\e52c";
+@fa-var-file-fragment: "\e697";
 @fa-var-vent-damper: "\e465";
 @fa-var-bridge-water: "\e4ce";
 @fa-var-ban-bug: "\f7f9";
@@ -2366,6 +2393,7 @@
 @fa-var-arrow-left: "\f060";
 @fa-var-person-circle-xmark: "\e543";
 @fa-var-ruler: "\f545";
+@fa-var-arrow-left-from-bracket: "\e668";
 @fa-var-cup-straw-swoosh: "\e364";
 @fa-var-temperature-sun: "\f76a";
 @fa-var-temperature-hot: "\f76a";
@@ -2486,9 +2514,12 @@
 @fa-var-circle-y: "\e12f";
 @fa-var-h6: "\e413";
 @fa-var-litecoin-sign: "\e1d3";
+@fa-var-bottle-baby: "\e673";
 @fa-var-circle-small: "\e122";
 @fa-var-border-none: "\f850";
 @fa-var-arrow-turn-down-left: "\e2e1";
+@fa-var-circle-wifi-circle-wifi: "\e67e";
+@fa-var-circle-wifi-group: "\e67e";
 @fa-var-circle-nodes: "\e4e2";
 @fa-var-parachute-box: "\f4cd";
 @fa-var-reflect-horizontal: "\e664";
@@ -2751,6 +2782,7 @@
 @fa-var-square-d: "\e268";
 @fa-var-grip-vertical: "\f58e";
 @fa-var-mobile-signal-out: "\e1f0";
+@fa-var-hexagon-nodes: "\e699";
 @fa-var-arrow-turn-up: "\f148";
 @fa-var-level-up: "\f148";
 @fa-var-u: "\55";
@@ -2866,6 +2898,7 @@
 @fa-var-person-rifle: "\e54e";
 @fa-var-clock-five-thirty: "\e34a";
 @fa-var-pipe-valve: "\e439";
+@fa-var-lightbulb-message: "\e687";
 @fa-var-arrow-up-from-arc: "\e4b4";
 @fa-var-face-spiral-eyes: "\e485";
 @fa-var-compress-wide: "\f326";
@@ -3038,6 +3071,7 @@
 @fa-var-trash-can-check: "\e2a9";
 @fa-var-glass-water: "\e4f4";
 @fa-var-oil-well: "\e532";
+@fa-var-table-cells-column-unlock: "\e690";
 @fa-var-person-simple: "\e220";
 @fa-var-arrow-turn-left-up: "\e634";
 @fa-var-vault: "\e2c5";
@@ -3137,6 +3171,7 @@
 @fa-var-bells: "\f77f";
 @fa-var-person-through-window: "\e5a9";
 @fa-var-toolbox: "\f552";
+@fa-var-globe-wifi: "\e685";
 @fa-var-envelope-dot: "\e16f";
 @fa-var-envelope-badge: "\e16f";
 @fa-var-magnifying-glass-waveform: "\e661";
@@ -3234,6 +3269,7 @@
 @fa-var-folder-magnifying-glass: "\e18b";
 @fa-var-folder-search: "\e18b";
 @fa-var-notebook: "\e201";
+@fa-var-circle-wifi: "\e67d";
 @fa-var-droplet: "\f043";
 @fa-var-tint: "\f043";
 @fa-var-bullseye-pointer: "\f649";
@@ -3334,6 +3370,7 @@
 @fa-var-coffee-togo: "\f6c5";
 @fa-var-square-down-left: "\e26b";
 @fa-var-burger-lettuce: "\e3e3";
+@fa-var-table-cells-row-lock: "\e67a";
 @fa-var-rupiah-sign: "\e23d";
 @fa-var-magnifying-glass: "\f002";
 @fa-var-search: "\f002";
@@ -3356,6 +3393,8 @@
 @fa-var-save-times: "\e181";
 @fa-var-naira-sign: "\e1f6";
 @fa-var-peach: "\e20b";
+@fa-var-circles-overlap-3: "\e6a1";
+@fa-var-pronoun: "\e6a1";
 @fa-var-taxi-bus: "\e298";
 @fa-var-bracket-curly: "\7b";
 @fa-var-bracket-curly-left: "\7b";
@@ -3380,6 +3419,7 @@
 @fa-var-suitcase-rolling: "\f5c1";
 @fa-var-person-circle-exclamation: "\e53f";
 @fa-var-transporter-2: "\e044";
+@fa-var-user-hoodie: "\e68a";
 @fa-var-hands-holding-diamond: "\f47c";
 @fa-var-hand-receiving: "\f47c";
 @fa-var-money-bill-simple-wave: "\e1f2";
@@ -3555,6 +3595,7 @@
 @fa-var-quote-left: "\f10d";
 @fa-var-quote-left-alt: "\f10d";
 @fa-var-tractor: "\f722";
+@fa-var-down-from-bracket: "\e66b";
 @fa-var-key-skeleton: "\f6f3";
 @fa-var-trash-arrow-up: "\f829";
 @fa-var-trash-restore: "\f829";
@@ -3609,9 +3650,11 @@
 @fa-var-floppy-disk-circle-arrow-right: "\e180";
 @fa-var-save-circle-arrow-right: "\e180";
 @fa-var-folder-minus: "\f65d";
+@fa-var-hexagon-nodes-bolt: "\e69a";
 @fa-var-planet-moon: "\e01f";
 @fa-var-face-eyes-xmarks: "\e374";
 @fa-var-chart-scatter: "\f7ee";
+@fa-var-circle-gf: "\e67f";
 @fa-var-display-arrow-down: "\e164";
 @fa-var-store: "\f54e";
 @fa-var-arrow-trend-up: "\e098";
@@ -3772,6 +3815,7 @@
 @fa-var-spade: "\f2f4";
 @fa-var-card-spade: "\e3ec";
 @fa-var-line-columns: "\f870";
+@fa-var-ant: "\e680";
 @fa-var-arrow-right-to-line: "\f340";
 @fa-var-arrow-to-right: "\f340";
 @fa-var-person-falling-burst: "\e547";
@@ -3818,6 +3862,7 @@
 @fa-var-gun-slash: "\e19c";
 @fa-var-avocado: "\e0aa";
 @fa-var-binary: "\e33b";
+@fa-var-comment-nodes: "\e696";
 @fa-var-glasses-round: "\f5f5";
 @fa-var-glasses-alt: "\f5f5";
 @fa-var-phone-plus: "\f4d2";
@@ -4162,6 +4207,7 @@
 @fa-var-mug-saucer: "\f0f4";
 @fa-var-coffee: "\f0f4";
 @fa-var-brush: "\f55d";
+@fa-var-file-half-dashed: "\e698";
 @fa-var-tree-decorated: "\f7dc";
 @fa-var-mask: "\f6fa";
 @fa-var-calendar-heart: "\e0d3";
@@ -4222,6 +4268,7 @@
 @fa-var-keyboard-brightness-low: "\e1c1";
 @fa-var-ski-boot-ski: "\e3cd";
 @fa-var-brain-circuit: "\e0c6";
+@fa-var-table-cells-row-unlock: "\e691";
 @fa-var-user-injured: "\f728";
 @fa-var-block-brick-fire: "\e3dc";
 @fa-var-firewall: "\e3dc";
@@ -4345,6 +4392,8 @@
 @fa-var-centercode: "\f380";
 @fa-var-glide-g: "\f2a6";
 @fa-var-drupal: "\f1a9";
+@fa-var-jxl: "\e67b";
+@fa-var-dart-lang: "\e693";
 @fa-var-hire-a-helper: "\f3b0";
 @fa-var-creative-commons-by: "\f4e7";
 @fa-var-unity: "\e049";
@@ -4430,6 +4479,7 @@
 @fa-var-debian: "\e60b";
 @fa-var-openid: "\f19b";
 @fa-var-instalod: "\e081";
+@fa-var-files-pinwheel: "\e69f";
 @fa-var-expeditedssl: "\f23e";
 @fa-var-sellcast: "\f2da";
 @fa-var-square-twitter: "\f081";
@@ -4446,6 +4496,7 @@
 @fa-var-itunes-note: "\f3b5";
 @fa-var-golang: "\e40f";
 @fa-var-kickstarter: "\f3bb";
+@fa-var-square-kickstarter: "\f3bb";
 @fa-var-grav: "\f2d6";
 @fa-var-weibo: "\f18a";
 @fa-var-uncharted: "\e084";
@@ -4470,6 +4521,7 @@
 @fa-var-sticker-mule: "\f3f7";
 @fa-var-creative-commons-zero: "\f4f3";
 @fa-var-hips: "\f452";
+@fa-var-css: "\e6a2";
 @fa-var-behance: "\f1b4";
 @fa-var-reddit: "\f1a1";
 @fa-var-discord: "\f392";
@@ -4590,6 +4642,7 @@
 @fa-var-facebook-f: "\f39e";
 @fa-var-square-google-plus: "\f0d4";
 @fa-var-google-plus-square: "\f0d4";
+@fa-var-web-awesome: "\e682";
 @fa-var-mandalorian: "\f50f";
 @fa-var-first-order-alt: "\f50a";
 @fa-var-osi: "\f41a";
@@ -4612,6 +4665,7 @@
 @fa-var-spotify: "\f1bc";
 @fa-var-optin-monster: "\f23c";
 @fa-var-fly: "\f417";
+@fa-var-square-bluesky: "\e6a3";
 @fa-var-aviato: "\f421";
 @fa-var-itunes: "\f3b4";
 @fa-var-cuttlefish: "\f38c";
@@ -4644,6 +4698,7 @@
 @fa-var-superpowers: "\f2dd";
 @fa-var-resolving: "\f3e7";
 @fa-var-xbox: "\f412";
+@fa-var-square-web-awesome-stroke: "\e684";
 @fa-var-searchengin: "\f3eb";
 @fa-var-tiktok: "\e07b";
 @fa-var-square-facebook: "\f082";
@@ -4655,6 +4710,7 @@
 @fa-var-hubspot: "\f3b2";
 @fa-var-deploydog: "\f38e";
 @fa-var-twitch: "\f1e8";
+@fa-var-flutter: "\e694";
 @fa-var-ravelry: "\f2d9";
 @fa-var-mixer: "\e056";
 @fa-var-square-lastfm: "\f203";
@@ -4680,6 +4736,7 @@
 @fa-var-trade-federation: "\f513";
 @fa-var-autoprefixer: "\f41c";
 @fa-var-whatsapp: "\f232";
+@fa-var-square-upwork: "\e67c";
 @fa-var-slideshare: "\f1e7";
 @fa-var-google-play: "\f3ab";
 @fa-var-viadeo: "\f2a9";
@@ -4706,6 +4763,7 @@
 @fa-var-readme: "\f4d5";
 @fa-var-html5: "\f13b";
 @fa-var-sellsy: "\f213";
+@fa-var-square-web-awesome: "\e683";
 @fa-var-sass: "\f41e";
 @fa-var-wirsindhandwerk: "\e2d0";
 @fa-var-wsh: "\e2d0";
@@ -4718,6 +4776,7 @@
 @fa-var-apper: "\f371";
 @fa-var-fort-awesome: "\f286";
 @fa-var-waze: "\f83f";
+@fa-var-bluesky: "\e671";
 @fa-var-cc-jcb: "\f24b";
 @fa-var-snapchat: "\f2ab";
 @fa-var-snapchat-ghost: "\f2ab";
@@ -4979,6 +5038,8 @@
   people-line: @fa-var-people-line;
   beer-mug-empty: @fa-var-beer-mug-empty;
   beer: @fa-var-beer;
+  carpool: @fa-var-carpool;
+  car-people: @fa-var-car-people;
   crate-empty: @fa-var-crate-empty;
   diagram-predecessor: @fa-var-diagram-predecessor;
   transporter: @fa-var-transporter;
@@ -5065,6 +5126,7 @@
   pumpkin: @fa-var-pumpkin;
   clipboard-list: @fa-var-clipboard-list;
   pen-field: @fa-var-pen-field;
+  chart-sine: @fa-var-chart-sine;
   blueberries: @fa-var-blueberries;
   truck-ramp-box: @fa-var-truck-ramp-box;
   truck-loading: @fa-var-truck-loading;
@@ -5147,11 +5209,13 @@
   tent-arrow-left-right: @fa-var-tent-arrow-left-right;
   cart-circle-arrow-up: @fa-var-cart-circle-arrow-up;
   trash-clock: @fa-var-trash-clock;
+  reflect-both: @fa-var-reflect-both;
   gavel: @fa-var-gavel;
   legal: @fa-var-legal;
   sprinkler-ceiling: @fa-var-sprinkler-ceiling;
   browsers: @fa-var-browsers;
   trillium: @fa-var-trillium;
+  table-cells-unlock: @fa-var-table-cells-unlock;
   music-slash: @fa-var-music-slash;
   truck-ramp: @fa-var-truck-ramp;
   binoculars: @fa-var-binoculars;
@@ -5345,6 +5409,7 @@
   tree-palm: @fa-var-tree-palm;
   square-phone-flip: @fa-var-square-phone-flip;
   phone-square-alt: @fa-var-phone-square-alt;
+  user-beard-bolt: @fa-var-user-beard-bolt;
   cart-plus: @fa-var-cart-plus;
   gamepad: @fa-var-gamepad;
   border-center-v: @fa-var-border-center-v;
@@ -5671,6 +5736,7 @@
   arrow-up-from-bracket: @fa-var-arrow-up-from-bracket;
   head-side-gear: @fa-var-head-side-gear;
   trash-plus: @fa-var-trash-plus;
+  file-cad: @fa-var-file-cad;
   objects-align-top: @fa-var-objects-align-top;
   folder: @fa-var-folder;
   folder-blank: @fa-var-folder-blank;
@@ -5727,6 +5793,7 @@
   wave-pulse: @fa-var-wave-pulse;
   heart-rate: @fa-var-heart-rate;
   key: @fa-var-key;
+  arrow-left-to-bracket: @fa-var-arrow-left-to-bracket;
   hat-santa: @fa-var-hat-santa;
   tamale: @fa-var-tamale;
   box-check: @fa-var-box-check;
@@ -5838,9 +5905,11 @@
   ear: @fa-var-ear;
   file-lock: @fa-var-file-lock;
   diagram-venn: @fa-var-diagram-venn;
+  arrow-down-from-bracket: @fa-var-arrow-down-from-bracket;
   x-ray: @fa-var-x-ray;
   goal-net: @fa-var-goal-net;
   coffin-cross: @fa-var-coffin-cross;
+  octopus: @fa-var-octopus;
   spell-check: @fa-var-spell-check;
   location-xmark: @fa-var-location-xmark;
   map-marker-times: @fa-var-map-marker-times;
@@ -5904,6 +5973,8 @@
   comment-smile: @fa-var-comment-smile;
   venus: @fa-var-venus;
   passport: @fa-var-passport;
+  thumbtack-slash: @fa-var-thumbtack-slash;
+  thumb-tack-slash: @fa-var-thumb-tack-slash;
   inbox-in: @fa-var-inbox-in;
   inbox-arrow-down: @fa-var-inbox-arrow-down;
   heart-pulse: @fa-var-heart-pulse;
@@ -5922,6 +5993,7 @@
   weight-hanging: @fa-var-weight-hanging;
   xmarks-lines: @fa-var-xmarks-lines;
   file-prescription: @fa-var-file-prescription;
+  table-cells-lock: @fa-var-table-cells-lock;
   calendar-range: @fa-var-calendar-range;
   flower-daffodil: @fa-var-flower-daffodil;
   hand-back-point-up: @fa-var-hand-back-point-up;
@@ -6045,6 +6117,7 @@
   user-edit: @fa-var-user-edit;
   binary-slash: @fa-var-binary-slash;
   square-o: @fa-var-square-o;
+  caduceus: @fa-var-caduceus;
   signature: @fa-var-signature;
   stroopwafel: @fa-var-stroopwafel;
   bold: @fa-var-bold;
@@ -6179,6 +6252,7 @@
   bracket-square-right: @fa-var-bracket-square-right;
   martini-glass: @fa-var-martini-glass;
   glass-martini-alt: @fa-var-glass-martini-alt;
+  square-binary: @fa-var-square-binary;
   rotate-left: @fa-var-rotate-left;
   rotate-back: @fa-var-rotate-back;
   rotate-backward: @fa-var-rotate-backward;
@@ -6229,6 +6303,7 @@
   stop-circle: @fa-var-stop-circle;
   head-side-headphones: @fa-var-head-side-headphones;
   phone-rotary: @fa-var-phone-rotary;
+  arrow-up-to-bracket: @fa-var-arrow-up-to-bracket;
   compass-drafting: @fa-var-compass-drafting;
   drafting-compass: @fa-var-drafting-compass;
   plate-wheat: @fa-var-plate-wheat;
@@ -6273,6 +6348,7 @@
   viruses: @fa-var-viruses;
   square-person-confined: @fa-var-square-person-confined;
   user-tie: @fa-var-user-tie;
+  up-to-bracket: @fa-var-up-to-bracket;
   arrow-down-long: @fa-var-arrow-down-long;
   long-arrow-down: @fa-var-long-arrow-down;
   tent-arrow-down-to-line: @fa-var-tent-arrow-down-to-line;
@@ -6324,6 +6400,7 @@
   address-card: @fa-var-address-card;
   contact-card: @fa-var-contact-card;
   vcard: @fa-var-vcard;
+  chart-fft: @fa-var-chart-fft;
   scale-unbalanced-flip: @fa-var-scale-unbalanced-flip;
   balance-scale-right: @fa-var-balance-scale-right;
   globe-snow: @fa-var-globe-snow;
@@ -6340,6 +6417,7 @@
   blinds-raised: @fa-var-blinds-raised;
   smog: @fa-var-smog;
   ufo-beam: @fa-var-ufo-beam;
+  hydra: @fa-var-hydra;
   circle-caret-up: @fa-var-circle-caret-up;
   caret-circle-up: @fa-var-caret-circle-up;
   user-vneck-hair-long: @fa-var-user-vneck-hair-long;
@@ -6502,6 +6580,7 @@
   italic: @fa-var-italic;
   glass-citrus: @fa-var-glass-citrus;
   calendar-lines-pen: @fa-var-calendar-lines-pen;
+  table-cells-column-lock: @fa-var-table-cells-column-lock;
   church: @fa-var-church;
   person-snowmobiling: @fa-var-person-snowmobiling;
   snowmobile: @fa-var-snowmobile;
@@ -6570,6 +6649,7 @@
   kiss-wink-heart: @fa-var-kiss-wink-heart;
   dagger: @fa-var-dagger;
   podium: @fa-var-podium;
+  diamonds-4: @fa-var-diamonds-4;
   memo-circle-check: @fa-var-memo-circle-check;
   route-highway: @fa-var-route-highway;
   down-to-line: @fa-var-down-to-line;
@@ -6787,6 +6867,7 @@
   square-poll-horizontal: @fa-var-square-poll-horizontal;
   poll-h: @fa-var-poll-h;
   circle: @fa-var-circle;
+  left-to-bracket: @fa-var-left-to-bracket;
   cart-circle-exclamation: @fa-var-cart-circle-exclamation;
   sword: @fa-var-sword;
   backward-fast: @fa-var-backward-fast;
@@ -7001,6 +7082,7 @@
   hand-holding-dollar: @fa-var-hand-holding-dollar;
   hand-holding-usd: @fa-var-hand-holding-usd;
   grid-dividers: @fa-var-grid-dividers;
+  chart-diagram: @fa-var-chart-diagram;
   bacterium: @fa-var-bacterium;
   hand-pointer: @fa-var-hand-pointer;
   drum-steelpan: @fa-var-drum-steelpan;
@@ -7023,6 +7105,7 @@
   location-crosshairs: @fa-var-location-crosshairs;
   location: @fa-var-location;
   mars-double: @fa-var-mars-double;
+  left-from-bracket: @fa-var-left-from-bracket;
   house-person-leave: @fa-var-house-person-leave;
   house-leave: @fa-var-house-leave;
   house-person-depart: @fa-var-house-person-depart;
@@ -7080,6 +7163,7 @@
   starfighter-alt: @fa-var-starfighter-alt;
   rocket-launch: @fa-var-rocket-launch;
   mosquito-net: @fa-var-mosquito-net;
+  file-fragment: @fa-var-file-fragment;
   vent-damper: @fa-var-vent-damper;
   bridge-water: @fa-var-bridge-water;
   ban-bug: @fa-var-ban-bug;
@@ -7149,6 +7233,7 @@
   arrow-left: @fa-var-arrow-left;
   person-circle-xmark: @fa-var-person-circle-xmark;
   ruler: @fa-var-ruler;
+  arrow-left-from-bracket: @fa-var-arrow-left-from-bracket;
   cup-straw-swoosh: @fa-var-cup-straw-swoosh;
   temperature-sun: @fa-var-temperature-sun;
   temperature-hot: @fa-var-temperature-hot;
@@ -7269,9 +7354,12 @@
   circle-y: @fa-var-circle-y;
   h6: @fa-var-h6;
   litecoin-sign: @fa-var-litecoin-sign;
+  bottle-baby: @fa-var-bottle-baby;
   circle-small: @fa-var-circle-small;
   border-none: @fa-var-border-none;
   arrow-turn-down-left: @fa-var-arrow-turn-down-left;
+  circle-wifi-circle-wifi: @fa-var-circle-wifi-circle-wifi;
+  circle-wifi-group: @fa-var-circle-wifi-group;
   circle-nodes: @fa-var-circle-nodes;
   parachute-box: @fa-var-parachute-box;
   reflect-horizontal: @fa-var-reflect-horizontal;
@@ -7534,6 +7622,7 @@
   square-d: @fa-var-square-d;
   grip-vertical: @fa-var-grip-vertical;
   mobile-signal-out: @fa-var-mobile-signal-out;
+  hexagon-nodes: @fa-var-hexagon-nodes;
   arrow-turn-up: @fa-var-arrow-turn-up;
   level-up: @fa-var-level-up;
   u: @fa-var-u;
@@ -7649,6 +7738,7 @@
   person-rifle: @fa-var-person-rifle;
   clock-five-thirty: @fa-var-clock-five-thirty;
   pipe-valve: @fa-var-pipe-valve;
+  lightbulb-message: @fa-var-lightbulb-message;
   arrow-up-from-arc: @fa-var-arrow-up-from-arc;
   face-spiral-eyes: @fa-var-face-spiral-eyes;
   compress-wide: @fa-var-compress-wide;
@@ -7821,6 +7911,7 @@
   trash-can-check: @fa-var-trash-can-check;
   glass-water: @fa-var-glass-water;
   oil-well: @fa-var-oil-well;
+  table-cells-column-unlock: @fa-var-table-cells-column-unlock;
   person-simple: @fa-var-person-simple;
   arrow-turn-left-up: @fa-var-arrow-turn-left-up;
   vault: @fa-var-vault;
@@ -7920,6 +8011,7 @@
   bells: @fa-var-bells;
   person-through-window: @fa-var-person-through-window;
   toolbox: @fa-var-toolbox;
+  globe-wifi: @fa-var-globe-wifi;
   envelope-dot: @fa-var-envelope-dot;
   envelope-badge: @fa-var-envelope-badge;
   magnifying-glass-waveform: @fa-var-magnifying-glass-waveform;
@@ -8017,6 +8109,7 @@
   folder-magnifying-glass: @fa-var-folder-magnifying-glass;
   folder-search: @fa-var-folder-search;
   notebook: @fa-var-notebook;
+  circle-wifi: @fa-var-circle-wifi;
   droplet: @fa-var-droplet;
   tint: @fa-var-tint;
   bullseye-pointer: @fa-var-bullseye-pointer;
@@ -8117,6 +8210,7 @@
   coffee-togo: @fa-var-coffee-togo;
   square-down-left: @fa-var-square-down-left;
   burger-lettuce: @fa-var-burger-lettuce;
+  table-cells-row-lock: @fa-var-table-cells-row-lock;
   rupiah-sign: @fa-var-rupiah-sign;
   magnifying-glass: @fa-var-magnifying-glass;
   search: @fa-var-search;
@@ -8139,6 +8233,8 @@
   save-times: @fa-var-save-times;
   naira-sign: @fa-var-naira-sign;
   peach: @fa-var-peach;
+  circles-overlap-3: @fa-var-circles-overlap-3;
+  pronoun: @fa-var-pronoun;
   taxi-bus: @fa-var-taxi-bus;
   bracket-curly: @fa-var-bracket-curly;
   bracket-curly-left: @fa-var-bracket-curly-left;
@@ -8163,6 +8259,7 @@
   suitcase-rolling: @fa-var-suitcase-rolling;
   person-circle-exclamation: @fa-var-person-circle-exclamation;
   transporter-2: @fa-var-transporter-2;
+  user-hoodie: @fa-var-user-hoodie;
   hands-holding-diamond: @fa-var-hands-holding-diamond;
   hand-receiving: @fa-var-hand-receiving;
   money-bill-simple-wave: @fa-var-money-bill-simple-wave;
@@ -8338,6 +8435,7 @@
   quote-left: @fa-var-quote-left;
   quote-left-alt: @fa-var-quote-left-alt;
   tractor: @fa-var-tractor;
+  down-from-bracket: @fa-var-down-from-bracket;
   key-skeleton: @fa-var-key-skeleton;
   trash-arrow-up: @fa-var-trash-arrow-up;
   trash-restore: @fa-var-trash-restore;
@@ -8392,9 +8490,11 @@
   floppy-disk-circle-arrow-right: @fa-var-floppy-disk-circle-arrow-right;
   save-circle-arrow-right: @fa-var-save-circle-arrow-right;
   folder-minus: @fa-var-folder-minus;
+  hexagon-nodes-bolt: @fa-var-hexagon-nodes-bolt;
   planet-moon: @fa-var-planet-moon;
   face-eyes-xmarks: @fa-var-face-eyes-xmarks;
   chart-scatter: @fa-var-chart-scatter;
+  circle-gf: @fa-var-circle-gf;
   display-arrow-down: @fa-var-display-arrow-down;
   store: @fa-var-store;
   arrow-trend-up: @fa-var-arrow-trend-up;
@@ -8555,6 +8655,7 @@
   spade: @fa-var-spade;
   card-spade: @fa-var-card-spade;
   line-columns: @fa-var-line-columns;
+  ant: @fa-var-ant;
   arrow-right-to-line: @fa-var-arrow-right-to-line;
   arrow-to-right: @fa-var-arrow-to-right;
   person-falling-burst: @fa-var-person-falling-burst;
@@ -8601,6 +8702,7 @@
   gun-slash: @fa-var-gun-slash;
   avocado: @fa-var-avocado;
   binary: @fa-var-binary;
+  comment-nodes: @fa-var-comment-nodes;
   glasses-round: @fa-var-glasses-round;
   glasses-alt: @fa-var-glasses-alt;
   phone-plus: @fa-var-phone-plus;
@@ -8945,6 +9047,7 @@
   mug-saucer: @fa-var-mug-saucer;
   coffee: @fa-var-coffee;
   brush: @fa-var-brush;
+  file-half-dashed: @fa-var-file-half-dashed;
   tree-decorated: @fa-var-tree-decorated;
   mask: @fa-var-mask;
   calendar-heart: @fa-var-calendar-heart;
@@ -9005,6 +9108,7 @@
   keyboard-brightness-low: @fa-var-keyboard-brightness-low;
   ski-boot-ski: @fa-var-ski-boot-ski;
   brain-circuit: @fa-var-brain-circuit;
+  table-cells-row-unlock: @fa-var-table-cells-row-unlock;
   user-injured: @fa-var-user-injured;
   block-brick-fire: @fa-var-block-brick-fire;
   firewall: @fa-var-firewall;
@@ -9130,6 +9234,8 @@
   centercode: @fa-var-centercode;
   glide-g: @fa-var-glide-g;
   drupal: @fa-var-drupal;
+  jxl: @fa-var-jxl;
+  dart-lang: @fa-var-dart-lang;
   hire-a-helper: @fa-var-hire-a-helper;
   creative-commons-by: @fa-var-creative-commons-by;
   unity: @fa-var-unity;
@@ -9215,6 +9321,7 @@
   debian: @fa-var-debian;
   openid: @fa-var-openid;
   instalod: @fa-var-instalod;
+  files-pinwheel: @fa-var-files-pinwheel;
   expeditedssl: @fa-var-expeditedssl;
   sellcast: @fa-var-sellcast;
   square-twitter: @fa-var-square-twitter;
@@ -9231,6 +9338,7 @@
   itunes-note: @fa-var-itunes-note;
   golang: @fa-var-golang;
   kickstarter: @fa-var-kickstarter;
+  square-kickstarter: @fa-var-square-kickstarter;
   grav: @fa-var-grav;
   weibo: @fa-var-weibo;
   uncharted: @fa-var-uncharted;
@@ -9255,6 +9363,7 @@
   sticker-mule: @fa-var-sticker-mule;
   creative-commons-zero: @fa-var-creative-commons-zero;
   hips: @fa-var-hips;
+  css: @fa-var-css;
   behance: @fa-var-behance;
   reddit: @fa-var-reddit;
   discord: @fa-var-discord;
@@ -9375,6 +9484,7 @@
   facebook-f: @fa-var-facebook-f;
   square-google-plus: @fa-var-square-google-plus;
   google-plus-square: @fa-var-google-plus-square;
+  web-awesome: @fa-var-web-awesome;
   mandalorian: @fa-var-mandalorian;
   first-order-alt: @fa-var-first-order-alt;
   osi: @fa-var-osi;
@@ -9397,6 +9507,7 @@
   spotify: @fa-var-spotify;
   optin-monster: @fa-var-optin-monster;
   fly: @fa-var-fly;
+  square-bluesky: @fa-var-square-bluesky;
   aviato: @fa-var-aviato;
   itunes: @fa-var-itunes;
   cuttlefish: @fa-var-cuttlefish;
@@ -9429,6 +9540,7 @@
   superpowers: @fa-var-superpowers;
   resolving: @fa-var-resolving;
   xbox: @fa-var-xbox;
+  square-web-awesome-stroke: @fa-var-square-web-awesome-stroke;
   searchengin: @fa-var-searchengin;
   tiktok: @fa-var-tiktok;
   square-facebook: @fa-var-square-facebook;
@@ -9440,6 +9552,7 @@
   hubspot: @fa-var-hubspot;
   deploydog: @fa-var-deploydog;
   twitch: @fa-var-twitch;
+  flutter: @fa-var-flutter;
   ravelry: @fa-var-ravelry;
   mixer: @fa-var-mixer;
   square-lastfm: @fa-var-square-lastfm;
@@ -9465,6 +9578,7 @@
   trade-federation: @fa-var-trade-federation;
   autoprefixer: @fa-var-autoprefixer;
   whatsapp: @fa-var-whatsapp;
+  square-upwork: @fa-var-square-upwork;
   slideshare: @fa-var-slideshare;
   google-play: @fa-var-google-play;
   viadeo: @fa-var-viadeo;
@@ -9491,6 +9605,7 @@
   readme: @fa-var-readme;
   html5: @fa-var-html5;
   sellsy: @fa-var-sellsy;
+  square-web-awesome: @fa-var-square-web-awesome;
   sass: @fa-var-sass;
   wirsindhandwerk: @fa-var-wirsindhandwerk;
   wsh: @fa-var-wsh;
@@ -9503,6 +9618,7 @@
   apper: @fa-var-apper;
   fort-awesome: @fa-var-fort-awesome;
   waze: @fa-var-waze;
+  bluesky: @fa-var-bluesky;
   cc-jcb: @fa-var-cc-jcb;
   snapchat: @fa-var-snapchat;
   snapchat-ghost: @fa-var-snapchat-ghost;
