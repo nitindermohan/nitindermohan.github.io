@@ -4,6 +4,108 @@ form {
   flex-direction: row;
 }
 
+/* Awards Section Styling */
+.awards-section {
+  margin: 2em 0;
+}
+
+.awards-section h3 {
+  color: #495057;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 1.2em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.awards-section h3 i {
+  color: #f39c12;
+  font-size: 1.2em;
+}
+
+.awards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+
+.award-item {
+  display: flex;
+  align-items: center;
+  padding: 0.6em 0.8em;
+  border-radius: 6px;
+  border-left: 3px solid #6d7993;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.award-item:hover {
+  transform: translateY(-2px);
+  border-left-color: #f39c12;
+}
+
+.award-year {
+  background: #6d7993;
+  color: white;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.85em;
+  margin-right: 0.8em;
+  min-width: 55px;
+  text-align: center;
+}
+
+.award-title {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+/* Responsive design for awards */
+@media (max-width: 768px) {
+  .award-item {
+    width: 100%;
+  }
+
+  .awards-section h3 {
+    font-size: 1.2em;
+  }
+}
+
+/* Animation for awards on load */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.award-item {
+  animation: fadeInLeft 0.4s ease forwards;
+}
+
+.award-item:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.award-item:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.award-item:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.award-item:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.award-item:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
 label {
   display: flex;
   cursor: pointer;
@@ -51,4 +153,65 @@ label span:before {
   margin-right: 0.375em;
   transition: 0.25s ease;
   box-shadow: inset 0 0 0 0.125em #6d7993;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* PhD Callout Styling */
+.phd-callout {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.2em 1.5em;
+  margin: 2em 0;
+  background: linear-gradient(135deg, #e8f4f8 0%, #f0f8ff 100%);
+  border-left: 4px solid #2980b9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.phd-callout:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.phd-callout i {
+  color: #2980b9;
+  font-size: 1.5em;
+  flex-shrink: 0;
+}
+
+.callout-content {
+  color: #2c3e50;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.callout-content strong {
+  color: #2980b9;
+  font-weight: 600;
+}
+
+.callout-content a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.callout-content a:hover {
+  border-bottom-color: #2980b9;
+}
+
+/* Responsive design for callout */
+@media (max-width: 768px) {
+  .phd-callout {
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .phd-callout i {
+    font-size: 1.3em;
+  }
+}
