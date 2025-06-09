@@ -159,8 +159,8 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Box Model */
 
@@ -1871,8 +1871,8 @@ pre code {
 }
 
 .morebutton {
-  text-decoration: none; 
-  border: none
+  text-decoration: none;
+  border: none;
 }
 
 .align-left {
@@ -2182,48 +2182,47 @@ input[type="radio"] + label:before {
 
 /* Duotone icons */
 
-  /* Step 1: Common Duotone positioning properties: All required to make icons render reliably */
-  .icon-duotone {
-    position: relative;
-    padding-left: 1.25em; /* make space for the width of the absolutely positioned icon */
-  }
+/* Step 1: Common Duotone positioning properties: All required to make icons render reliably */
+.icon-duotone {
+  position: relative;
+  padding-left: 1.25em; /* make space for the width of the absolutely positioned icon */
+}
 
-  /* Step 2: Set the font styles for Duotone */
-  .icon-duotone::before,
-  .icon-duotone::after {
-    font: var(--fa-font-duotone);
+/* Step 2: Set the font styles for Duotone */
+.icon-duotone::before,
+.icon-duotone::after {
+  font: var(--fa-font-duotone);
 
-    /* include the basic Font Awesome font style settings if you haven't already */
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+  /* include the basic Font Awesome font style settings if you haven't already */
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 
-    /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1.25em;
-    text-align: center;
-  }
+  /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.25em;
+  text-align: center;
+}
 
-  .custom-icon-duotone::before,
-  .custom-icon-duotone::after {
-    font-family: "Font Awesome Kit Duotone"; /* note that you need to use "font-family" for custom icons */
-  }
+.custom-icon-duotone::before,
+.custom-icon-duotone::after {
+  font-family: "Font Awesome Kit Duotone"; /* note that you need to use "font-family" for custom icons */
+}
 
-  /* Step 3: Set the default opacity levels and colors for each layer */
-  .icon-duotone::before {
-    color: var(--fa-primary-color, inherit);
-    opacity: 1;
-    opacity: var(--fa-primary-opacity, 1.0);
-  }
+/* Step 3: Set the default opacity levels and colors for each layer */
+.icon-duotone::before {
+  color: var(--fa-primary-color, inherit);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
 
-  .icon-duotone::after {
-    color: var(--fa-secondary-color, inherit);
-    opacity: var(--fa-secondary-opacity, 0.4);
-  }
-
+.icon-duotone::after {
+  color: var(--fa-secondary-color, inherit);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
 
 /* Image */
 
@@ -4117,7 +4116,7 @@ tab-table-project {
 }
 
 .service-row {
-  flex: 0 0 50%;  /* Each item takes 50% width */
+  flex: 0 0 50%; /* Each item takes 50% width */
   box-sizing: border-box;
   padding: 10px 20px 20px 10px;
   text-decoration: none !important;
@@ -4149,14 +4148,14 @@ tab-table-project {
 }
 
 .sticky-header {
-  position: sticky; 
+  position: sticky;
   top: 2px;
   background-color: white;
   height: 70%;
 }
 
 .sticky-header-nav {
-  position: sticky; 
+  position: sticky;
   top: 59px;
   background-color: white;
   height: 70%;
@@ -4169,9 +4168,3 @@ tab-table-project {
   border-radius: 5px;
   padding: 10px;
 }
-
-mark{
-  background-color:#a4cbebc0;
-  padding:0.1em 0.3em;
-  border-radius: 0.2em;
- }

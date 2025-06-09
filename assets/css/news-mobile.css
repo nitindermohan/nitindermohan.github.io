@@ -1,0 +1,51 @@
+/* News Section Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  /* Make news table responsive on mobile */
+  .news-table {
+    font-size: 0.9em;
+  }
+
+  .news-table td {
+    padding: 0.5em 0.3em !important;
+    vertical-align: top;
+  }
+
+  .news-table td:first-child {
+    width: 80px !important;
+    font-size: 0.8em;
+  }
+
+  .news-table td:last-child {
+    width: auto;
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+
+  /* Adjust news links for mobile */
+  .links {
+    font-size: 0.75em !important;
+    padding: 2px 4px !important;
+    margin: 1px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .news-table {
+    font-size: 0.8em;
+  }
+
+  .news-table td:first-child {
+    width: 70px !important;
+    font-size: 0.7em;
+  }
+
+  .news-table td:last-child {
+    font-size: 0.8em;
+  }
+
+  .links {
+    font-size: 0.7em !important;
+    padding: 1px 3px !important;
+  }
+}
