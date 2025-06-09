@@ -1,28 +1,43 @@
 /* News Section Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   /* Make news table responsive on mobile */
-  .news-table {
-    font-size: 0.9em;
+  #newstable {
+    width: 100% !important;
+    table-layout: fixed !important;
   }
 
-  .news-table td {
+  #newstable td {
     padding: 0.5em 0.3em !important;
     vertical-align: top;
+    word-wrap: break-word !important;
   }
 
-  .news-table td:first-child {
+  #newstable td:first-child {
     width: 80px !important;
-    font-size: 0.8em;
   }
 
-  .news-table td:last-child {
+  #newstable td:last-child {
     width: auto;
-    font-size: 0.85em;
     line-height: 1.4;
   }
 
+  /* Make images responsive in news table */
+  #newstable img {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  /* Make videos/iframes responsive in news table */
+  #newstable iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16/9 !important;
+  }
+
   /* Adjust news links for mobile */
-  .links {
+  #newstable .links {
     font-size: 0.75em !important;
     padding: 2px 4px !important;
     margin: 1px;
@@ -31,20 +46,25 @@
 }
 
 @media screen and (max-width: 480px) {
-  .news-table {
-    font-size: 0.8em;
-  }
-
-  .news-table td:first-child {
+  #newstable td:first-child {
     width: 70px !important;
-    font-size: 0.7em;
   }
 
-  .news-table td:last-child {
-    font-size: 0.8em;
+  /* Further restrict image size on very small screens */
+  #newstable img {
+    max-width: 90% !important;
+    height: auto !important;
+    width: auto !important;
   }
 
-  .links {
+  /* Keep videos responsive but slightly smaller on very small screens */
+  #newstable iframe {
+    max-width: 95% !important;
+    width: 95% !important;
+    aspect-ratio: 16/9 !important;
+  }
+
+  #newstable .links {
     font-size: 0.7em !important;
     padding: 1px 3px !important;
   }
