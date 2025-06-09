@@ -2,6 +2,7 @@
 @media screen and (max-width: 768px) {
   /* Make news table responsive on mobile */
   #newstable {
+    font-size: 0.9em;
     width: 100% !important;
     table-layout: fixed !important;
   }
@@ -14,26 +15,13 @@
 
   #newstable td:first-child {
     width: 80px !important;
+    font-size: 0.8em;
   }
 
   #newstable td:last-child {
     width: auto;
+    font-size: 0.85em;
     line-height: 1.4;
-  }
-
-  /* Make images responsive in news table */
-  #newstable img {
-    max-width: 100% !important;
-    height: auto !important;
-    width: auto !important;
-  }
-
-  /* Make videos/iframes responsive in news table */
-  #newstable iframe {
-    max-width: 100% !important;
-    width: 100% !important;
-    height: auto !important;
-    aspect-ratio: 16/9 !important;
   }
 
   /* Adjust news links for mobile */
@@ -46,22 +34,17 @@
 }
 
 @media screen and (max-width: 480px) {
+  #newstable {
+    font-size: 0.8em;
+  }
+
   #newstable td:first-child {
     width: 70px !important;
+    font-size: 0.7em;
   }
 
-  /* Further restrict image size on very small screens */
-  #newstable img {
-    max-width: 90% !important;
-    height: auto !important;
-    width: auto !important;
-  }
-
-  /* Keep videos responsive but slightly smaller on very small screens */
-  #newstable iframe {
-    max-width: 95% !important;
-    width: 95% !important;
-    aspect-ratio: 16/9 !important;
+  #newstable td:last-child {
+    font-size: 0.8em;
   }
 
   #newstable .links {
