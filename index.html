@@ -6,19 +6,47 @@
     <title>Nitinder Mohan</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Performance optimizations -->
+    <meta http-equiv="Cache-Control" content="max-age=31536000">
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//www.youtube.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+
+    <!-- Critical CSS first -->
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Non-critical CSS with preload
+    <link rel="preload" href="assets/css/academicons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/bibtext.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/zocial.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/news-mobile.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    -->
+
+    <!-- Fallback for browsers that don't support preload -->
     <link rel="stylesheet" href="assets/css/academicons.css" />
     <link rel="stylesheet" href="assets/css/bibtext.css" />
     <link rel="stylesheet" href="assets/css/zocial.css" />
     <link rel="stylesheet" href="assets/css/news-mobile.css" />
-    <link rel="icon" href="nitin_pic_rKJ_icon.ico" />
-    <!-- <link href="assets/fontawesome/css/all.css" rel="stylesheet"> -->
-    <link href="assets/fontawesome-pro-6.5.1-web/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
+    <link rel="icon" href="nitin_pic_rKJ_icon.ico" />
+
+    <!-- Load FontAwesome asynchronously 
+    <link rel="preload" href="assets/fontawesome-pro-6.5.1-web/css/all.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    -->
+    <link rel="stylesheet" href="assets/fontawesome-pro-6.5.1-web/css/all.css">
+
+    <!-- Load external fonts asynchronously
+    <link rel="preload" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
 </head>
 
 <body>
@@ -167,18 +195,22 @@
                         <h3><i class="fa-solid fa-trophy"></i> Selected Awards & Recognition</h3>
                         <div class="awards-container">
                             <div class="award-item">
+                                <img src="/images/anrp2025.png" alt="IRTF ANRP" class="award-thumbnail">
                                 <div class="award-year">2025</div>
                                 <div class="award-content">
                                     <div class="award-title">IETF/IRTF Applied Networking Research Prize (ANRP)</div>
                                 </div>
                             </div>
                             <div class="award-item">
+                                <img src="/images/edgesys2025-bestpaper.jpg" alt="EdgeSys Best Paper"
+                                    class="award-thumbnail">
                                 <div class="award-year">2025</div>
                                 <div class="award-content">
                                     <div class="award-title">ACM EdgeSys Best Paper Award</div>
                                 </div>
                             </div>
                             <div class="award-item">
+                                <img src="/images/ripe90/_FCZ7613.jpg" alt="RIPE Fellowship" class="award-thumbnail">
                                 <div class="award-year">2025</div>
                                 <div class="award-content">
                                     <div class="award-title">RIPE Academic Cooperation Initiative (RACI) Fellowship
@@ -186,12 +218,24 @@
                                 </div>
                             </div>
                             <div class="award-item">
+                                <img src="/images/eurosys25-bestPoster.jpg" alt="EuroSys Best Poster"
+                                    class="award-thumbnail">
+                                <div class="award-year">2025</div>
+                                <div class="award-content">
+                                    <div class="award-title">ACM EuroSys Best Poster Award</div>
+                                </div>
+                            </div>
+                            <div class="award-item">
+                                <img src="/images/bestPaper-fnwf2023.jpeg" alt="IEEE Future Networks"
+                                    class="award-thumbnail">
                                 <div class="award-year">2023</div>
                                 <div class="award-content">
                                     <div class="award-title">IEEE Future Networks Best Paper Award</div>
                                 </div>
                             </div>
                             <div class="award-item">
+                                <img src="/documents/thesis/Dissertation-Award.jpg" alt="IEEE TCSC Award"
+                                    class="award-thumbnail">
                                 <div class="award-year">2020</div>
                                 <div class="award-content">
                                     <div class="award-title">IEEE TCSC Outstanding Ph.D. Dissertation Award</div>
@@ -262,6 +306,15 @@
                         <h2>Recent News</h2>
                     </header>
                     <table id="newstable">
+                        <tr>
+                            <td>July, 2026</td>
+                            <td><i class="fa-duotone fa-calendar-days"></i> We will be organizing the <b>Network Traffic
+                                    Measurement and Analysis Conference (TMA) 2026</b> in Delft, Netherlands.
+                                Join us for cutting-edge research in network measurement and analysis!
+                                <br>
+                                <img src="/images/tma2026-delft.png" width="350" class="img-class">
+                            </td>
+                        </tr>
                         <tr>
                             <td>June, 2025</td>
                             <td><i class="fa-duotone fa-people-group"></i> Panelist at the pre-NATO Summit event on
@@ -1863,6 +1916,16 @@
                             <h2>Research Overview</h2>
                         </header>
 
+                        <a href="https://btw.media/exclusives/interview-with-dr-nitinder-mohan-edge-satellites-internet-reality/"
+                            target="_blank" style="text-decoration: none;">
+                            <div class="interview-callout">
+                                <i class="fa-solid fa-microphone-lines"></i>
+                                <div class="callout-content">
+                                    Curious about SPEAR lab research? Check out this interview.
+                                </div>
+                            </div>
+                        </a>
+
                         <p>I consider myself as a "<i>distributed systems</i>" guy as I have always been involved in
                             various domains (read "avatars") of this field.
                             <i>"Divided we stand, united we fall"</i> is my personal motto in the context of computer
@@ -2296,19 +2359,21 @@
                                                     <a href="https://github.com/2DFS" target="_blank"
                                                         class="links github">Code</a>
 
-                                                    <!--
-                                                        <a href="https://www.usenix.org/conference/atc23/presentation/bartolomeo"
+                                                    <a href="https://www.usenix.org/conference/atc25/presentation/bartolomeo"
                                                         target="_blank" class="links doi">DOI</a>
 
+                                                    <!--
                                                     <a href="https://youtu.be/tdwTqPh8lH0" target="_blank"
                                                         class="links video">Video</a>
+                                                    -->
 
-                                                    <a href="https://www.oakestra.io/" target="_blank"
+                                                    <a href="https://2dfs.github.io/" target="_blank"
                                                         class="links website">Website</a>
 
-                                                    <a href="https://github.com/oakestra/USENIX-ATC23-Oakestra-Artifacts"
+                                                    <a href="https://github.com/2DFS/artifacts-evaluation"
                                                         target="_blank" class="links website">Artifacts</a>
 
+                                                    <!--
                                                     <a href="https://youtube.com/watch?v=HVfKAzE_wsY&t=2663"
                                                         target="_blank" class="links video">IETF 117</a> -->
 
@@ -6062,6 +6127,20 @@
                             <table class="serv-table">
                                 <tr>
                                     <td>
+                                        <span class="service-conf-venue">TMA</span>
+                                    </td>
+                                    <td>
+                                        <span class="serv-conf-content"> IFIP Network Traffic Measurement and Analysis
+                                            Conference
+                                            <p class="comment">General Chair</p>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="serv-conf-year"><a href="" target="_blank">2026</a></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
                                         <span class="service-conf-venue">Dagstuhl</span>
                                     </td>
                                     <td>
@@ -7150,7 +7229,7 @@
                                     <td>
                                         <span class="service-conf-content">
                                             <a href="https://ripe90.ripe.net/" target="_blank">RIPE 90</a>
-                                            <a href="https://youtu.be/9DepVBxWX38?t=28572" target="_blank"><i
+                                            <a href="https://youtu.be/9DepVBxWX38?t=15837" target="_blank"><i
                                                     class="fas fa-video"></i></a>
                                             <p class="comment">Title: Frontiers of LEO Space Networks: Understanding the
                                                 Intricacies of Starlink's Internet Access</p>
@@ -7942,33 +8021,41 @@
 
             </div>-->
 
-            <!-- Scripts -->
+            <!-- Scripts - Optimized loading -->
+            <!-- Critical JS first -->
             <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrollzer.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
             <script src="assets/js/skel.min.js"></script>
             <script src="assets/js/util.js"></script>
-            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
             <script src="assets/js/main.js"></script>
-            <script src="assets/js/parallax.min.js"></script>
-            <script src="assets/js/moreNews.js"></script>
-            <script src="assets/js/radioButton.js"></script>
-            <script src="assets/js/hover.js"></script>
-            <script src="assets/js/selectButton.js"></script>
-            <script src="assets/js/openTab1.js"></script>
-            <script src="assets/js/openTab2.js"></script>
-            <script src="assets/js/scrollTop.js"></script>
+
+            <!-- Non-critical JS with defer -->
+            <script defer src="assets/js/jquery.scrollzer.min.js"></script>
+            <script defer src="assets/js/jquery.scrolly.min.js"></script>
+            <script defer src="assets/js/parallax.min.js"></script>
+            <script defer src="assets/js/moreNews.js"></script>
+            <script defer src="assets/js/radioButton.js"></script>
+            <script defer src="assets/js/hover.js"></script>
+            <script defer src="assets/js/selectButton.js"></script>
+            <script defer src="assets/js/openTab1.js"></script>
+            <script defer src="assets/js/openTab2.js"></script>
+            <script defer src="assets/js/scrollTop.js"></script>
+            <script defer src="assets/js/awards-interaction.js"></script>
+
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 
             <script>
-                // Get the element with id="defaultOpen" and click on it
-                document.getElementById("defaultOpen").click();
+                // Critical initialization that must run immediately
+                document.addEventListener('DOMContentLoaded', function () {
+                    // Get the element with id="defaultOpen" and click on it
+                    if (document.getElementById("defaultOpen")) {
+                        document.getElementById("defaultOpen").click();
+                    }
 
-            </script>
-
-            <script>
-                // Get the element with id="defaultOpen" and click on it
-                document.getElementById("defaultOpen2").click();
-
+                    // Get the element with id="defaultOpen2" and click on it
+                    if (document.getElementById("defaultOpen2")) {
+                        document.getElementById("defaultOpen2").click();
+                    }
+                });
             </script>
         </div>
     </div>
