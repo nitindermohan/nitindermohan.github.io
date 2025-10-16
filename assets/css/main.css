@@ -4172,3 +4172,41 @@ tab-table-project {
   border-radius: 5px;
   padding: 10px;
 }
+
+.phd-callout {
+  background: #fafbfc;
+  border: 2px solid #6d7993;
+  padding: 16px 18px;
+  margin: 32px 0;
+  position: relative;
+  line-height: 1.6;
+}
+
+.phd-callout p {
+  margin: 0;
+  padding: 0;
+}
+
+.phd-callout-icon {
+  font-size: 1.2em;
+  margin-right: 8px;
+  color: #6d7993;
+  vertical-align: middle;
+}
+
+.phd-callout strong {
+  color: #555;
+  font-weight: 600;
+}
+
+.phd-callout a {
+  color: #6d7993;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s ease;
+  border-bottom: none;
+}
+
+.phd-callout a:hover {
+  color: #5a6479;
+}
