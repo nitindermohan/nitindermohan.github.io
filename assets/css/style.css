@@ -331,6 +331,63 @@ label span:before {
   }
 }
 
+/* SPEAR Lab Info Banner Styling */
+.spear-info-banner {
+  padding: 1.2em 1.5em;
+  margin: 0 0 2em 0;
+  background: linear-gradient(135deg, #f5f0ff 0%, #fff5f7 100%);
+  border-left: 4px solid #764ba2;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.spear-info-banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.spear-info-banner p {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.spear-info-banner i {
+  color: #764ba2;
+  margin-right: 0.5em;
+}
+
+.spear-info-banner strong {
+  color: #764ba2;
+  font-weight: 600;
+}
+
+.spear-info-banner a {
+  color: #764ba2;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  margin-left: 0.3em;
+}
+
+.spear-info-banner a:hover {
+  border-bottom-color: #764ba2;
+}
+
+/* Responsive design for SPEAR banner */
+@media (max-width: 768px) {
+  .spear-info-banner {
+    padding: 1em;
+  }
+
+  .spear-info-banner p {
+    font-size: 0.95em;
+  }
+}
+
 .interview-callout {
   display: flex;
   align-items: center;
