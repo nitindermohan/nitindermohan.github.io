@@ -1,0 +1,321 @@
+name: Sync Publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 1'  # Every Monday at 8 AM UTC
+  repository_dispatch:
+    types: [publications-updated]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout personal website
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_GH_TOKEN }}
+
+      - name: Checkout lab website (read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: spear-lab/lab-website
+          path: lab-website
+          token: ${{ secrets.LAB_GH_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run publication diff
+        id: diff
+        run: |
+          # Download automation scripts from mac-automation repo or use inline
+          cat > /tmp/pub-diff.js << 'SCRIPT'
+          const fs = require('fs');
+          const path = require('path');
+
+          function parseBibTeX(content) {
+            const entries = [];
+            const entryRegex = /@(\w[\w ]*)\{([^,]+),\s*([\s\S]*?)\n\}/g;
+            let match;
+            while ((match = entryRegex.exec(content)) !== null) {
+              const type = match[1].trim().toLowerCase();
+              const id = match[2].trim();
+              const fieldsText = match[3];
+              const fields = {};
+              const fieldRegex = /(\w+)\s*=\s*\{([^}]*)\}|(\w+)\s*=\s*"([^"]*)"/g;
+              let fieldMatch;
+              while ((fieldMatch = fieldRegex.exec(fieldsText)) !== null) {
+                const fieldName = (fieldMatch[1] || fieldMatch[3]).toLowerCase();
+                const fieldValue = fieldMatch[2] || fieldMatch[4];
+                fields[fieldName] = fieldValue;
+              }
+              entries.push({ id, type, fields });
+            }
+            return entries;
+          }
+
+          function extractHtmlIds(htmlContent) {
+            const ids = new Set();
+            const pubSection = htmlContent.match(/<!-- AUTO:PUBLICATIONS:START -->([\s\S]*?)<!-- AUTO:PUBLICATIONS:END -->/);
+            if (!pubSection) return ids;
+            const idRegex = /<tr[^>]+id="([^"]+)"/g;
+            let match;
+            while ((match = idRegex.exec(pubSection[1])) !== null) ids.add(match[1]);
+            return ids;
+          }
+
+          const bibContent = fs.readFileSync(process.argv[2], 'utf8');
+          const htmlContent = fs.readFileSync(process.argv[3], 'utf8');
+          const bibEntries = parseBibTeX(bibContent);
+          const htmlIds = extractHtmlIds(htmlContent);
+          const missing = bibEntries.filter(e => !htmlIds.has(e.id));
+
+          if (missing.length === 0) {
+            console.log('IN_SYNC');
+          } else {
+            console.log(JSON.stringify({
+              count: missing.length,
+              ids: missing.map(e => e.id),
+              titles: missing.map(e => e.fields.title || e.id)
+            }));
+          }
+          SCRIPT
+
+          result=$(node /tmp/pub-diff.js lab-website/content/publications/publications.bib index.html)
+
+          if [ "$result" = "IN_SYNC" ]; then
+            echo "in_sync=true" >> $GITHUB_OUTPUT
+            echo "Publications are in sync"
+          else
+            echo "in_sync=false" >> $GITHUB_OUTPUT
+            count=$(echo "$result" | jq -r '.count')
+            echo "diff_count=$count" >> $GITHUB_OUTPUT
+            echo "diff_result=$result" >> $GITHUB_OUTPUT
+            echo "Found $count publications to sync"
+          fi
+
+      - name: Generate and inject publications HTML
+        if: steps.diff.outputs.in_sync != 'true'
+        run: |
+          cat > /tmp/bibtex-to-html.js << 'SCRIPT'
+          const fs = require('fs');
+
+          function parseBibTeX(content) {
+            const entries = [];
+            const entryRegex = /@(\w[\w ]*)\{([^,]+),\s*([\s\S]*?)\n\}/g;
+            let match;
+            while ((match = entryRegex.exec(content)) !== null) {
+              const type = match[1].trim().toLowerCase();
+              const id = match[2].trim();
+              const fieldsText = match[3];
+              const fields = {};
+              const fieldRegex = /(\w+)\s*=\s*\{([^}]*)\}|(\w+)\s*=\s*"([^"]*)"/g;
+              let fieldMatch;
+              while ((fieldMatch = fieldRegex.exec(fieldsText)) !== null) {
+                const fieldName = (fieldMatch[1] || fieldMatch[3]).toLowerCase();
+                const fieldValue = fieldMatch[2] || fieldMatch[4];
+                fields[fieldName] = fieldValue;
+              }
+              entries.push({ id, type, fields });
+            }
+            return entries;
+          }
+
+          function formatAuthors(str) {
+            if (!str) return '';
+            return str.split(/\s+and\s+/)
+              .map(a => { const p = a.split(',').map(s => s.trim()); return p.length === 2 ? `${p[1]} ${p[0]}` : a.trim(); })
+              .join(', ').replace(/,\s*([^,]+)$/, ' and $1')
+              .replace(/Nitinder Mohan/g, '<mark>Nitinder Mohan</mark>');
+          }
+
+          function translatePdf(p) { if (!p) return '#'; const m = p.match(/papers\/(\d{4})\/(.+)/); return m ? `documents/${m[1]}/pubs/${m[2]}` : p; }
+          function translateImg(p) { if (!p) return ''; const m = p.match(/images\/publications\/(\d{4})\/(.+)/); return m ? `documents/${m[1]}/pubs/${m[2]}` : p; }
+          function cleanRate(r) { return r ? r.replace(/\\%/g, '%') : null; }
+
+          function getClass(e) {
+            const c = [];
+            if (e.fields.highlight === 'true') c.push('selected');
+            c.push(e.type === 'article' ? 'journal' : (e.type === 'phdthesis' || e.type === 'mastersthesis') ? 'thesis' : 'conf');
+            return c.join(' ');
+          }
+
+          function getBadgeHtml(badges) {
+            if (!badges) return '';
+            const imgs = badges.split(',').map(b => b.trim()).map(badge => {
+              if (badge.startsWith('acm-')) return `<img src="/images/acm-badges/${badge}.png" width="50">`;
+              if (badge.startsWith('usenix-')) return `<img src="/images/usenix-badges/usenixbadges-${badge.replace('usenix-', '')}.png" width="50">`;
+              return '';
+            }).filter(Boolean);
+            if (!imgs.length) return '';
+            return `\n                                            <br>\n                                            <span style="text-align: center">\n${imgs.map(i => `                                                ${i}`).join('\n                                                <br>\n')}\n                                            </span>`;
+          }
+
+          function genPub(e) {
+            const f = e.fields, pdf = translatePdf(f.pdf), img = translateImg(f.image);
+            const links = [];
+            if (f.doi) links.push(`                                                    <a href="${f.doi}" target="_blank"\n                                                        class="links doi">DOI</a>`);
+            if (f.code) links.push(`                                                    <a href="${f.code}" target="_blank"\n                                                        class="links github">Code</a>`);
+            if (f.dataset) links.push(`                                                    <a href="${f.dataset}" target="_blank"\n                                                        class="links data">Dataset</a>`);
+            if (f.video) links.push(`                                                    <a href="${f.video}" target="_blank"\n                                                        class="links video">Video</a>`);
+            if (f.website) links.push(`                                                    <a href="${f.website}" target="_blank"\n                                                        class="links website">Website</a>`);
+            if (f.artifacts) links.push(`                                                    <a href="${f.artifacts}" target="_blank"\n                                                        class="links website">Artifacts</a>`);
+
+            let award = f.award ? `\n                                                <br>\n                                                <span style="font-size: 0.8em">\n                                                    <a class="links award">${f.award}</a>\n                                                </span>` : '';
+            const rate = cleanRate(f.acceptance_rate);
+            let rateHtml = rate ? ` <text style="color: indianred">[Acceptance Rate: ${rate}]</text>` : '';
+
+            return `                                    <!--  next publication  -->
+                                    <tr style="background-color: #ffffff; border: none" id="${e.id}"
+                                        class="${getClass(e)}">
+                                        <td
+                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
+                                            <a href="${pdf}"
+                                                class="no-decoration" target="_blank">
+                                                <img class="pubs_img"
+                                                    src="${img}">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href="${pdf}"
+                                                        style="text-decoration: none; border: none;  font-size: 1em"
+                                                        target="_blank">
+                                                        ${f.title || ''}
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    ${formatAuthors(f.author)}
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    ${f.booktitle || f.journal || ''}${rateHtml}
+                                                </span>${award}
+
+                                                <p style="font-size: 0.8em">
+
+${links.join('\n\n')}
+
+                                                </p>
+
+                                            </div>
+                                        </td>
+                                        <td style="vertical-align: top; text-align: right">
+                                            <span class="conf-venue">${f.venue_acronym || ''}</span>${getBadgeHtml(f.badges)}
+                                        </td>
+                                    </tr>`;
+          }
+
+          const content = fs.readFileSync(process.argv[2], 'utf8');
+          const entries = parseBibTeX(content);
+          const byYear = {};
+          for (const e of entries) { const y = e.fields.year || 'Unknown'; if (!byYear[y]) byYear[y] = []; byYear[y].push(e); }
+
+          const sections = Object.keys(byYear).sort((a,b) => b-a).map(year => {
+            const pubs = byYear[year].map(e => genPub(e)).join('\n\n');
+            return `                            <!-- ${year} publications -->
+                            <div class="${year} subject" id="${year}">
+                                <a name="${year}" class="sticky-header">
+                                    <div class="hr-text-container">
+                                        <span class="hr-text-content" style="font-size: 1.7em">
+                                            ${year}
+                                        </span>
+                                    </div>
+                                </a>
+                                <table>
+
+${pubs}
+
+                                </table>
+                            </div>`;
+          });
+
+          process.stdout.write(sections.join('\n\n'));
+          SCRIPT
+
+          # Generate publications HTML
+          node /tmp/bibtex-to-html.js lab-website/content/publications/publications.bib > /tmp/pubs.html
+
+          # Inject into index.html
+          node -e "
+            const fs = require('fs');
+            const html = fs.readFileSync('index.html', 'utf8');
+            const content = fs.readFileSync('/tmp/pubs.html', 'utf8');
+            const start = '<!-- AUTO:PUBLICATIONS:START -->';
+            const end = '<!-- AUTO:PUBLICATIONS:END -->';
+            const si = html.indexOf(start);
+            const ei = html.indexOf(end);
+            if (si === -1 || ei === -1) { console.error('Markers not found'); process.exit(1); }
+            const result = html.substring(0, si + start.length) + '\n' + content + '\n' + html.substring(ei);
+            fs.writeFileSync('index.html', result);
+            console.log('Injected publications into index.html');
+          "
+
+      - name: Copy missing assets from lab website
+        if: steps.diff.outputs.in_sync != 'true'
+        run: |
+          # Copy PDFs and thumbnails that exist in lab-website but not here
+          for year_dir in lab-website/public/papers/*/; do
+            year=$(basename "$year_dir")
+            mkdir -p "documents/${year}/pubs"
+            for pdf in "$year_dir"*.pdf; do
+              [ -f "$pdf" ] || continue
+              dest="documents/${year}/pubs/$(basename "$pdf")"
+              if [ ! -f "$dest" ]; then
+                cp "$pdf" "$dest"
+                echo "Copied: $dest"
+              fi
+            done
+          done
+
+          for year_dir in lab-website/public/images/publications/*/; do
+            year=$(basename "$year_dir")
+            mkdir -p "documents/${year}/pubs"
+            for img in "$year_dir"*.png "$year_dir"*.jpg; do
+              [ -f "$img" ] || continue
+              dest="documents/${year}/pubs/$(basename "$img")"
+              if [ ! -f "$dest" ]; then
+                cp "$img" "$dest"
+                echo "Copied: $dest"
+              fi
+            done
+          done
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+            git diff --cached --stat
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.PERSONAL_GH_TOKEN }}
+          branch: auto-sync/publications
+          delete-branch: true
+          title: 'Sync publications from lab website'
+          labels: auto-sync
+          body: |
+            ## Publication Sync
+
+            Automated sync from [spear-lab/lab-website](https://github.com/spear-lab/lab-website).
+
+            **Changes:** ${{ steps.diff.outputs.diff_count }} publication(s) synced.
+
+            Please review the generated HTML and verify rendering before merging.
+
+            <sub>Generated by GitHub Actions</sub>
+          commit-message: 'sync: update publications from lab website'
