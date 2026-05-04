@@ -1,3 +1,12 @@
+/* News images */
+#newstable .img-class {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0.6em;
+}
+
 /* News Section Mobile Responsiveness */
 @media screen and (max-width: 768px) {
   /* Make news table responsive on mobile */
