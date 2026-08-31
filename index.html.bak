@@ -2520,180 +2520,8 @@
                                 <table>
 
                                     <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="dia2026aerospace"
-                                        class="conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/dia26-aerospace-services-whitepaper.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/dia26-aerospace-services-whitepaper.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/dia26-aerospace-services-whitepaper.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        Aerospace-enabled Services: The Edge-Cloud Continuum Beyond the Atmosphere
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Paulo Mendes, Rute Sofia, Edison Pignaton de Freitas, <mark>Nitinder Mohan</mark>, Dirk Trossen and Gorry Fairhurst
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Datacom Industry Association (DIA) Aerospace Working Group Whitepaper
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">DIA</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="dissectstarlink2026sigcomm"
-                                        class="selected conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/sigcomm26-dissect-starlink.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/sigcomm26-dissect-starlink.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/sigcomm26-dissect-starlink.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        Dissecting the StarLink: Characterizing Queuing and Flow Dynamics in the Starlink Network
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Hendrik Cech, <mark>Nitinder Mohan</mark> and Jörg Ott
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    ACM SIGCOMM Conference <text style="color: indianred">[Acceptance Rate: 17.54%, 90/513]</text>
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-                                                    <a href="https://github.com/hendrikcech/dissecting-starlink" target="_blank"
-                                                        class="links github">Code</a>
-
-                                                    <a href="https://doi.org/10.14459/2026mp1856124" target="_blank"
-                                                        class="links data">Dataset</a>
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">SIGCOMM</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="lookingstars2026imc"
-                                        class="conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="#"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/imc26-looking-stars.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="#"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        Looking at Stars: Analyzing Real-Time Video Conferencing over Starlink
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Justus Fries, Yannis Matezki, Rohan Bose and <mark>Nitinder Mohan</mark>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    ACM Internet Measurement Conference
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">IMC</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="upfselection2026sec"
-                                        class="conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="#"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/sec26-elastic-upf.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="#"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        Elastic UPF Selection for NextG Cellular Networks
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Marco Colocrese, <mark>Nitinder Mohan</mark>, George Iosifidis and Fernando Kuipers
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    ACM/IEEE Symposium on Edge Computing
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">SEC</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
                                     <tr style="background-color: #ffffff; border: none" id="metaverse2026bookchapter"
-                                        class="selected conf">
+                                        class="journal">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
                                             <a href="documents/2026/pubs/networking_metaverse_bookchapter.pdf"
@@ -2722,8 +2550,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.1007/978-3-032-03296-6_6" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.1007/978-3-032-03296-6_6"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -2731,188 +2559,6 @@
                                         </td>
                                         <td style="vertical-align: top; text-align: right">
                                             <span class="conf-venue">Springer</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="horizon2026sigmetrics"
-                                        class="selected conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/sigmetrics26-horizon.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/sigmetrics26-horizon.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/sigmetrics26-horizon.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        Horizon: Understanding and Predicting Global Starlink Performance
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Cristian Benghe, Vlad Graure, Tanya Shreedhar and <mark>Nitinder Mohan</mark>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems <text style="color: indianred">[Acceptance Rate: 15.2%, 32/211]</text>
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-                                                    <a href="https://doi.org/10.1145/3805639" target="_blank"
-                                                        class="links doi">DOI</a>
-
-                                                    <a href="https://github.com/spear-lab/Horizon-Predicting-Starlink-Performance" target="_blank"
-                                                        class="links github">Code</a>
-
-                                                    <a href="https://doi.org/10.4121/0bf59468-e5cb-433f-aeb2-e04cf694b65c" target="_blank"
-                                                        class="links data">Dataset</a>
-
-                                                    <a href="https://spear-research-lab.github.io/Horizon-Predicting-Starlink-Performance/" target="_blank"
-                                                        class="links website">Website</a>
-
-                                                    <a href="https://spear-research-lab.github.io/Horizon-Predicting-Starlink-Performance/app/" target="_blank"
-                                                        class="links website">Dashboard</a>
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">SIGMETRICS</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="smooth2026ifip"
-                                        class="selected conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/ifip26-smooth.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/ifip26-smooth.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/ifip26-smooth.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        SMOOTH: Scalable Multitask Offloading with Backbone Sharing
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Wei Geng, Xiang Su, <mark>Nitinder Mohan</mark>, Jörg Ott and Pan Hui
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    IFIP Networking Conference
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-                                                    <a href="https://github.com/ViGeng/smooth" target="_blank"
-                                                        class="links github">Code</a>
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">Networking</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="prism2026ifip"
-                                        class="selected conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/ifip26-prism.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/ifip26-prism.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/ifip26-prism.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        PRISM: Cross-Layer Observability Framework for Mobile Core Networks
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Sehan Samarakoon, <mark>Nitinder Mohan</mark> and Fernando Kuipers
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    IFIP Networking Conference
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">Networking</span>
-                                        </td>
-                                    </tr>
-
-                                    <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="arta2026icc"
-                                        class="conf">
-                                        <td
-                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/icc26-arta.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/icc26-arta.png">
-                                            </a>
-                                        </td>
-                                        <td style="vertical-align: top; padding-left: 3px">
-                                            <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/icc26-arta.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        ARTA: Adaptive Redundancy-aware Telemetry Node Activation in 6G Edge
-                                                    </a>
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    Shatha Abbas, <mark>Nitinder Mohan</mark>, George Iosifidis and Fernando Kuipers
-                                                </span>
-                                                <br>
-                                                <span style="font-size: 0.8em">
-                                                    IEEE International Conference on Communications
-                                                </span>
-
-                                                <p style="font-size: 0.8em">
-
-
-
-                                                </p>
-
-                                            </div>
-                                        </td>
-                                        <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">ICC</span>
                                         </td>
                                     </tr>
 
@@ -2938,11 +2584,13 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Rohan Bose, Jinwei Zhao, Tanya Shreedhar, Jianping Pan and <mark>Nitinder Mohan</mark>
+                                                    Rohan Bose, Jinwei Zhao, Tanya Shreedhar, Jianping Pan and
+                                                    <mark>Nitinder Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM Web Conference <text style="color: indianred">[Acceptance Rate: 20.1%, 676/3370]</text>
+                                                    ACM Web Conference <text style="color: indianred">[Acceptance Rate:
+                                                        20.1%, 676/3370]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -2950,8 +2598,8 @@
                                                     <a href="https://doi.org/10.1145/3774904.3792227" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/spear-lab/web-content-delivery-starlink-performance" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/spear-lab/web-content-delivery-starlink-performance"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://mediatum.ub.tum.de/1840504" target="_blank"
                                                         class="links data">Dataset</a>
@@ -2966,89 +2614,127 @@
                                     </tr>
 
                                     <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="tokens2026anrw"
-                                        class="conf">
+                                    <tr style="background-color: #ffffff; border: none" id="dissectstarlink2026sigcomm"
+                                        class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/anrw26-tokens.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2026/pubs/anrw26-tokens.png">
-                                            </a>
+                                            <img class="pubs_img"
+                                                src="documents/2026/pubs/sigcomm26-dissect-starlink.png">
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
                                             <div style="position: relative; min-height: 180px">
-                                                <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/anrw26-tokens.pdf"
-                                                        style="text-decoration: none; border: none;  font-size: 1em"
-                                                        target="_blank">
-                                                        Tokens, Not Packets: Rethinking the Multipath QUIC Scheduling Interface
-                                                    </a>
+                                                <span class="pubs_title"
+                                                    style="text-decoration: none; border: none;  font-size: 1em">
+                                                    Dissecting the StarLink: Characterizing Queuing and Flow Dynamics
+                                                    in the Starlink Network
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Hendrik Cech, Patrick Bokelmann and <mark>Nitinder Mohan</mark>
+                                                    Hendrik Cech, <mark>Nitinder Mohan</mark> and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM/IRTF Applied Networking Research Workshop
+                                                    ACM SIGCOMM 2026 <text style="color: indianred">[Acceptance Rate:
+                                                        17.54%]</text>
                                                 </span>
-
-                                                <p style="font-size: 0.8em">
-
-                                                    <a href="https://doi.org/10.1145/3822163.3827925" target="_blank"
-                                                        class="links doi">DOI</a>
-
-                                                    <a href="https://github.com/hendrikcech/anrw26-tokens-not-packets" target="_blank"
-                                                        class="links github">Code</a>
-
-                                                    <a href="https://www.youtube.com/watch?v=n2_mE35txZg\&t=4493s" target="_blank"
-                                                        class="links video">Video</a>
-
-                                                </p>
 
                                             </div>
                                         </td>
                                         <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">ANRW</span>
+                                            <span class="conf-venue">SIGCOMM</span>
                                         </td>
                                     </tr>
 
                                     <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="budgetrouting2026naic"
-                                        class="conf">
+                                    <tr style="background-color: #ffffff; border: none" id="horizon2026sigmetrics"
+                                        class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2026/pubs/naic26-budget-routing.pdf"
-                                                class="no-decoration" target="_blank">
+                                            <a href="documents/2026/pubs/sigmetrics26-horizon.pdf" class="no-decoration"
+                                                target="_blank">
                                                 <img class="pubs_img"
-                                                    src="documents/2026/pubs/naic26-budget-routing.png">
+                                                    src="documents/2026/pubs/sigmetrics26-horizon.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
                                             <div style="position: relative; min-height: 180px">
                                                 <span class="pubs_title">
-                                                    <a href="documents/2026/pubs/naic26-budget-routing.pdf"
+                                                    <a href="documents/2026/pubs/sigmetrics26-horizon.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Budget-Adaptive Routing: Skipping the Weak When the Strong Answers Anyway
+                                                        Horizon: Understanding and Predicting Global Starlink
+                                                        Performance
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Wei Geng, <mark>Nitinder Mohan</mark> and Jörg Ott
+                                                    Cristian Benghe, Vlad Graure, Tanya Shreedhar and <mark>Nitinder
+                                                        Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM SIGCOMM Workshop on Networks for AI Computing
+                                                    ACM SIGMETRICS 2026 <text style="color: indianred">[Acceptance Rate:
+                                                        15.2%]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.1145/3789240.3828740" target="_blank"
+                                                    <a href="https://doi.org/10.1145/3805639" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/ViGeng/bgt-ada" target="_blank"
+                                                    <a href="https://github.com/spear-lab/Horizon-Predicting-Starlink-Performance"
+                                                        target="_blank" class="links github">Code</a>
+
+                                                    <a href="https://doi.org/10.4121/0bf59468-e5cb-433f-aeb2-e04cf694b65c"
+                                                        target="_blank" class="links data">Dataset</a>
+
+                                                    <a href="https://spear-research-lab.github.io/Horizon-Predicting-Starlink-Performance/"
+                                                        target="_blank" class="links website">Website</a>
+
+                                                    <a href="https://spear-research-lab.github.io/Horizon-Predicting-Starlink-Performance/app/"
+                                                        target="_blank" class="links website">Dashboard</a>
+
+                                                </p>
+
+                                            </div>
+                                        </td>
+                                        <td style="vertical-align: top; text-align: right">
+                                            <span class="conf-venue">SIGMETRICS</span>
+                                        </td>
+                                    </tr>
+
+                                    <!--  next publication  -->
+                                    <tr style="background-color: #ffffff; border: none" id="smooth2026networking"
+                                        class="conf">
+                                        <td
+                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
+                                            <a href="documents/2026/pubs/ifip26-smooth.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2026/pubs/ifip26-smooth.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href="documents/2026/pubs/ifip26-smooth.pdf"
+                                                        style="text-decoration: none; border: none;  font-size: 1em"
+                                                        target="_blank">
+                                                        SMOOTH: Scalable Multitask Offloading with Backbone Sharing
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    Wei Geng, Xiang Su, <mark>Nitinder Mohan</mark>, Jörg Ott and Pan
+                                                    Hui
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    IFIP Networking 2026
+                                                </span>
+
+                                                <p style="font-size: 0.8em">
+
+                                                    <a href="https://github.com/ViGeng/smooth" target="_blank"
                                                         class="links github">Code</a>
 
                                                 </p>
@@ -3056,7 +2742,94 @@
                                             </div>
                                         </td>
                                         <td style="vertical-align: top; text-align: right">
-                                            <span class="conf-venue">NAIC</span>
+                                            <span class="conf-venue">Networking</span>
+                                        </td>
+                                    </tr>
+
+                                    <!--  next publication  -->
+                                    <tr style="background-color: #ffffff; border: none" id="prism2026networking"
+                                        class="conf">
+                                        <td
+                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
+                                            <a href="documents/2026/pubs/ifip26-prism.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2026/pubs/ifip26-prism.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href="documents/2026/pubs/ifip26-prism.pdf"
+                                                        style="text-decoration: none; border: none;  font-size: 1em"
+                                                        target="_blank">
+                                                        PRISM: Cross-Layer Observability Framework for Mobile Core
+                                                        Networks
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    Sehan Samarakoon, <mark>Nitinder Mohan</mark> and Fernando A.
+                                                    Kuipers
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    IFIP Networking 2026
+                                                </span>
+
+                                                <p style="font-size: 0.8em">
+
+                                                    <a href="documents/2026/pubs/ifip26-prism.pdf" target="_blank"
+                                                        class="links pdf">PDF</a>
+
+                                                </p>
+
+                                            </div>
+                                        </td>
+                                        <td style="vertical-align: top; text-align: right">
+                                            <span class="conf-venue">Networking</span>
+                                        </td>
+                                    </tr>
+
+                                    <!--  next publication  -->
+                                    <tr style="background-color: #ffffff; border: none" id="arta2026icc" class="conf">
+                                        <td
+                                            style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
+                                            <a href="documents/2026/pubs/icc26-arta.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2026/pubs/icc26-arta.png">
+                                            </a>
+                                        </td>
+                                        <td style="vertical-align: top; padding-left: 3px">
+                                            <div style="position: relative; min-height: 180px">
+                                                <span class="pubs_title">
+                                                    <a href="documents/2026/pubs/icc26-arta.pdf"
+                                                        style="text-decoration: none; border: none;  font-size: 1em"
+                                                        target="_blank">
+                                                        ARTA: Adaptive Redundancy-aware Telemetry Node Activation in 6G
+                                                        Edge
+                                                    </a>
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    Shatha Abbas, <mark>Nitinder Mohan</mark>, G. Iosifidis and F. A.
+                                                    Kuipers
+                                                </span>
+                                                <br>
+                                                <span style="font-size: 0.8em">
+                                                    IEEE ICC 2026
+                                                </span>
+
+                                                <p style="font-size: 0.8em">
+
+                                                    <a href="documents/2026/pubs/icc26-arta.pdf" target="_blank"
+                                                        class="links pdf">PDF</a>
+
+                                                </p>
+
+                                            </div>
+                                        </td>
+                                        <td style="vertical-align: top; text-align: right">
+                                            <span class="conf-venue">ICC</span>
                                         </td>
                                     </tr>
 
@@ -3091,22 +2864,26 @@
                                                     <a href="documents/2025/pubs/atc25-ondemand-containers.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        On-Demand Container Partitioning for Distributed Machine Learning
+                                                        On-Demand Container Partitioning for Distributed Machine
+                                                        Learning
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Giovanni Bartolomeo, Navidreza Asadi, Wolfgang Kellerer, Jörg Ott and <mark>Nitinder Mohan</mark>
+                                                    Giovanni Bartolomeo, Navidreza Asadi, Wolfgang Kellerer, Jörg Ott
+                                                    and <mark>Nitinder Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    USENIX Annual Technical Conference <text style="color: indianred">[Acceptance Rate: 15.7%, 100/634]</text>
+                                                    USENIX Annual Technical Conference <text
+                                                        style="color: indianred">[Acceptance Rate: 15.7%,
+                                                        100/634]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://www.usenix.org/conference/atc25/presentation/bartolomeo" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://www.usenix.org/conference/atc25/presentation/bartolomeo"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                     <a href="https://github.com/2DFS" target="_blank"
                                                         class="links github">Code</a>
@@ -3117,8 +2894,8 @@
                                                     <a href="https://2dfs.github.io/" target="_blank"
                                                         class="links website">Website</a>
 
-                                                    <a href="https://github.com/2DFS/artifacts-evaluation" target="_blank"
-                                                        class="links website">Artifacts</a>
+                                                    <a href="https://github.com/2DFS/artifacts-evaluation"
+                                                        target="_blank" class="links website">Artifacts</a>
 
                                                 </p>
 
@@ -3142,10 +2919,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2025/pubs/edgesys25-multivirt.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2025/pubs/edgesys25-multivirt.png">
+                                            <a href="documents/2025/pubs/edgesys25-multivirt.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2025/pubs/edgesys25-multivirt.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3154,12 +2930,14 @@
                                                     <a href="documents/2025/pubs/edgesys25-multivirt.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Supporting Hybrid Virtualization Orchestration for Edge Computing
+                                                        Supporting Hybrid Virtualization Orchestration for Edge
+                                                        Computing
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Giovanni Bartolomeo, Patrick Sabanic, <mark>Nitinder Mohan</mark> and Jörg Ott
+                                                    Giovanni Bartolomeo, Patrick Sabanic, <mark>Nitinder Mohan</mark>
+                                                    and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3192,8 +2970,7 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="#"
-                                                class="no-decoration" target="_blank">
+                                            <a href="#" class="no-decoration" target="_blank">
                                                 <img class="pubs_img"
                                                     src="documents/2025/pubs/leonet2025-datastore.png">
                                             </a>
@@ -3247,12 +3024,14 @@
                                                     <a href="documents/2025/pubs/eurosys25posters-final13.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Beyond Layers: Container Registries for Files Distribution and On-Demand Image Partitioning
+                                                        Beyond Layers: Container Registries for Files Distribution and
+                                                        On-Demand Image Partitioning
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Giovanni Bartolomeo, Navidreza Asadi, Wolfgang Kellerer, Jörg Ott and <mark>Nitinder Mohan</mark>
+                                                    Giovanni Bartolomeo, Navidreza Asadi, Wolfgang Kellerer, Jörg Ott
+                                                    and <mark>Nitinder Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3265,8 +3044,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://2025.eurosys.org/posters/final/eurosys25posters-final13.pdf" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://2025.eurosys.org/posters/final/eurosys25posters-final13.pdf"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -3282,10 +3061,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2025/pubs/eucnc25-6G-internet.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2025/pubs/eucnc25-6G-internet.png">
+                                            <a href="documents/2025/pubs/eucnc25-6G-internet.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2025/pubs/eucnc25-6G-internet.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3294,12 +3072,14 @@
                                                     <a href="documents/2025/pubs/eucnc25-6G-internet.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Transforming the Internet with 6G: Towards Architectural Extensibility
+                                                        Transforming the Internet with 6G: Towards Architectural
+                                                        Extensibility
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Abhishek Kumar, Sasu Tarkoma, Jussi Kangasharju and Ari Pouttu
+                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Abhishek Kumar,
+                                                    Sasu Tarkoma, Jussi Kangasharju and Ari Pouttu
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3308,8 +3088,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://tuhat.helsinki.fi/ws/portalfiles/portal/637946406/6G_Internet_EuCNC_.pdf" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://tuhat.helsinki.fi/ws/portalfiles/portal/637946406/6G_Internet_EuCNC_.pdf"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -3339,10 +3119,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2024/pubs/leoCDN-Hotnets24.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2024/pubs/leoCDN-Hotnets24.png">
+                                            <a href="documents/2024/pubs/leoCDN-Hotnets24.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2024/pubs/leoCDN-Hotnets24.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3351,16 +3130,19 @@
                                                     <a href="documents/2024/pubs/leoCDN-Hotnets24.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        It's a bird? It's a plane? It's CDN!: Investigating Content Delivery Networks in the LEO Satellite Networks Era
+                                                        It's a bird? It's a plane? It's CDN!: Investigating Content
+                                                        Delivery Networks in the LEO Satellite Networks Era
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Rohan Bose, Saeed Fadaei, <mark>Nitinder Mohan</mark>, Mohamed Kassem, Nishanth Sastry and Jörg Ott
+                                                    Rohan Bose, Saeed Fadaei, <mark>Nitinder Mohan</mark>, Mohamed
+                                                    Kassem, Nishanth Sastry and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM Workshop on Hot Topics in Networks <text style="color: indianred">[Acceptance Rate: 27.8%, 44/158]</text>
+                                                    ACM Workshop on Hot Topics in Networks <text
+                                                        style="color: indianred">[Acceptance Rate: 27.8%, 44/158]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -3368,8 +3150,8 @@
                                                     <a href="https://doi.org/10.1145/3696348.3696879" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/boserohan/starlink-cdn-analysis" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/boserohan/starlink-cdn-analysis"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/zBkzQqpp2-0?t=1167" target="_blank"
                                                         class="links video">Video</a>
@@ -3405,7 +3187,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Valentin Hartig, Marcin Bosk, <mark>Nitinder Mohan</mark> and Paulo Mendes
+                                                    Valentin Hartig, Marcin Bosk, <mark>Nitinder Mohan</mark> and Paulo
+                                                    Mendes
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3448,7 +3231,11 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Tobias Meuser, Lauri Lovén, Monowar Bhuyan, Shishir G Patil, Schahram Dustdar, Atakan Aral, Suzan Bayhan, Christian Becker, Eyal de Lara, Aaron Yi Ding, Janick Edinger, James Gross, <mark>Nitinder Mohan</mark>, Andy Pimentel, Etienne Rivière, Henning Schulzrinne, Pieter Simoens, Gürkan Solmaz and Michael Welzl
+                                                    Tobias Meuser, Lauri Lovén, Monowar Bhuyan, Shishir G Patil,
+                                                    Schahram Dustdar, Atakan Aral, Suzan Bayhan, Christian Becker, Eyal
+                                                    de Lara, Aaron Yi Ding, Janick Edinger, James Gross, <mark>Nitinder
+                                                        Mohan</mark>, Andy Pimentel, Etienne Rivière, Henning
+                                                    Schulzrinne, Pieter Simoens, Gürkan Solmaz and Michael Welzl
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3457,8 +3244,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://ieeexplore.ieee.org/abstract/document/10621659" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://ieeexplore.ieee.org/abstract/document/10621659"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -3486,7 +3273,8 @@
                                                     <a href="documents/2024/pubs/leoCDN_IMC2024_poster.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        [Poster] Twinkle, Twinkle, Streaming Star: Illuminating CDN Performance over Starlink
+                                                        [Poster] Twinkle, Twinkle, Streaming Star: Illuminating CDN
+                                                        Performance over Starlink
                                                     </a>
                                                 </span>
                                                 <br>
@@ -3537,7 +3325,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Andrew E. Fergusson, <mark>Nitinder Mohan</mark>, Hendrik Cech, Rohan Bose, Prakita Rayyan Renatin, Mahesh K. Marina and Jörg Ott
+                                                    Andrew E. Fergusson, <mark>Nitinder Mohan</mark>, Hendrik Cech,
+                                                    Rohan Bose, Prakita Rayyan Renatin, Mahesh K. Marina and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3563,10 +3352,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2024/pubs/starlinkWWW2024.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2024/pubs/starlinkWWW2024.png">
+                                            <a href="documents/2024/pubs/starlinkWWW2024.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2024/pubs/starlinkWWW2024.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3580,11 +3368,13 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    <mark>Nitinder Mohan</mark>, Andrew E. Fergusson, Hendrik Cech, Rohan Bose, Prakita Rayyan Renatin, Mahesh K. Marina and Jörg Ott
+                                                    <mark>Nitinder Mohan</mark>, Andrew E. Fergusson, Hendrik Cech,
+                                                    Rohan Bose, Prakita Rayyan Renatin, Mahesh K. Marina and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM Web Conference <text style="color: indianred">[Acceptance Rate: 20.2%, 405/2008]</text>
+                                                    ACM Web Conference <text style="color: indianred">[Acceptance Rate:
+                                                        20.2%, 405/2008]</text>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3596,8 +3386,8 @@
                                                     <a href="https://doi.org/10.1145/3589334.3645328" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/nitindermohan/multifaceted-starlink-performance" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitindermohan/multifaceted-starlink-performance"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/9DepVBxWX38?t=28572" target="_blank"
                                                         class="links video">Video</a>
@@ -3646,16 +3436,20 @@
                                                     <a href="documents/2023/pubs/marOakestraCoNext2023.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Characterizing Distributed Mobile Augmented Reality Applications at the Edge
+                                                        Characterizing Distributed Mobile Augmented Reality Applications
+                                                        at the Edge
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Giovanni Bartolomeo, Jacky Cao, Xiang Su and <mark>Nitinder Mohan</mark>
+                                                    Giovanni Bartolomeo, Jacky Cao, Xiang Su and <mark>Nitinder
+                                                        Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM Conference on Emerging Networking Experiments and Technologies <text style="color: indianred">[Acceptance Rate: 19.3%, 38/196]</text>
+                                                    ACM Conference on Emerging Networking Experiments and Technologies
+                                                    <text style="color: indianred">[Acceptance Rate: 19.3%,
+                                                        38/196]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -3663,8 +3457,8 @@
                                                     <a href="https://doi.org/10.1145/3624354.3630584" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/cao-jacky/characterizing_edge_mar" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/cao-jacky/characterizing_edge_mar"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/WtAcquGw-_U" target="_blank"
                                                         class="links video">Video</a>
@@ -3703,12 +3497,14 @@
                                                     <a href="documents/2023/pubs/dronemultipathAccess2023.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Multipath Transport Analysis over Cellular and LEO Access for Aerial Vehicles
+                                                        Multipath Transport Analysis over Cellular and LEO Access for
+                                                        Aerial Vehicles
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aygun Baltaci, Kaushik Chavali, Mike Kosek, <mark>Nitinder Mohan</mark>, Dominic Schupke and Jörg Ott
+                                                    Aygun Baltaci, Kaushik Chavali, Mike Kosek, <mark>Nitinder
+                                                        Mohan</mark>, Dominic Schupke and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3717,8 +3513,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://ieeexplore.ieee.org/document/10287303" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://ieeexplore.ieee.org/document/10287303"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -3734,10 +3530,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2023/pubs/nextgsimFNWF2023.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2023/pubs/nextgsimFNWF2023.png">
+                                            <a href="documents/2023/pubs/nextgsimFNWF2023.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2023/pubs/nextgsimFNWF2023.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3746,12 +3541,14 @@
                                                     <a href="documents/2023/pubs/nextgsimFNWF2023.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        nextGSIM: Towards Simulating Network Resource Management for Beyond 5G Networks
+                                                        nextGSIM: Towards Simulating Network Resource Management for
+                                                        Beyond 5G Networks
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Alba Jano, Mehmet Mert Bese, <mark>Nitinder Mohan</mark>, Wolfgang Kellerer and Jörg Ott
+                                                    Alba Jano, Mehmet Mert Bese, <mark>Nitinder Mohan</mark>, Wolfgang
+                                                    Kellerer and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3764,8 +3561,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://github.com/6G-Future-Lab-Bavaria/NextGSim" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/6G-Future-Lab-Bavaria/NextGSim"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -3781,10 +3578,9 @@
                                         class="journal">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2023/pubs/negativeAccess2022.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2023/pubs/negativeAccess2022.png">
+                                            <a href="documents/2023/pubs/negativeAccess2022.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2023/pubs/negativeAccess2022.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3798,7 +3594,9 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Ella Peltonen, <mark>Nitinder Mohan</mark>, Peter Zdankin, Tanya Shreedhar, Tri Nguyen, Suzan Bayhan, Jon Crowcroft, Jussi Kangasharju and Daniela Nicklas
+                                                    Ella Peltonen, <mark>Nitinder Mohan</mark>, Peter Zdankin, Tanya
+                                                    Shreedhar, Tri Nguyen, Suzan Bayhan, Jon Crowcroft, Jussi
+                                                    Kangasharju and Daniela Nicklas
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3824,10 +3622,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2023/pubs/Oakestra-ATC.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2023/pubs/Oakestra-ATC.png">
+                                            <a href="documents/2023/pubs/Oakestra-ATC.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2023/pubs/Oakestra-ATC.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3836,34 +3633,37 @@
                                                     <a href="documents/2023/pubs/Oakestra-ATC.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Oakestra: A Lightweight Hierarchical Orchestration Framework for Edge Computing
+                                                        Oakestra: A Lightweight Hierarchical Orchestration Framework for
+                                                        Edge Computing
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Giovanni Bartolomeo, Mehdi Yosofie, Simon Bäurle, Oliver Haluszczynski, <mark>Nitinder Mohan</mark> and Jörg Ott
+                                                    Giovanni Bartolomeo, Mehdi Yosofie, Simon Bäurle, Oliver
+                                                    Haluszczynski, <mark>Nitinder Mohan</mark> and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    USENIX Annual Technical Conference <text style="color: indianred">[Acceptance Rate: 18.4%, 65/353]</text>
+                                                    USENIX Annual Technical Conference <text
+                                                        style="color: indianred">[Acceptance Rate: 18.4%, 65/353]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://www.usenix.org/conference/atc23/presentation/bartolomeo" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://www.usenix.org/conference/atc23/presentation/bartolomeo"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                     <a href="https://github.com/oakestra" target="_blank"
                                                         class="links github">Code</a>
 
-                                                    <a href="https://youtube.com/watch?v=HVfKAzE_wsY\&t=2663" target="_blank"
-                                                        class="links video">Video</a>
+                                                    <a href="https://youtube.com/watch?v=HVfKAzE_wsY\&t=2663"
+                                                        target="_blank" class="links video">Video</a>
 
                                                     <a href="https://www.oakestra.io/" target="_blank"
                                                         class="links website">Website</a>
 
-                                                    <a href="https://github.com/oakestra/USENIX-ATC23-Oakestra-Artifacts" target="_blank"
-                                                        class="links website">Artifacts</a>
+                                                    <a href="https://github.com/oakestra/USENIX-ATC23-Oakestra-Artifacts"
+                                                        target="_blank" class="links website">Artifacts</a>
 
                                                 </p>
 
@@ -3918,7 +3718,11 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Ella Peltonen, Ijaz Ahmad, Atakan Aral, Michele Capobianco, Aaron Yi Ding, Felipe Gil-Castiñeira, Ekaterina Gilman, Erkki Harjula, Marko Jurmu, Teemu Karvonen, Markus Kelanti, Teemu Leppänen, Lauri Lovén, Tommi Mikkonen, <mark>Nitinder Mohan</mark>, Petteri Nurmi, Susanna Pirttikangas, Paweł Sroka, Sasu Tarkoma and Tingting Yang
+                                                    Ella Peltonen, Ijaz Ahmad, Atakan Aral, Michele Capobianco, Aaron Yi
+                                                    Ding, Felipe Gil-Castiñeira, Ekaterina Gilman, Erkki Harjula, Marko
+                                                    Jurmu, Teemu Karvonen, Markus Kelanti, Teemu Leppänen, Lauri Lovén,
+                                                    Tommi Mikkonen, <mark>Nitinder Mohan</mark>, Petteri Nurmi, Susanna
+                                                    Pirttikangas, Paweł Sroka, Sasu Tarkoma and Tingting Yang
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -3927,8 +3731,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.1109/ACCESS.2022.3210584" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.1109/ACCESS.2022.3210584"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -3940,14 +3744,12 @@
                                     </tr>
 
                                     <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="drone2022imc"
-                                        class="conf">
+                                    <tr style="background-color: #ffffff; border: none" id="drone2022imc" class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/drone_imc.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/drone_imc.png">
+                                            <a href="documents/2022/pubs/drone_imc.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/drone_imc.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -3956,16 +3758,19 @@
                                                     <a href="documents/2022/pubs/drone_imc.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Analyzing Real-time Video Delivery over Cellular Networks for Remote Piloting Aerial Vehicles
+                                                        Analyzing Real-time Video Delivery over Cellular Networks for
+                                                        Remote Piloting Aerial Vehicles
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aygün Baltaci, Hendrik Cech, <mark>Nitinder Mohan</mark>, Fabien Geyer, Vaibhav Bajpai, Jörg Ott and Dominik Schupke
+                                                    Aygün Baltaci, Hendrik Cech, <mark>Nitinder Mohan</mark>, Fabien
+                                                    Geyer, Vaibhav Bajpai, Jörg Ott and Dominik Schupke
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM Internet Measurement Conference <text style="color: indianred">[Acceptance Rate: 26.4%, 56/212]</text>
+                                                    ACM Internet Measurement Conference <text
+                                                        style="color: indianred">[Acceptance Rate: 26.4%, 56/212]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -3973,8 +3778,8 @@
                                                     <a href="https://doi.org/10.1145/3517745.3561465" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/hendrikcech/imc22-remote-piloting" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/hendrikcech/imc22-remote-piloting"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -3990,10 +3795,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/dicer-icn-2022.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/dicer-icn-2022.png">
+                                            <a href="documents/2022/pubs/dicer-icn-2022.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/dicer-icn-2022.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4007,7 +3811,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Uthra Ambalavanan, Dennis Grewe, Naresh Nayak, Liming Liu, <mark>Nitinder Mohan</mark> and Jörg Ott
+                                                    Uthra Ambalavanan, Dennis Grewe, Naresh Nayak, Liming Liu,
+                                                    <mark>Nitinder Mohan</mark> and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4053,7 +3858,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Uthra Ambalavanan, Naresh Nayak, Dennis Grewe and <mark>Nitinder Mohan</mark>
+                                                    Uthra Ambalavanan, Naresh Nayak, Dennis Grewe and <mark>Nitinder
+                                                        Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4079,10 +3885,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/oakestraDemo.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/oakestraDemo.png">
+                                            <a href="documents/2022/pubs/oakestraDemo.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/oakestraDemo.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4096,11 +3901,13 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Giovanni Bartolomeo, Simon Bäurle, <mark>Nitinder Mohan</mark> and Jörg Ott
+                                                    Giovanni Bartolomeo, Simon Bäurle, <mark>Nitinder Mohan</mark> and
+                                                    Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM SIGCOMM Conference <text style="color: indianred">[Acceptance Rate: 33.8%, 21/62]</text>
+                                                    ACM SIGCOMM Conference <text style="color: indianred">[Acceptance
+                                                        Rate: 33.8%, 21/62]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -4128,10 +3935,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/comb2022edgesys.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/comb2022edgesys.png">
+                                            <a href="documents/2022/pubs/comb2022edgesys.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/comb2022edgesys.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4140,7 +3946,8 @@
                                                     <a href="documents/2022/pubs/comb2022edgesys.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        ComB: A Flexible, Application-Oriented Benchmark for Edge Computing
+                                                        ComB: A Flexible, Application-Oriented Benchmark for Edge
+                                                        Computing
                                                     </a>
                                                 </span>
                                                 <br>
@@ -4174,10 +3981,9 @@
                                         class="journal">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/edageAI_ccr.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/edageAI_ccr.png">
+                                            <a href="documents/2022/pubs/edageAI_ccr.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/edageAI_ccr.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4191,7 +3997,11 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aaron Yi Ding, Ella Peltonen, Tobias Meuser, Atakan Aral, Christian Becker, Schahram Dustdar, Thomas Hiessl, Dieter Kranzlmüller, Madhusanka Liyanage, Setareh Maghsudi, <mark>Nitinder Mohan</mark>, Jörg Ott, Jan S. Rellermeyer, Stefan Schulte, Henning Schulzrinne, Gürkan Solmaz, Sasu Tarkoma, Blesson Varghese and Lars Wolf
+                                                    Aaron Yi Ding, Ella Peltonen, Tobias Meuser, Atakan Aral, Christian
+                                                    Becker, Schahram Dustdar, Thomas Hiessl, Dieter Kranzlmüller,
+                                                    Madhusanka Liyanage, Setareh Maghsudi, <mark>Nitinder Mohan</mark>,
+                                                    Jörg Ott, Jan S. Rellermeyer, Stefan Schulte, Henning Schulzrinne,
+                                                    Gürkan Solmaz, Sasu Tarkoma, Blesson Varghese and Lars Wolf
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4200,8 +4010,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://dl.acm.org/doi/10.1145/3523230.3523235" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://dl.acm.org/doi/10.1145/3523230.3523235"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -4217,10 +4027,9 @@
                                         class="journal">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/NimbusVittorio2022.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/NimbusVittorio2022.png">
+                                            <a href="documents/2022/pubs/NimbusVittorio2022.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/NimbusVittorio2022.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4229,12 +4038,14 @@
                                                     <a href="documents/2022/pubs/NimbusVittorio2022.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Nimbus: Towards Latency-Energy Efficient Task Offloading for AR Services
+                                                        Nimbus: Towards Latency-Energy Efficient Task Offloading for AR
+                                                        Services
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Vittorio Cozzolino, Leonardo Tonetto, <mark>Nitinder Mohan</mark>, Aaron Yi Ding and Jörg Ott
+                                                    Vittorio Cozzolino, Leonardo Tonetto, <mark>Nitinder Mohan</mark>,
+                                                    Aaron Yi Ding and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4263,10 +4074,9 @@
                                         class="journal">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2022/pubs/mobilityLeo2022.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2022/pubs/mobilityLeo2022.png">
+                                            <a href="documents/2022/pubs/mobilityLeo2022.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2022/pubs/mobilityLeo2022.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4280,7 +4090,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Leonardo Tonetto, Malintha Adikari, <mark>Nitinder Mohan</mark>, Aaron Yi Ding and Jörg Ott
+                                                    Leonardo Tonetto, Malintha Adikari, <mark>Nitinder Mohan</mark>,
+                                                    Aaron Yi Ding and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4320,10 +4131,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2021/pubs/cloudy-imc-2021.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2021/pubs/cloudy-imc-2021.png">
+                                            <a href="documents/2021/pubs/cloudy-imc-2021.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2021/pubs/cloudy-imc-2021.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4332,16 +4142,19 @@
                                                     <a href="documents/2021/pubs/cloudy-imc-2021.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Cloudy with a Chance of Short RTTs: Analyzing Cloud Connectivity in the Internet
+                                                        Cloudy with a Chance of Short RTTs: Analyzing Cloud Connectivity
+                                                        in the Internet
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    The Khang Dang, <mark>Nitinder Mohan</mark>, Lorenzo Corneo, Aleksandr Zavodovski, Jörg Ott and Jussi Kangasharju
+                                                    The Khang Dang, <mark>Nitinder Mohan</mark>, Lorenzo Corneo,
+                                                    Aleksandr Zavodovski, Jörg Ott and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM Internet Measurement Conference <text style="color: indianred">[Acceptance Rate: 27.9%, 55/197]</text>
+                                                    ACM Internet Measurement Conference <text
+                                                        style="color: indianred">[Acceptance Rate: 27.9%, 55/197]</text>
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -4349,8 +4162,8 @@
                                                     <a href="https://doi.org/10.1145/3487552.3487854" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/tkdang97/Cloudy-with-a-Chance-of-Short-RTTs" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/tkdang97/Cloudy-with-a-Chance-of-Short-RTTs"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/EDXvubu4db8" target="_blank"
                                                         class="links video">Video</a>
@@ -4372,10 +4185,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2021/pubs/dl4de-iwci-2021.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2021/pubs/dl4de-iwci-2021.png">
+                                            <a href="documents/2021/pubs/dl4de-iwci-2021.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2021/pubs/dl4de-iwci-2021.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4389,11 +4201,13 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Leo Eichhorn, Tanya Shreedhar, Aleksandr Zavodovski and <mark>Nitinder Mohan</mark>
+                                                    Leo Eichhorn, Tanya Shreedhar, Aleksandr Zavodovski and
+                                                    <mark>Nitinder Mohan</mark>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM CoNEXT Workshop on Interdisciplinary Perspectives on (de)Centralization
+                                                    ACM CoNEXT Workshop on Interdisciplinary Perspectives on
+                                                    (de)Centralization
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -4414,8 +4228,8 @@
                                     </tr>
 
                                     <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="zavodovski2021decentralizing"
-                                        class="conf">
+                                    <tr style="background-color: #ffffff; border: none"
+                                        id="zavodovski2021decentralizing" class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
                                             <a href="documents/2021/pubs/deChallenge-iwci-2021.pdf"
@@ -4430,16 +4244,20 @@
                                                     <a href="documents/2021/pubs/deChallenge-iwci-2021.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Decentralizing Computation with Edge Computing: Potential and Challenges
+                                                        Decentralizing Computation with Edge Computing: Potential and
+                                                        Challenges
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aleksandr Zavodovski, Lorenzo Corneo, Andreas Johnsson, <mark>Nitinder Mohan</mark>, Suzan Bayhan, Pengyuan Zhou, Walter Wong and Jussi Kangasharju
+                                                    Aleksandr Zavodovski, Lorenzo Corneo, Andreas Johnsson,
+                                                    <mark>Nitinder Mohan</mark>, Suzan Bayhan, Pengyuan Zhou, Walter
+                                                    Wong and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    ACM CoNEXT Workshop on Interdisciplinary Perspectives on (de)Centralization
+                                                    ACM CoNEXT Workshop on Interdisciplinary Perspectives on
+                                                    (de)Centralization
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -4461,10 +4279,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2021/pubs/mptcpScan-ifip.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2021/pubs/mptcpScan-ifip.png">
+                                            <a href="documents/2021/pubs/mptcpScan-ifip.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2021/pubs/mptcpScan-ifip.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4473,12 +4290,14 @@
                                                     <a href="documents/2021/pubs/mptcpScan-ifip.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        From Single Lane to Highways: Analyzing the Adoption of Multipath TCP in the Internet
+                                                        From Single Lane to Highways: Analyzing the Adoption of
+                                                        Multipath TCP in the Internet
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Florian Aschenbrenner, Tanya Shreedhar, Oliver Gasser, <mark>Nitinder Mohan</mark> and Jörg Ott
+                                                    Florian Aschenbrenner, Tanya Shreedhar, Oliver Gasser,
+                                                    <mark>Nitinder Mohan</mark> and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4487,8 +4306,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.23919/IFIPNetworking52078.2021.9472785" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.23919/IFIPNetworking52078.2021.9472785"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                     <a href="https://youtu.be/zm7F2f186C0?t=2428" target="_blank"
                                                         class="links video">Video</a>
@@ -4510,10 +4329,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2021/pubs/edgeLatency-ifip.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2021/pubs/edgeLatency-ifip.png">
+                                            <a href="documents/2021/pubs/edgeLatency-ifip.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2021/pubs/edgeLatency-ifip.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4527,7 +4345,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Lorenzo Corneo, <mark>Nitinder Mohan</mark>, Aleksandr Zavodovski, Walter Wong, Christian Rohner, Per Gunningberg and Jussi Kangasharju
+                                                    Lorenzo Corneo, <mark>Nitinder Mohan</mark>, Aleksandr Zavodovski,
+                                                    Walter Wong, Christian Rohner, Per Gunningberg and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4536,8 +4355,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.23919/IFIPNetworking52078.2021.9472847" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.23919/IFIPNetworking52078.2021.9472847"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                     <a href="https://youtu.be/bWuTlAXTHjg" target="_blank"
                                                         class="links video">Video</a>
@@ -4559,10 +4378,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2021/pubs/surrounded_WWW.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2021/pubs/surrounded_WWW.png">
+                                            <a href="documents/2021/pubs/surrounded_WWW.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2021/pubs/surrounded_WWW.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4571,12 +4389,15 @@
                                                     <a href="documents/2021/pubs/surrounded_WWW.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Surrounded by the Clouds: A Comprehensive Cloud Reachability Study
+                                                        Surrounded by the Clouds: A Comprehensive Cloud Reachability
+                                                        Study
                                                     </a>
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Lorenzo Corneo, Maximilian Eder, <mark>Nitinder Mohan</mark>, Aleksandr Zavodovski, Suzan Bayhan, Walter Wong, Per Gunningberg, Jussi Kangasharju and Jörg Ott
+                                                    Lorenzo Corneo, Maximilian Eder, <mark>Nitinder Mohan</mark>,
+                                                    Aleksandr Zavodovski, Suzan Bayhan, Walter Wong, Per Gunningberg,
+                                                    Jussi Kangasharju and Jörg Ott
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4588,8 +4409,8 @@
                                                     <a href="https://doi.org/10.1145/3442381.3449854" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/lorenzocorneo/surrounded-by-the-clouds" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/lorenzocorneo/surrounded-by-the-clouds"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/bYtJ4om-jnk" target="_blank"
                                                         class="links video">Video</a>
@@ -4611,10 +4432,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2021/pubs/spa-infocomwksp.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2021/pubs/spa-infocomwksp.png">
+                                            <a href="documents/2021/pubs/spa-infocomwksp.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2021/pubs/spa-infocomwksp.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4628,7 +4448,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Walter Wong, Aleksandr Zavodovski, Lorenzo Corneo, <mark>Nitinder Mohan</mark> and Jussi Kangasharju
+                                                    Walter Wong, Aleksandr Zavodovski, Lorenzo Corneo, <mark>Nitinder
+                                                        Mohan</mark> and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4637,8 +4458,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.1109/INFOCOMWKSHPS51825.2021.9484646" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.1109/INFOCOMWKSHPS51825.2021.9484646"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -4668,10 +4489,9 @@
                                         class="selected conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2020/pubs/pruningHotnets2020.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2020/pubs/pruningHotnets2020.png">
+                                            <a href="documents/2020/pubs/pruningHotnets2020.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2020/pubs/pruningHotnets2020.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4685,7 +4505,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    <mark>Nitinder Mohan</mark>, Lorenzo Corneo, Aleksandr Zavodovski, Suzan Bayhan, Walter Wong and Jussi Kangasharju
+                                                    <mark>Nitinder Mohan</mark>, Lorenzo Corneo, Aleksandr Zavodovski,
+                                                    Suzan Bayhan, Walter Wong and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4717,10 +4538,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2020/pubs/bricklayer2020.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2020/pubs/bricklayer2020.png">
+                                            <a href="documents/2020/pubs/bricklayer2020.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2020/pubs/bricklayer2020.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4734,7 +4554,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Walter Wong, Lorenzo Corneo, Aleksandr Zavodovski, Pengyuan Zhou, <mark>Nitinder Mohan</mark> and Jussi Kangasharju
+                                                    Walter Wong, Lorenzo Corneo, Aleksandr Zavodovski, Pengyuan Zhou,
+                                                    <mark>Nitinder Mohan</mark> and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4743,8 +4564,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.1109/ICC40277.2020.9149218" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.1109/ICC40277.2020.9149218"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -4774,10 +4595,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2019/pubs/ZavodovskiOIE.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2019/pubs/ZavodovskiOIE.png">
+                                            <a href="documents/2019/pubs/ZavodovskiOIE.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2019/pubs/ZavodovskiOIE.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4791,7 +4611,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Walter Wong and Jussi Kangasharju
+                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Walter Wong and
+                                                    Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4800,8 +4621,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://www.usenix.org/conference/hotedge19/presentation/zavodovski" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://www.usenix.org/conference/hotedge19/presentation/zavodovski"
+                                                        target="_blank" class="links doi">DOI</a>
 
                                                 </p>
 
@@ -4817,10 +4638,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2019/pubs/ZavodovskiDeCloud.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2019/pubs/ZavodovskiDeCloud.png">
+                                            <a href="documents/2019/pubs/ZavodovskiDeCloud.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2019/pubs/ZavodovskiDeCloud.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4834,7 +4654,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aleksandr Zavodovski, Suzan Bayhan, <mark>Nitinder Mohan</mark>, Pengyuan Zhou, Walter Wong and Jussi Kangasharju
+                                                    Aleksandr Zavodovski, Suzan Bayhan, <mark>Nitinder Mohan</mark>,
+                                                    Pengyuan Zhou, Walter Wong and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4860,10 +4681,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2019/pubs/ZavodovskiExec.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2019/pubs/ZavodovskiExec.png">
+                                            <a href="documents/2019/pubs/ZavodovskiExec.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2019/pubs/ZavodovskiExec.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4877,7 +4697,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Suzan Bayhan, Walter Wong and Jussi Kangasharju
+                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Suzan Bayhan,
+                                                    Walter Wong and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -4903,10 +4724,9 @@
                                         class="selected thesis">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/thesis/phdThesis_PDF.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2019/pubs/phdThesisCover.png">
+                                            <a href="documents/thesis/phdThesis_PDF.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2019/pubs/phdThesisCover.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4924,7 +4744,7 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    
+
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -4963,10 +4783,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2018/pubs/Zavadovski18icon.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2018/pubs/Zavadovski18icon.png">
+                                            <a href="documents/2018/pubs/Zavadovski18icon.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2018/pubs/Zavadovski18icon.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -4980,7 +4799,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Suzan Bayhan, Walter Wong and Jussi Kangasharju
+                                                    Aleksandr Zavodovski, <mark>Nitinder Mohan</mark>, Suzan Bayhan,
+                                                    Walter Wong and Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5009,10 +4829,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2018/pubs/posterRAMPTCP-mohan.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2018/pubs/posterRAMPTCP-mohan.png">
+                                            <a href="documents/2018/pubs/posterRAMPTCP-mohan.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2018/pubs/posterRAMPTCP-mohan.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5026,7 +4845,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    <mark>Nitinder Mohan</mark>, Tanya Shreedhar, Aleksandr Zavodovski, Otto Waltari, Jussi Kangasharju and Sanjit K. Kaul
+                                                    <mark>Nitinder Mohan</mark>, Tanya Shreedhar, Aleksandr Zavodovski,
+                                                    Otto Waltari, Jussi Kangasharju and Sanjit K. Kaul
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5038,8 +4858,8 @@
                                                     <a href="https://doi.org/10.1145/3241539.3267738" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/nitindermohan/RAMPTCP-ns3" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitindermohan/RAMPTCP-ns3"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -5055,10 +4875,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2018/pubs/anveshak_mecomm18.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2018/pubs/anveshak_mecomm18.png">
+                                            <a href="documents/2018/pubs/anveshak_mecomm18.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2018/pubs/anveshak_mecomm18.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5072,7 +4891,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    <mark>Nitinder Mohan</mark>, Aleksandr Zavodovski, Pengyuan Zhou and Jussi Kangasharju
+                                                    <mark>Nitinder Mohan</mark>, Aleksandr Zavodovski, Pengyuan Zhou and
+                                                    Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5084,8 +4904,8 @@
                                                     <a href="https://doi.org/10.1145/3229556.3229560" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/nitindermohan/Anveshak-Scripts" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitindermohan/Anveshak-Scripts"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/8wYjQr80iwI" target="_blank"
                                                         class="links video">Video</a>
@@ -5104,10 +4924,9 @@
                                         class="journal">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2018/pubs/mohan2018_AoT.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2018/pubs/mohan2018_AoT.png">
+                                            <a href="documents/2018/pubs/mohan2018_AoT.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2018/pubs/mohan2018_AoT.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5116,7 +4935,8 @@
                                                     <a href="documents/2018/pubs/mohan2018_AoT.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Placing it right!: Optimizing energy, processing, and transport in Edge-Fog clouds
+                                                        Placing it right!: Optimizing energy, processing, and transport
+                                                        in Edge-Fog clouds
                                                     </a>
                                                 </span>
                                                 <br>
@@ -5133,8 +4953,8 @@
                                                     <a href="https://doi.org/10.1007/s12243-018-0649-0" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/nitindermohan/EdgeFogSimulator" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitindermohan/EdgeFogSimulator"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -5150,10 +4970,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2018/pubs/qaware_ifip.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2018/pubs/qaware_ifip.png">
+                                            <a href="documents/2018/pubs/qaware_ifip.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2018/pubs/qaware_ifip.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5167,7 +4986,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Tanya Shreedhar, <mark>Nitinder Mohan</mark>, Sanjit K. Kaul and Jussi Kangasharju
+                                                    Tanya Shreedhar, <mark>Nitinder Mohan</mark>, Sanjit K. Kaul and
+                                                    Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5176,11 +4996,11 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://doi.org/10.23919/IFIPNetworking.2018.8696843" target="_blank"
-                                                        class="links doi">DOI</a>
+                                                    <a href="https://doi.org/10.23919/IFIPNetworking.2018.8696843"
+                                                        target="_blank" class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/nitinder-mohan/mptcp-QueueAware" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitinder-mohan/mptcp-QueueAware"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -5196,10 +5016,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2018/pubs/mute_crosscloud.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2018/pubs/mute_crosscloud.png">
+                                            <a href="documents/2018/pubs/mute_crosscloud.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2018/pubs/mute_crosscloud.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5213,7 +5032,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    Alessio Silvestro, <mark>Nitinder Mohan</mark>, Jussi Kangasharju, Fabian Schneider and Xiaoming Fu
+                                                    Alessio Silvestro, <mark>Nitinder Mohan</mark>, Jussi Kangasharju,
+                                                    Fabian Schneider and Xiaoming Fu
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5253,10 +5073,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2017/pubs/manageData_mecomm17.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2017/pubs/manageData_mecomm17.png">
+                                            <a href="documents/2017/pubs/manageData_mecomm17.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2017/pubs/manageData_mecomm17.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5270,7 +5089,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    <mark>Nitinder Mohan</mark>, Pengyuan Zhou, Keerthana Govindaraj and Jussi Kangasharju
+                                                    <mark>Nitinder Mohan</mark>, Pengyuan Zhou, Keerthana Govindaraj and
+                                                    Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5282,8 +5102,8 @@
                                                     <a href="https://doi.org/10.1145/3098208.3098212" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/pengyuan-zhou/icarus/tree/Mecomm17" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/pengyuan-zhou/icarus/tree/Mecomm17"
+                                                        target="_blank" class="links github">Code</a>
 
                                                     <a href="https://youtu.be/akJtWokhrj4" target="_blank"
                                                         class="links video">Video</a>
@@ -5302,10 +5122,9 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/2017/pubs/groupData_poster.pdf"
-                                                class="no-decoration" target="_blank">
-                                                <img class="pubs_img"
-                                                    src="documents/2017/pubs/groupData_poster.png">
+                                            <a href="documents/2017/pubs/groupData_poster.pdf" class="no-decoration"
+                                                target="_blank">
+                                                <img class="pubs_img" src="documents/2017/pubs/groupData_poster.png">
                                             </a>
                                         </td>
                                         <td style="vertical-align: top; padding-left: 3px">
@@ -5319,7 +5138,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    <mark>Nitinder Mohan</mark>, Pengyuan Zhou, Keerthana Govindaraj and Jussi Kangasharju
+                                                    <mark>Nitinder Mohan</mark>, Pengyuan Zhou, Keerthana Govindaraj and
+                                                    Jussi Kangasharju
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5355,12 +5175,10 @@
                                 <table>
 
                                     <!--  next publication  -->
-                                    <tr style="background-color: #ffffff; border: none" id="mohan2016edge"
-                                        class="conf">
+                                    <tr style="background-color: #ffffff; border: none" id="mohan2016edge" class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="#"
-                                                class="no-decoration" target="_blank">
+                                            <a href="#" class="no-decoration" target="_blank">
                                                 <img class="pubs_img"
                                                     src="documents/2016/pubs/EF_Nitinder_Jussi_UH_Final.png">
                                             </a>
@@ -5371,7 +5189,8 @@
                                                     <a href="#"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Edge-Fog Cloud: A Distributed Cloud for Internet of Things Computations
+                                                        Edge-Fog Cloud: A Distributed Cloud for Internet of Things
+                                                        Computations
                                                     </a>
                                                 </span>
                                                 <br>
@@ -5380,7 +5199,8 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    IEEE International Conference on Cloudification of the Internet of Things
+                                                    IEEE International Conference on Cloudification of the Internet of
+                                                    Things
                                                 </span>
 
                                                 <p style="font-size: 0.8em">
@@ -5388,8 +5208,8 @@
                                                     <a href="https://doi.org/10.1109/CIOT.2016.7872914" target="_blank"
                                                         class="links doi">DOI</a>
 
-                                                    <a href="https://github.com/nitindermohan/EdgeFogSimulator" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitindermohan/EdgeFogSimulator"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -5419,8 +5239,8 @@
                                         class="conf">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/Nitinder_CCNxCon2015.pdf"
-                                                class="no-decoration" target="_blank">
+                                            <a href="documents/Nitinder_CCNxCon2015.pdf" class="no-decoration"
+                                                target="_blank">
                                                 <img class="pubs_img"
                                                     src="documents/2015/pubs/Nitinder_CCNxCon2015.png">
                                             </a>
@@ -5431,7 +5251,8 @@
                                                     <a href="documents/Nitinder_CCNxCon2015.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        CCNCheck: Enabling Checkpointed Distributed Applications in Content Centric Networks
+                                                        CCNCheck: Enabling Checkpointed Distributed Applications in
+                                                        Content Centric Networks
                                                     </a>
                                                 </span>
                                                 <br>
@@ -5445,8 +5266,8 @@
 
                                                 <p style="font-size: 0.8em">
 
-                                                    <a href="https://github.com/nitindermohan/CCNApplicationCheckpointTool-CCNAC" target="_blank"
-                                                        class="links github">Code</a>
+                                                    <a href="https://github.com/nitindermohan/CCNApplicationCheckpointTool-CCNAC"
+                                                        target="_blank" class="links github">Code</a>
 
                                                 </p>
 
@@ -5462,8 +5283,8 @@
                                         class="thesis">
                                         <td
                                             style="padding-right: 2px; border: 1; padding-top: 1em; padding-right: 1.1em">
-                                            <a href="documents/thesis/Nitinder_MTech_Thesis.pdf"
-                                                class="no-decoration" target="_blank">
+                                            <a href="documents/thesis/Nitinder_MTech_Thesis.pdf" class="no-decoration"
+                                                target="_blank">
                                                 <img class="pubs_img"
                                                     src="documents/2015/pubs/Nitinder_MTech_Thesis.png">
                                             </a>
@@ -5474,7 +5295,8 @@
                                                     <a href="documents/thesis/Nitinder_MTech_Thesis.pdf"
                                                         style="text-decoration: none; border: none;  font-size: 1em"
                                                         target="_blank">
-                                                        Enabling Sender-initiated Distributed Applications and Checkpointing in Content Centric Networks
+                                                        Enabling Sender-initiated Distributed Applications and
+                                                        Checkpointing in Content Centric Networks
                                                     </a>
                                                 </span>
                                                 <br>
@@ -5483,7 +5305,7 @@
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
-                                                    
+
                                                 </span>
                                                 <br>
                                                 <span style="font-size: 0.8em">
@@ -5505,7 +5327,7 @@
 
                                 </table>
                             </div>
-<!-- AUTO:PUBLICATIONS:END -->
+                            <!-- AUTO:PUBLICATIONS:END -->
                             <!-- Theses -->
                             <!-- <div class="thesis" id="2014">
                             <a name="2014">
